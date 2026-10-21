@@ -159,7 +159,7 @@ As of 2026-10-20. How to judge DVI/estimate photos and video. Numeric thresholds
 
 - CAN: terminal corrosion, swollen/cracked/leaking case, loose hold-down, date sticker.
 - CANNOT: capacity or health. Corrosion alone doesn't mean a bad battery — often cleanable, but test anyway (Rick's), (ToolSource).
-- Best: tester printout/screen showing state of health, measured vs. rated CCA, internal resistance/conductance, voltage and state of charge. Midtronics material: ≥ 90% of rated CCA healthy, < 80% warning; surface charge after charging/jump can distort readings (Midtronics, vendor claim).
+- Best: tester printout/screen showing state of health, measured vs. rated CCA, internal resistance/conductance, voltage and state of charge. Midtronics material: ≥ 90% of rated CCA healthy, < 80% warning, though the same page also gives 80%+ good / < 70% replace — no single cutoff; GM relies on the tester's decision code (GM TechLink battery); surface charge after charging/jump can distort readings (Midtronics, vendor claim).
 - Printout checks: **rated CCA entered matches the battery label** in another photo? Date/time matches the visit? Printed VIN matches? Does "Replace" follow from the numbers?
 
 ### 2.11 Wipers
@@ -248,7 +248,7 @@ Vendor best practice: a photo per checklist item, close-up plus wider shot, good
 ### 4.3 Metadata (EXIF) and provenance
 
 - Claude cannot read it (section 1). Use `exiftool` or OS file info.
-- **Absence of EXIF is normal, not a red flag.** Many platforms re-encode and strip it (Fast.io, vendor); DVI links/texts likely re-encode [UNVERIFIED: no DVI vendor documentation].
+- **Absence of EXIF is normal, not a red flag.** Many platforms re-encode and strip it (Fast.io, vendor); DVI links/texts likely re-encode [UNVERIFIED: no DVI vendor documentation found, re-searched 2026-10-21].
 - When present (user-extracted): compare capture date/time with visit date and RO time-in/out; camera model consistent across the set. EXIF is easily edited — a match is weak support, a mismatch is a question.
 - **C2PA Content Credentials:** e.g., Pixel 10 signs JPEG captures and Google Photos records edits (Google Security Blog, Sept 2025). Intact credentials = strong provenance, but DVI apps and re-encoding usually drop them [UNVERIFIED for any DVI platform].
 
@@ -354,13 +354,13 @@ Purpose-built systems with controlled capture still state limits; a general mode
 | Anyline Tire Tread Scanner | Phone camera + CV, guided capture | Avg 0.5 mm (~1/32") for 1–10 mm depth; grooves ≥ 5 mm wide (vendor claim) | Datasheet calls it an estimate, no guarantee; not a roadworthiness verdict; limited by lighting, distance, shine, blur, resolution; needs ≥ 1080p (Anyline), (MOTOR) |
 | UVeye Artemis/Atlas/Helios | Drive-through multi-camera AI | No tread tolerance published; CEO claim: detects 96% of problems vs. < 25% manual (vendor claim) | Not broken down by system; no independent test (RDN), (The Batch) [UNVERIFIED: exact article] |
 | ProovStation + Michelin QuickScan | Drive-over magnetic sensors + cameras | "Millimeter precision" < 5 s (vendor claim) | No tolerance or independent data |
-| Hunter Quick Tread | Drive-over 3D laser | "Most accurate," no tolerance; says handheld plunger gauges vary ~±2.4 mm by operator (vendor claim) | No published spec |
+| Hunter Quick Tread | Drive-over 3D laser | "Most accurate," no tolerance; reportedly says handheld plunger gauges vary ~±2.4 mm by operator (vendor claim) [UNVERIFIED: figure not found in cited or current Hunter pages] | No published spec |
 | Zebra Tread Intel | Handheld swipe scanner | Within 1/32" (0.79 mm) (vendor claim) | Fact sheet only |
 | QBurst | Mobile image, multi-stage CNN | ±1.5 mm on 90% of test images (vendor case study) | ±1.5 mm ≈ ±2/32" — enough to flip pass/fail at 2/32 or 4/32 |
 | Open demo (Hugging Face) | Single close-up, EfficientNet ensemble | Not validated | Demo only |
 
 - Drive-over systems are affected by rain, snow, ice (US11421982 patent).
-- No independent peer-reviewed accuracy study found [UNVERIFIED gap].
+- No independent peer-reviewed accuracy study found (re-searched 2026-10-21) [UNVERIFIED gap].
 - Claude's accuracy on gauge-reading tasks is not benchmarked.
 
 ---
@@ -510,3 +510,4 @@ Unknown: whether DVI platforms strip EXIF, re-compress, watermark, or insert can
 71. QBurst — Tire inspection case study: https://www.qburst.com/downloads/tire-inspection-system.pdf
 72. Hugging Face — Tread demo: https://uncodespecial-tire-tread-depth.hf.space/
 73. US11421982 — Drive-over tread patent: https://patents.google.com/patent/US11421982
+74. GM TechLink battery — Battery testing and warranty replacement (OEM): https://gm-techlink.com/?p=16086

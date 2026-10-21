@@ -6,7 +6,7 @@
 - **Covers:** federal FMCSA inspection, maintenance, and recordkeeping rules (49 CFR Part 396 and its minimum periodic inspection standards); CVSA roadside inspection levels and Out-of-Service (OOS) criteria (public information only); ATA TMC Recommended Practices (public descriptions only); selected state commercial programs (California BIT, Texas commercial inspection, school buses, and the national school bus specifications); rideshare/TNC, taxi, and for-hire inspections; fire apparatus and ambulance standards (brief); CARB Clean Truck Check (heavy-duty emissions I/M); and how to audit commercial inspection paperwork.
 - **Why it matters to the skill:** a commercial or fleet vehicle report is checked against a *regulatory floor*: specific numbers, required items, a qualified inspector, and retention periods. A passenger-car multi-point inspection usually has none of these. The skill should (a) work out whether the vehicle is a regulated CMV or a regulated for-hire vehicle, (b) apply the matching checklist and limits, and (c) flag both directions of error. One is a "fail" or "replace" call on a component that meets the federal minimum, presented as if regulation required it. The other is a "pass" on a component that does not meet the minimum.
 - **Out of scope:** paid standards text (CVSA OOS Criteria handbook, TMC RP Manual, NFPA 1910/1900, CAAS GVS). Only their public descriptions are summarized here.
-- **Research limitation:** the web search budget ran out during research. Items marked **[UNVERIFIED]** could not be confirmed from a primary source in this session.
+- **Research limitation:** the web search budget ran out during research. Items marked **[UNVERIFIED]** could not be confirmed from a primary source. A follow-up check on 2026-10-21 confirmed against primary sources: the §390.5T designation, the Appendix A steering table, BIT subdivision (j), the Texas passenger wording, and the NYC FHV cadence.
 
 ## 2) Agencies / authorities
 
@@ -25,14 +25,14 @@
 | **CARB** (California Air Resources Board) | Clean Truck Check, the heavy-duty I/M emissions program. | https://ww2.arb.ca.gov/clean-truck-check-overview-fact-sheet |
 | **NASDPTS / National Congress on School Transportation** | National School Transportation Specifications & Procedures (NSTSP), 2025 edition. Includes a School Bus Inspections section and recommended OOS criteria. | https://stnonline.com/news/2025-national-school-transportation-specs-procedures-manual-released ; https://nasdpts.org/ncst-nstsp |
 
-### Which vehicles are federally covered (CMV definition, 49 CFR 390.5 / 390.5T)
+### Which vehicles are federally covered (CMV definition, 49 CFR 390.5T)
 In interstate commerce, a CMV is a self-propelled or towed vehicle that meets **any** of these:
 1. GVWR, GCWR, or actual gross weight of **10,001 lb or more**, whichever is greater.
 2. Designed or used to carry **more than 8 passengers** (including the driver) for compensation.
 3. Designed or used to carry **more than 15 passengers** (including the driver) without compensation.
 4. Carrying **placardable hazmat**.
 
-Source: https://www.law.cornell.edu/cfr/text/49/390.5. The Cornell page notes that §390.5 is suspended and a temporary §390.5T is in effect. The working definitions are believed to be the same, but confirm before citing the section number. **[UNVERIFIED: exact current section designation]**
+Source: eCFR, 49 CFR 390.5T (the definitions section currently in force) — https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/subpart-A/section-390.5T. eCFR shows §390.5 as suspended indefinitely (most recently effective July 21, 2026, 91 FR 45661), with §390.5T carrying the definitions. The CMV definition in §390.5T matches the four criteria above. Cite **§390.5T** (or "§390.5/390.5T") rather than plain §390.5.
 
 Part 396 exemptions include private nonbusiness passenger carriers (for some provisions) and, for DVIRs, driveaway-towaway operations and carriers operating only one CMV (https://www.law.cornell.edu/cfr/text/49/396.11). Intrastate-only vehicles fall under state law. Most states adopt the FMCSRs with modifications, and some apply them to intrastate vehicles of 26,001 lb or more instead of 10,001 lb. Texas is one example (see §3.6).
 
@@ -162,9 +162,18 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 | 20 in | 2-1/2 in | 5-1/4 in |
 | 22 in | 2-3/4 in | 5-3/4 in |
 
-  The appendix lists further diameters. Use the full table.
+  This is the complete table: eCFR lists only these four diameters (https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/appendix-Appendix%20A%20to%20Part%20396). For power steering, the engine must be running during the check. For other wheel sizes the appendix gives no figure, so a report should state the diameter it used.
 - **Ball and socket joints:** more than 1/4 in non-rotational movement at any linkage point.
-- Other steering defects in the appendix include loose column, gearbox mounting, and U-joint wear. **[UNVERIFIED in detail this session]**
+- Other steering defects in the appendix (eCFR, same URL):
+  - steering column: missing or loose U-bolts or positioning parts; worn, faulty, or obviously repair-welded universal joints; steering wheel not properly secured;
+  - cracks or obvious welded repairs in the front axle beam or other steering components;
+  - steering gear box: loose or missing mounting bolts, or cracks in the box or its brackets;
+  - pitman arm loose on the gear output shaft;
+  - power steering: loose auxiliary power-assist cylinder;
+  - ball and socket joints: stud nut movement under steering load (plus the 1/4 in rule above);
+  - tie rods and drag links: loose clamps or clamp bolts, or looseness in any threaded joint;
+  - loose or missing nuts on tie rods, pitman arm, drag link, steering arm, or tie rod arm;
+  - any modification or condition that interferes with free movement of a steering component.
 
 **8. Suspension:** broken or missing leaves; broken main leaf; broken coil spring; missing rubber spring; deflated air suspension; axle out of normal position (e.g., cracked or broken U-bolt or spring hanger).
 
@@ -271,7 +280,10 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
   - A defective vehicle may only be driven to repair. A carrier representative must sign off before it returns to service.
   - Records must identify the vehicle, give the date and nature of each inspection and repair, and carry a signature. They are kept **2 years** at the terminal.
   - Source: https://california.public.law/codes/ca_veh_code_section_34505.5
-- **AB 3278 (2024):** effective Jan. 1, 2025, removed subdivision **(j)** vehicles from BIT and from the 90-day rule. (j) covers "other motortrucks regulated by DMV, DCA, or USDOT". One search summary instead described (j) as hazmat trucks; the statute lists hazmat under (g). Source: https://www.chp.ca.gov/siteassets/policy/ib/ib-removal-of-motortrucks-identified-in-sec.-34500j-of-the-cvc.pdf
+- **AB 3278 (2024):** effective Jan. 1, 2025, removed subdivision **(j)** vehicles ("J-trucks") from BIT (§34501.12) and from the 90-day inspection rule (§34505.5). Source: CHP Information Bulletin, Feb. 11, 2025 — https://www.chp.ca.gov/siteassets/policy/ib/ib-removal-of-motortrucks-identified-in-sec.-34500j-of-the-cvc.pdf
+  - **(j) scope:** any other motortruck regulated by DMV, the Department of Consumer Affairs, or USDOT. It is **not** the hazmat category; hazmat vehicles are subdivision **(g)** and remain in BIT. AB 3278 also deleted the words that limited (j) to trucks not listed in (a)–(h) or (k). So a truck can be a J-truck and also fall in another subdivision; the BIT and 90-day rules still apply through that other subdivision. (Statute text read on the california.public.law mirror; leginfo.legislature.ca.gov returned 403. The CHP bulletin confirms the change.)
+  - J-trucks are still covered by Title 13 CCR rules on hours of service, vehicle condition (§1215), maintenance (§1232), and records (§1234). They are also covered by CVC §34500.7 (adopted FMCSRs). CHP can still inspect their terminals outside BIT.
+  - The same bill dropped the six-year interval for re-inspecting BIT terminals rated satisfactory.
 
 **California — school buses and related vehicles**
 - CHP inspects and certifies school buses, SPABs, and youth buses. The vehicle must carry a certificate dated **within 13 months** of operation.
@@ -285,7 +297,7 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 - **Texas definition of a commercial vehicle for inspection** (page dated Mar. 19, 2026: https://www.dps.texas.gov/section/vehicle-inspection/inspection-criteria-commercial-inspection):
   - GVWR over 26,000 lb;
   - farm vehicle of 48,000 lb GVWR or more;
-  - 15+ passengers;
+  - designed or used to carry **more than 15 passengers, including the driver** (i.e., 16 or more). This is the wording of Tex. Transp. Code §548.001(1)(B) and the DPS inspection manual, chapter 6 (https://www.dps.texas.gov/sites/default/files/documents/rsd/vi/publications/rules/safety_manual/chapter6.pdf). Statute text first read on https://texas.public.law/statutes/tex._transp._code_section_548.001 and confirmed on the official site, https://statutes.capitol.texas.gov/Docs/TN/htm/TN.548.htm (browser, 2026-10-21). Section 548.001's base definition covers vehicles over 26,000 lb, more than 15 passengers including the driver, or placarded hazmat, and excludes farm vehicles under 48,000 lb. Tex. Transp. Code §644.001 uses the federal 49 CFR 390.5 definition for interstate operation and §548.001 for intrastate. Unlike the federal rule, Texas has no separate 9-or-more-passengers-for-compensation tier;
   - placarded hazmat;
   - GVWR over 10,000 lb in interstate commerce;
   - school bus operating at 60 mph outside an urban district.
@@ -343,7 +355,9 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 | New Jersey | The vehicle must meet the state motor vehicle inspection requirements. | https://www.nj.gov/mvc/pdf/business/tncfaq.pdf |
 | Virginia | Proof of a current Virginia or approved out-of-state safety inspection. | https://dmv.virginia.gov/businesses/tnc/vehicle-req |
 | Lacey and Pullman, WA | Annual TNC inspection by city ordinance. | https://lacey.municipal.codes/LMC/5.26.070 ; https://pullman.municipal.codes/Code/6.94.050 |
-| Colorado, Illinois statewide, others | **[UNVERIFIED]** | — |
+| Colorado | The TNC must have each vehicle safety-inspected before it is approved for use and **at least annually** after that, on PUC-approved forms (C.R.S. §40-10.1-605, per a Colorado Legislative Council Staff brief, IB 16-34). The PUC's official "TNC Annual Inspection Report" form (read in a normal browser, 2026-10-21) has 19 pass/fail points: foot brakes, with pad/shoe measurements at each wheel against the maker's minimum; parking brake; steering (ball joints, tie rods, rack and pinion, bushings); windshield (large/small cracks); rear and other glass; wipers; headlights; tail lights; turn signals; stop lights; front seat adjustment; doors (open, close, lock); horn; speedometer; bumpers; muffler and exhaust; tires with tread depth in 32nds at each wheel; mirrors; seat belts. The inspector records mileage, plate and VIN, and a copy must stay in the vehicle (form cites C.R.S. 40-10.1-605(g)(I) and 4 CCR 723-6-6708(b)). The form sets no numeric reject thresholds. | https://content.leg.colorado.gov/sites/default/files/transportation_network_companies_ib_16-34.pdf ; https://puc.colorado.gov/transportation-network-companies/rideshare-industry-info ; https://drive.google.com/file/d/0B3u7jb_duOQ2aURmalNnT25SaGc/view |
+| Illinois (statewide) | 625 ILCS 57/25(d): the TNC must require each vehicle to meet the state's safety and emissions requirements for a *private* vehicle (current text read on ilga.gov, 2026-10-21; source P.A. 103-527). The Act is scheduled for repeal Sept 1, 2028. No separate statewide TNC inspection; Chicago adds its own (above). | https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3589&ChapterID=48 |
+| Others | **[UNVERIFIED]** | — |
 
 **Uber/Lyft forms:** I could not retrieve official current Uber or Lyft form text. Third-party guides describe the forms as generic pass/fail checklists: lights, brakes, tires (one guide gives a 2/32 in minimum), horn, wipers, glass, seatbelts, doors and windows, mirrors, and exhaust. The requirements vary by market (https://www.ridester.com/uber-vehicle-inspection/). **[UNVERIFIED — use the form in the driver app as authoritative]**
 
@@ -351,7 +365,9 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 **NYC TLC** (https://www.nyc.gov/site/tlc/vehicles/vehicle-inspections.page)
 - **Yellow cabs:** **3 inspections a year**. The first is at any NYS DMV station in the sticker-expiry month; the second and third are at TLC Woodside.
 - **Green cabs (SHL):** every 6 months.
-- **FHVs:** inspected at Woodside every 2 years at renewal. A 2024 pilot resolution describes six inspections per two-year license, five at owner-selected facilities (https://www.nyc.gov/assets/tlc/downloads/pdf/extend_si_dmv_pilot_03_24.pdf).
+- **FHVs:** inspected **three times a year, and at least once every four months**, under TLC Rule 35 RCNY §59A-26(a). The inspections for new and renewal licenses (every 2 years) are done at TLC Woodside. The others can be done at any DMV-registered facility. Source: TLC Rules Chapter 59 (rule book PDF dated Feb. 2026), https://www.nyc.gov/assets/tlc/downloads/pdf/rule_book_current_chapter_59.pdf.
+  - This settles the earlier conflict. The TLC web page's "every 2 years" covers only TLC's own Woodside inspection. The "six inspections per two-year license" wording is from a **2014** Staten Island pilot resolution, not 2024, and it agrees with the rule (https://www.nyc.gov/assets/tlc/downloads/pdf/extend_si_dmv_pilot_03_24.pdf).
+  - FHVs seating 10 or more, and stretched or modified vehicles, that are not exempt from NYS DOT requirements must be inspected **twice a year by NYS DOT** (§59A-26(a)(2)).
   - 500 miles or more: full DMV-type inspection.
   - Under 500 miles: visual only.
 - **Commuter vans, paratransit, and FHVs seating 10+:** need a NYS DOT inspection first.
@@ -470,14 +486,14 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
   - Do not let a TNC inspection visit become an upsell of unrelated maintenance.
 
 ## 5) Open questions / uncertainties
-1. **Search budget ran out** during research. Not confirmed from primary sources: Lyft and Uber official form items; Colorado and Illinois statewide TNC rules; Massachusetts 540 CMR 30 full item list; CHP limousine inspection frequency; §396.9 15-day roadside report return; CVSA Level II official text; CAAS GVS current version; NFPA 1910 test intervals and OOS criteria; TMC tire RPs and pull points.
-2. **eCFR and FMCSA sites blocked automated fetches** (bot-check or 403). Part 396 text was taken from Cornell LII, which mirrors eCFR. Confirm against https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396 before publishing.
-3. **§390.5 vs §390.5T:** Cornell shows §390.5 suspended, with a temporary §390.5T in use. Confirm the current section designation for the CMV definition.
-4. **Appendix A steering-lash table:** only the 16, 18, 20, and 22 in rows were captured. The table has more rows (and a manual/power split) that should be pulled verbatim from eCFR for the skill's lookup table.
-5. **AB 3278 / BIT (j)-truck scope:** there is a conflict between a secondary summary (which says hazmat) and the statute (which lists "other regulated motortrucks"). Read the CHP bulletin itself.
+1. **Search budget ran out** during research. Not confirmed from primary sources: Lyft and Uber official form items (only third-party copies exist publicly; the form in the driver app is authoritative); Colorado current PUC rule text (the inspection form itself was read 2026-10-21); Massachusetts 540 CMR 30 full item list; CHP limousine inspection frequency; §396.9 15-day roadside report return; CVSA Level II official text; CAAS GVS current version; NFPA 1910 test intervals and OOS criteria (paid standard; not publicly readable); TMC tire RPs and pull points (TMC RP Manual is sold/member-only).
+2. **eCFR web pages blocked automated fetches** during the first pass, so most Part 396 text was taken from Cornell LII, which mirrors eCFR. On 2026-10-21, Appendix A (steering) and §§390.5/390.5T were checked against eCFR. Other Part 396 sections are still from the Cornell mirror: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396
+3. **§390.5 vs §390.5T:** resolved. eCFR shows §390.5 suspended indefinitely (July 21, 2026) and §390.5T in force with the same CMV definition.
+4. **Appendix A steering-lash table:** resolved. eCFR confirms the table has only the 16, 18, 20, and 22 in rows, each with manual and power values.
+5. **AB 3278 / BIT (j)-truck scope:** resolved. The CHP bulletin of Feb. 11, 2025 confirms that (j) means other DMV-, DCA-, or USDOT-regulated motortrucks, not hazmat, which is subdivision (g).
 6. **Texas program equivalence to §396.17:** comes from a J.J. Keller summary only. FMCSA's list of equivalent state programs was not retrieved.
 7. **CARB quarterly OBD testing start date** (October 2027 vs "2027") and any 2026 amendments.
-8. **NYC FHV inspection cadence:** the TLC page says every 2 years at renewal, but a 2024 pilot resolution says 6 inspections per 2-year license. The current rule needs confirming.
+8. **NYC FHV inspection cadence:** resolved. 35 RCNY §59A-26(a) requires 3 inspections a year, at least every 4 months. Only the new and renewal inspections are at Woodside.
 9. **CPUC 50,000-mile trigger:** Uber's petition to modify it was pending as of Feb. 2026. The outcome is unknown.
 10. **CVSA 2026 OOS changes:** only categories are known. The details are in the paid handbook.
 
@@ -491,10 +507,10 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 - 49 CFR 396.21: https://www.law.cornell.edu/cfr/text/49/396.21
 - 49 CFR 396.23: https://www.law.cornell.edu/cfr/text/49/396.23
 - 49 CFR 396.25: https://www.law.cornell.edu/cfr/text/49/396.25
-- 49 CFR Appendix A to Part 396 (formerly Appendix G): https://www.law.cornell.edu/cfr/text/49/appendix-A_to_part_396
-- 49 CFR 390.5: https://www.law.cornell.edu/cfr/text/49/390.5
+- 49 CFR Appendix A to Part 396 (formerly Appendix G): https://www.law.cornell.edu/cfr/text/49/appendix-A_to_part_396 ; eCFR (primary): https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/appendix-Appendix%20A%20to%20Part%20396
+- 49 CFR 390.5 (suspended) / 390.5T (in force): https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/subpart-A/section-390.5T ; https://www.law.cornell.edu/cfr/text/49/390.5
 - 49 CFR 393.47 summary: https://jjkellercompliancenetwork.com/regsense/details/r49CFR393.47
-- eCFR Part 396 (primary; blocked to automated fetch): https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396
+- eCFR Part 396 (primary): https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396
 - 2014 property-carrier no-defect DVIR rule: https://downloads.regulations.gov/FMCSA-2012-0336-0046/content.htm
 - 2020 passenger-carrier no-defect DVIR rule: https://www.govinfo.gov/content/pkg/FR-2020-08-18/pdf/2020-15667.pdf ; https://www.fmcsa.dot.gov/regulations/federal-register-documents/2020-15667
 - CVSA decals: https://cvsa.org/inspections/about-inspection-decals/
@@ -515,6 +531,7 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 - 13 CCR §1232: https://regulations.justia.com/states/california/title-13/division-2/chapter-6-5/article-6/section-1232
 - Texas DPS 2025 changes: https://www.dps.texas.gov/news/vehicle-safety-inspection-program-changes-now-effect
 - Texas DPS commercial criteria: https://www.dps.texas.gov/section/vehicle-inspection/inspection-criteria-commercial-inspection
+- Tex. Transp. Code §548.001 (official, checked 2026-10-21): https://statutes.capitol.texas.gov/Docs/TN/htm/TN.548.htm ; mirror: https://texas.public.law/statutes/tex._transp._code_section_548.001 ; DPS inspection manual ch. 6: https://www.dps.texas.gov/sites/default/files/documents/rsd/vi/publications/rules/safety_manual/chapter6.pdf
 - Texas equivalence summary: https://jjkellercompliancenetwork.com/regsense/inspection-and-maintenance-texas
 - NSTSP 2025: https://stnonline.com/news/2025-national-school-transportation-specs-procedures-manual-released ; https://nasdpts.org/ncst-nstsp
 - Minnesota 169.451: https://www.revisor.mn.gov/statutes/cite/169.451
@@ -532,7 +549,10 @@ The values below are **reject (fail) thresholds** for the annual inspection, par
 - Virginia TNC vehicles: https://dmv.virginia.gov/businesses/tnc/vehicle-req
 - Lacey and Pullman, WA ordinances: https://lacey.municipal.codes/LMC/5.26.070 ; https://pullman.municipal.codes/Code/6.94.050
 - Rideshare inspection guide (secondary): https://www.ridester.com/uber-vehicle-inspection/
-- NYC TLC inspections: https://www.nyc.gov/site/tlc/vehicles/vehicle-inspections.page ; https://www.nyc.gov/assets/tlc/downloads/pdf/extend_si_dmv_pilot_03_24.pdf
+- NYC TLC inspections: https://www.nyc.gov/site/tlc/vehicles/vehicle-inspections.page ; TLC Rules ch. 59 (§59A-26): https://www.nyc.gov/assets/tlc/downloads/pdf/rule_book_current_chapter_59.pdf ; 2014 Staten Island pilot resolution: https://www.nyc.gov/assets/tlc/downloads/pdf/extend_si_dmv_pilot_03_24.pdf
+- Colorado TNC (Legislative Council brief): https://content.leg.colorado.gov/sites/default/files/transportation_network_companies_ib_16-34.pdf
+- Colorado PUC TNC industry page and annual inspection form: https://puc.colorado.gov/transportation-network-companies/rideshare-industry-info ; https://drive.google.com/file/d/0B3u7jb_duOQ2aURmalNnT25SaGc/view
+- Illinois TNP Act: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3589&ChapterID=48
 - NFPA 1910: https://webstore.ansi.org/standards/nfpa/nfpa19102024
 - NFPA 1900: https://www.fire-police-ems.com/NFPA1900-2024.shtml
 - ARFF testing: https://www.ul.com/offerings/performance-testing-arff-vehicles

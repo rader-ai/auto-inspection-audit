@@ -1,6 +1,6 @@
 # Federal Law for Repair Inspections, Estimates & Invoices
 
-As of 2026-10-20. Federal law moved a lot in 2025–2026 (EPA tampering enforcement, right-to-repair bills). Treat [UNVERIFIED] items as leads. Not legal advice.
+As of 2026-10-20 (bill status, EPA tampering/converter policy, TCPA revocation and ADAS items re-checked against primary sources 2026-10-21). Federal law moved a lot in 2025–2026 (EPA tampering enforcement, right-to-repair bills). Treat [UNVERIFIED] items as leads. Not legal advice.
 
 **Key framing:** There is **no general federal auto-repair-fraud statute and no federal written-estimate rule.** State repair acts (see `state-repair-laws.md`, `california-bar.md`) are the main consumer law for shops. Federal law matters for emissions parts, A/C refrigerant, safety systems, recalls, tires, odometers, warranties, e-signatures and texting.
 
@@ -42,7 +42,7 @@ As of 2026-10-20. Federal law moved a lot in 2025–2026 (EPA tampering enforcem
 **Rule — CAA §203(a)(3), 42 U.S.C. 7522(a)(3)** [7522]
 - (A) No removing or making inoperative an emission-control device/element of design (after first sale: knowing conduct).
 - (B) No making, selling, offering or installing a part whose principal effect is to bypass/defeat/disable emission controls, where the person knows or should know it is used that way.
-- Repair carve-out: owners need not use OEM parts; temporarily disabling a device to repair/replace and then restoring it is not tampering. [UNVERIFIED: exact statutory placement; EPA July 2026 guidance states the same principle.]
+- Repair carve-out: owners need not use OEM parts; temporarily disabling a device to repair/replace and then restoring it is not tampering. The exception is the flush text at the end of 7522(a); EPA's July 1, 2026 letter (IACD-2026-08) cites 7522(a) and 40 CFR 1068.101(b)(1)(i)–(ii) for it [7522, EPA-IACD].
 - **Customer consent and "off-road use" are not defenses.** Each vehicle or part is a separate violation.
 
 **Penalties (42 U.S.C. 7524; 40 CFR 19.4)**
@@ -53,7 +53,7 @@ As of 2026-10-20. Federal law moved a lot in 2025–2026 (EPA tampering enforcem
 | Any person, (3)(B) defeat device, per part | $2,500 | **$5,911** |
 | Manufacturer/dealer, (3)(A), per vehicle | $25,000 | **$59,114** |
 
-**EPA Tampering Policy (Nov 23, 2020):** not tampering if a *reasonable basis* exists to believe emissions are unaffected (restoring certified configuration, parts-maker equivalence claim, testing, EPA certification, CARB EO). Focuses enforcement on **companies and service shops**; OBD tampering separately enforceable; does not preempt state law. [A&P]
+**EPA Tampering Policy (Nov 23, 2020):** not tampering if a *reasonable basis* exists to believe emissions are unaffected (restoring certified configuration, parts-maker equivalence claim, testing, EPA certification, CARB EO). Civil enforcement focus: defeat-device makers/sellers, fleet tamperers, and **service shops that routinely delete** emissions equipment. The reasonable-basis statement **does not apply to OBD-system conduct** (enforceable regardless of emissions effect). A shop that restores an already-tampered system to certified configuration, or declines the job, generally faces no action. Federal only; state laws still apply. **Still in effect as of 2026-10-21:** EPA's enforcement-policy list shows no withdrawal, and nothing in the 2026 memo or EPA letters changed the OBD carve-out [EPA-TP, EPA-list].
 
 **2025–2026 enforcement climate**
 
@@ -62,8 +62,8 @@ As of 2026-10-20. Federal law moved a lot in 2025–2026 (EPA tampering enforcem
 | Dec 2025 | EPA OECA "Compliance First" approach [Hunton] |
 | Jan 2026 | DOJ drops criminal CAA tampering charges; pending OBD criminal cases dismissed. **Civil enforcement continues**; 5-year limitations period; states still enforce [Hunton, A&P] |
 | 2025–26 | Presidential pardons for several convicted diesel tuners [The Drive] |
-| Jun 29, 2026 | "Freedom to Fix" memo: EPA to clarify policy, speed aftermarket conformity testing, *consider* deprioritizing civil enforcement against **individuals restoring their own vehicle** to original configuration. **Does not cover shop-performed deletes** [WH] |
-| ~Jul 1, 2026 | EPA letters: repairs lawful if certified configuration restored before return to service; OEMs must give independents emission service info/tools/training on reasonable terms (incl. DEF); SEMA SC-E program recognized as a "reasonable basis" alternative to CARB; non-certified parts may lack warranty protection. Letter "does not change the law" [EPA, RDN] |
+| Jun 29, 2026 | "Freedom to Fix" memo: EPA to clarify policy, speed aftermarket conformity testing, *consider* deprioritizing civil enforcement against **individuals restoring their own vehicle** to original configuration (§4; a direction to consider, not a binding change). **Does not cover shop-performed deletes.** No EPA document formally adopting that deprioritization found as of 2026-10-21 [WH, EPA-F2F] |
+| Jul 1, 2026 | EPA letter IACD-2026-08 (OAR + OECA): repairs lawful if certified configuration restored before return to service; OEMs must give owners and independents the same emission service info/tools/training as dealers. Letter has no force of law. Separately, SEMA SC-E program recognized as an alternative to CARB for aftermarket-part testing; non-certified parts may lack warranty protection [EPA-IACD, EPA, RDN] |
 
 **Bottom line:** the statute is unchanged (only Congress can change it). Criminal risk low now; civil and state risk remain, especially for shops.
 
@@ -92,7 +92,7 @@ Otherwise use OE or a certified equivalent.
 | Prohibited | Untested salvage converter, or one the customer brings in |
 
 - OE converter on MY1995+ is under the **federal emissions warranty 8 yr/80k mi** → send to dealer at no cost.
-- 2021: state air agencies asked EPA to replace the 1986 policy. [UNVERIFIED whether revised.]
+- 2020–21: EPA requested information on updating/withdrawing the 1986 policy, and state air agencies asked EPA to replace it. **Not revised or withdrawn as of 2026-10-21**: EPA still lists it (plus a 2004 policy for OBD-II vehicles); the RFI page announces no decision; SEMA SC-E recognition (July 2026) doesn't mention converters. The 2020 Tampering Policy would govern catalysts only if EPA withdraws the 1986 policy [EPA-list, EPA-TP].
 - California and some other states require CARB-approved converters (state files).
 
 ## 4. A/C refrigerant
@@ -137,7 +137,7 @@ Otherwise use OE or a certified equivalent.
 | ESC | Yes — FMVSS 126 | |
 | Lighting | Yes — FMVSS 108 | |
 | AEB | **Not yet** — FMVSS 127 compliance date **2029-09-01**, under industry challenge; no 2026 change found | |
-| Lane-keeping, adaptive cruise, most ADAS | No | Skipped calibration = state-law/negligence/OEM-procedure issue, not a clear §30122 violation [UNVERIFIED: no NHTSA interpretation found] |
+| Lane-keeping, adaptive cruise, most ADAS | No | Skipped calibration = state-law/negligence/OEM-procedure issue, not a clear §30122 violation [UNVERIFIED: no NHTSA interpretation found in nhtsa.gov interpretation searches, 2026-10-21. A 2015 repair-shop letter (seen only via search summary; page 403) says shops violate if they should have known a modification disables a required system, and should return systems working at least as well as received [NHTSA-2015]] |
 
 - No federal ADAS calibration standard. H.R. 7389 §221 (not enacted) would order an NHTSA study.
 
@@ -193,10 +193,11 @@ FTC consumer guidance (2012) [FTC-basics]: written estimate and approval before 
 
 ## 13. Right to repair status
 
-| Item | Status as of 2026-10-20 |
+| Item | Status as of 2026-10-21 (govinfo bill status [BILLSTATUS]) |
 |---|---|
-| REPAIR Act (H.R. 1566) | Passed E&C subcommittee by voice vote 2026-02-10 |
-| Motor Vehicle Modernization Act (H.R. 7389) | Full E&C approved ~2026-05-21, 48–1. Narrower: §202–203 would codify 2014 LD / 2015 HD repair-info MOUs, FTC-enforceable with civil penalties; drops telematics/wireless-data provisions. Expected to ride in BUILD America 250 Act (H.R. 8870; T&I reported 62–2 on 2026-05-22). **Not enacted; floor status [UNVERIFIED]** |
+| REPAIR Act (H.R. 1566) | Passed E&C subcommittee by voice vote 2026-02-10; no later action |
+| Motor Vehicle Modernization Act of 2026 (H.R. 7389, introduced 2026-02-05) | Full E&C ordered reported (amended) 2026-05-21, 48–1. Narrower: §202–203 would codify 2014 LD / 2015 HD repair-info MOUs, FTC-enforceable with civil penalties; drops telematics/wireless-data provisions. Expected to ride in BUILD America 250 Act (H.R. 8870, introduced 2026-05-19; T&I ordered reported 62–2 on 2026-05-22). **Not enacted; no floor action on either bill** |
+| 2026-09-30 surface-transportation deadline | Short-term extension: "Surface Transportation Extension Act of 2026" within H.R. 6500, P.L. 119-103 (signed 2026-09-02); CRS reports it runs to 2026-12-11 (end date not checked in statute text) |
 | Current federal law | OEMs must provide emission-related service info/training/tools on reasonable terms (CAA §202(m)(5); EPA July 2026). Broader MOU voluntary until codified. State laws (MA, ME) in state files |
 
 ## 14. E-SIGN and TCPA basics
@@ -208,9 +209,11 @@ FTC consumer guidance (2012) [FTC-basics]: written estimate and approval before 
 
 **TCPA (47 U.S.C. 227; 47 CFR 64.1200)**
 - Autodialed/prerecorded calls and texts need prior express consent; **written** consent for marketing.
-- Revocation by **any reasonable method**; "STOP," "quit," "cancel," "unsubscribe" etc. count per se; honor within **10 business days**; no single exclusive opt-out channel (64.1200(a)(10)).
+- Current rule (since 2025-04-11): revocation by **any reasonable method**; "stop," "quit," "end," "revoke," "opt out," "cancel," "unsubscribe" count per se; honor within **10 business days** (64.1200(a)(10)–(11)).
+- **"Revoke-all" never took effect:** waived to 2026-04-11, then to **2027-01-31** (FCC CGB DA 26-12, 2026-01-06) [FCC-DA26-12].
+- **FCC 26-67 (adopted 2026-09-30, released 2026-10-01)** rewrites (a)(10)–(12): a revocation of an *informational* message may be applied only to that category (a revocation of marketing still stops all marketing); callers may designate and disclose an **exclusive** opt-out method (automated key-press, reply-text keyword, or designated website/phone), otherwise any reasonable method still counts; 10 business days unchanged. Effective 30 days after Federal Register publication (not yet published as of 2026-10-21); replaces the 2027-01-31 revoke-all date. FNPRM on shorter deadline, two-way texting, optional revoke-all [FCC-26-67].
 - Sending the customer's own inspection link for a car they dropped off is generally informational; upsell/"service due" campaigns are marketing.
-- FCC one-to-one consent rule was vacated by the 11th Circuit (2025-01-24); STOP-revocation rules effective 2025-04-11 — sourced in `consumer-protection.md`. [UNVERIFIED: whether the delayed "revoke-all" provision took effect April 2026 or was pushed to January 2027.]
+- FCC one-to-one consent rule was vacated by the 11th Circuit, *Insurance Marketing Coalition v. FCC* (2025-01-24); STOP-revocation rules effective 2025-04-11 — sourced in `consumer-protection.md`.
 
 ---
 
@@ -247,14 +250,14 @@ FTC consumer guidance (2012) [FTC-basics]: written estimate and approval before 
 - **Climate:** don't relax policy because of pardons or the DOJ memo — civil enforcement continues, 5-year limitations period runs, states active, and Freedom to Fix relief targets individual owners, not shops.
 
 ## 16. Open questions
-1. H.R. 7389 / H.R. 8870 / REPAIR Act floor status after June 2026; outcome of 2026-09-30 reauthorization deadline. [UNVERIFIED]
-2. EPA tampering policy after July 2026: formal deprioritization for individuals? 2020 OBD carve-out still standing? 1986 converter policy revised given SEMA certification? [UNVERIFIED]
-3. Exact statutory text/placement of CAA "temporary removal for repair" exception.
+1. Right-to-repair bills: no floor action as of 2026-10-21; deadline covered by extension (P.L. 119-103). Re-check when the extension expires.
+2. EPA: 2020 Tampering Policy (incl. OBD carve-out) and 1986 converter policy unchanged as of 2026-10-21; no formal individual-deprioritization document found. Watch for EPA action under memo §4.
+3. (Resolved) CAA repair exception is flush text at end of 7522(a).
 4. AIM Act: any servicing restriction or SNAP change affecting R-134a service of existing vehicles.
-5. TCPA one-to-one consent vacatur and "revoke-all" provision status.
+5. TCPA: FCC 26-67 effective date (30 days after Federal Register publication; watch for FCC public notice).
 6. Any 2025–2026 FTC MMWA/auto-repair enforcement; Used Car Rule amendments since 2016.
 7. Any federal statute specifically banning counterfeit air bag installation (none found).
-8. ADAS and §30122 — no NHTSA interpretation; likely not covered until FMVSS 127 (2029, itself uncertain).
+8. ADAS and §30122 — no NHTSA interpretation found (searched 2026-10-21); likely not covered until FMVSS 127 (2029, itself uncertain).
 9. Used-vehicle recall duty negative rests on absence of contrary text; NHTSA recall page returned HTTP 403.
 
 ## 17. Sources
@@ -294,5 +297,12 @@ FTC consumer guidance (2012) [FTC-basics]: written estimate and approval before 
 - REPAIR Act: https://www.autocare.org/news/latest-news/details/2026/02/10/repair-act-(h.r.-1566)-advances-to-full-congressional-committee-hearing
 - H.R. 7389: https://www.fleetmaintenance.com/equipment/government-and-regulations/article/55382001/house-committee-on-energy-and-commerce-passes-motor-vehicle-modernization-act-industry-moves-closer-to-federal-right-to-repair-adas-laws ; https://www.cbtnews.com/house-committee-advances-amended-repair-act/ ; https://www.nada.org/legislative/oppose-so-called-right-repair-legislation-hr-1566s-1379
 - H.R. 8870: https://wtfvote.us/bill/119-hr8870
+- [BILLSTATUS] govinfo bill status: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7389.xml ; https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8870.xml ; https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1566.xml ; https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6500.xml ; CRS extension timeline: https://www.everycrsreport.com/files/2026-09-14_IG10101_7bde9a13a694b6e97925717dcb69733c2b454af8.html
+- [EPA-TP] EPA Tampering Policy (2020): https://www.epa.gov/sites/default/files/2020-12/documents/epatamperingpolicy-enforcementpolicyonvehicleandenginetampering.pdf
+- [EPA-list] EPA Air Enforcement Policy list: https://www.epa.gov/enforcement/air-enforcement-policy-guidance-and-publications ; 1986 catalyst RFI: https://www.epa.gov/enforcement/notice-availability-epa-tampering-policy-and-request-information-regarding-1986
+- [EPA-IACD] EPA IACD-2026-08: https://www.epa.gov/system/files/documents/2026-07/iacd-2026-08-freedeom-fix-ltr-2026-0701.pdf
+- [EPA-F2F] EPA Freedom to Fix page: https://www.epa.gov/ve-certification/freedom-fix
+- [NHTSA-2015] NHTSA §30122 repair-shop letter: https://www.nhtsa.gov/interpretations/30122-make-inoperative-alan-nappier-april-14
+- [FCC-DA26-12]: https://docs.fcc.gov/public/attachments/DA-26-12A1.pdf ; [FCC-26-67]: https://docs.fcc.gov/public/attachments/FCC-26-67A1.pdf
 - 15 U.S.C. 7001: https://www.law.cornell.edu/uscode/text/15/7001
 - 47 CFR 64.1200: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-L/section-64.1200

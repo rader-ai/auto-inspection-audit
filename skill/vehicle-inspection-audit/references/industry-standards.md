@@ -26,7 +26,7 @@ Source-type tags: **Assoc** = standard/program owner; **Vendor** = DVI/software 
 - Widely associated with the industry response to the 1992 Sears scandal. [UNVERIFIED: founding year (commonly 1994) and causal link to Sears.]
 - Oldest public copy: *Exhaust System* guideline, Jan 1999 (shows codes 1–2 only, suggesting 3–4 added later).
 - Technical Committee reviews standards before the governing board; intended biannual republication with interim fixes (e.g., brake fluid "corrosion inhibitors depleted" condition added) [Trade].
-- Full system tables are member-only; since April 2024 accessible via Today's Class app for AMRA/MAP members [Trade]. [UNVERIFIED: whether a 2025/2026 edition exists.]
+- Full system tables are member-only; since April 2024 accessible via Today's Class app for AMRA/MAP members [Trade]. [UNVERIFIED: whether a 2025/2026 edition exists.] Public motorist.org pages give no rotor guidance (checked 2026-10-21) [UNVERIFIED: current UICS rotor text]. Brake-fluid 200 ppm copper condition adopted May 2005 [Trade: https://www.fenderbender.com/33022065].
 
 ### The codes
 

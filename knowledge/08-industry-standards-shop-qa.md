@@ -67,6 +67,8 @@
 - **Member-only:** the full system-by-system standard tables (conditions, codes, procedures).
   - In April 2024 AMRA/MAP integrated UICS access into the Today's Class training app for users who are also AMRA/MAP members. (Trade press: https://www.vehicleservicepros.com/industry-news/news/55021554/automotive-maintenance-and-repair-association-amra-amra-map-program-integrates-with-todays-class-app)
   - Public material is limited to the reason codes, the Pledge, consumer videos, and older third-party copies.
+  - Checked 2026-10-21: the public motorist.org home and Vehicle Systems pages give no brake-rotor guidance (video topics cover oil, tires, A/C, steering, suspension). Current UICS rotor text remains **[UNVERIFIED]**. (https://motorist.org/vehicle-systems/)
+  - The 200 ppm copper brake-fluid condition was adopted by MAP in May 2005, per trade press. (Trade press: https://www.fenderbender.com/33022065)
 - **[UNVERIFIED]:** whether a 2025/2026 UICS edition exists. None was found.
 
 **Why it matters for the skill:** UICS is the only widely adopted, industry-authored taxonomy that separates "needs it" (failure, out of spec, missing) from "might want it" (wear, convenience, OEM schedule, technician experience). An audit can require every recommendation to carry one reason code plus the evidence that code implies.
