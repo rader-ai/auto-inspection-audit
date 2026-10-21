@@ -43,6 +43,8 @@ Why each piece matters:
 - **Their own reason for the visit** defines scope. The paperwork's "concern" line is often missing, truncated, or rewritten by the advisor. A noise the customer described that the inspection never addresses is a finding; so is a long list of unrelated "required" work. Recommendations outside the concern aren't wrong, but they should be Suggested, not Required.
 - **State** drives which estimate/authorization/invoice rules apply.
 
+**Recent work on the same system** matters a lot when the report mentions it ("recently replaced", "new pads", "previous repair"). Ask the consumer where and when that work was done. The current shop usually can't know, so checking warranty coverage is the consumer's job, and often their best lever. A failure in recent work done elsewhere goes back to the shop that did it. In shop-owner mode, check whether the earlier work was your own shop's (a comeback).
+
 Helpful if offered, but don't hold up the audit for it: maintenance history (a "due" flush done 10k miles ago is an error), how long they plan to keep the car (changes the value of Suggested items), budget constraints (helps prioritize).
 
 **Shop-owner intake** is different: which technician and advisor, single inspection or a batch, what prompted the audit (customer complaint, routine QA sample, new hire, comeback), which platform they use, and whether they want coaching notes, a compliance check, or both.
@@ -53,7 +55,11 @@ If the user shares personal details (name, phone, address, plate), don't repeat 
 
 ### 2. Extract a line-item table
 
-Before judging anything, transcribe every inspection item and estimate line into a working table: item, position (LF/RF/LR/RR, front/rear), grade/color, measurement + unit, technician note, photo/video reference, recommendation, price/labor. Note items that are graded but have no note, and estimate lines with no matching inspection finding. Getting the facts down first prevents you from reasoning from the scariest line on the page.
+Before judging anything, transcribe every inspection item and estimate line into a working table: item, position (LF/RF/LR/RR, front/rear), grade/color, measurement + unit, technician note, photo/video reference, recommendation, price/labor. Note items that are graded but have no note, and estimate lines with no matching inspection finding. Getting the facts down first prevents you from reasoning from the scariest line on the page. Don't skip this step even when the report is short. The contradiction check in step 7 depends on having every claim written down.
+
+Alongside the table, keep a **claims list**: every factual statement the report makes, wherever it appears. That includes the reason-for-visit notes, the technician's findings, the repeated "inspections performed" sections, and the recommendation text. Examples: "towed in", "test drive performed", "calipers recently replaced", "pads 7+ mm good", "reservoir empty due to banjo bolt leak", "service due per manufacturer's schedule". Many reports say the same thing in two or three places, and the copies don't always agree.
+
+**Keep the shop's structure.** Each item in your audit is one of the shop's items, under the shop's own name, with its wording quoted in "Shop says". When the shop bundles several services into one item ("front diff, rear diff and transfer case"), keep it as one item and give a verdict for each part inside it. Don't split, merge or rename items. If the user can't find your item on their report, it looks like you misquoted the technician.
 
 ### 3. Identify the platform and its known pitfalls
 
@@ -96,7 +102,17 @@ Two limits matter a lot here. First, read a measuring tool only when its scale i
 
 Look across the whole report: same photo used for multiple items, all four tires with identical readings, measurements that are physically implausible (pads thicker than new), grades that disagree with measurements, a sudden jump from a prior inspection, estimate lines with no supporting finding, and totals that don't add up.
 
-Two patterns are easy to miss because each line looks reasonable alone:
+**Compare statements against each other, not just grades against evidence.** Go through the claims list from step 2 and check every pair that touches the same system, event or part. These conflicts are among the most valuable findings in an audit. A report that contradicts itself is weak evidence for everything it recommends, and a consumer can point to the report's own words without needing any technical knowledge. Look for:
+- **Events that can't both be true.** "Towed in for loss of brakes" vs. a test drive that reports how the brakes felt. Either the vehicle was driven without working brakes, or the test-drive entry is template text.
+- **Condition vs. recommendation.** "Calipers recently replaced" vs. "replace both calipers". "Pads 7+ mm, good condition" inside an item graded red.
+- **Cause vs. remedy.** The report names a cause ("banjo bolt leaking caused the reservoir to run dry") but the recommendation replaces other parts and never repairs that cause. The minimal fix for the stated cause should come first. When it's missing from the recommendations, report it as its own finding: the plan doesn't fix the problem the shop identified.
+- **Basis claims with no basis shown.** "Due per the manufacturer's schedule" on a report with no mileage. "System was scanned" with no codes listed.
+- **Title vs. content.** An item named "Air Filter & Cabin Air Filter" that only discusses one filter. An item title that names parts its text never mentions.
+- **The same statement in two sections that doesn't match.** Different positions, different grades, or different parts for the same item.
+
+List every conflict in a dedicated **Conflicting statements** section of the report. Quote both statements and say where each appears. Then factor each conflict into the statuses of the affected items.
+
+Two more patterns are easy to miss because each line looks reasonable alone:
 - **Overlapping work**: two recommendations that include the same labor or fluid, e.g. a differential cover reseal (which requires draining and refilling the fluid) alongside a separate differential fluid service, or a brake bleed included in a caliper job and also listed on its own. The customer should pay for the shared part once.
 - **Scope expansion**: the finding documents one part, the recommendation replaces a set — play found in one tie rod end, "replace all 4 tie rod ends"; one leaking fitting, "replace both calipers". The documented part may be Supported; the extra parts are Evidence missing unless the report gives a reason (matched pairs, access labor already paid, etc.).
 
@@ -106,52 +122,86 @@ Check the estimate/authorization/invoice against the rules for the user's jurisd
 
 Typical checks: written estimate before work, documented authorization (who/when/how, including for text-link approvals), authorization for any overage, itemized invoice, used/rebuilt parts disclosed, old parts offered back, shop registration number where required, vague "shop supplies" fees.
 
-### 9. Write the audit
+### 9. Decide the action for each item
 
-Use the report template below. Lead with what matters most to this user, keep jargon explained, and make next steps concrete.
+Put every line item into one action bucket: **Fix now**, **Approve**, **Ask first**, or **Skip or defer**. Give each item one concrete next step, either an action or the exact question to ask. Status labels are how you reason. Buckets are how people decide. A consumer wants to know what to say yes to today. A shop owner wants to know what to change. `references/communication.md` §1 maps statuses to buckets.
 
-## Report template
+### 10. Drive toward action
+
+The audit isn't finished when the problems are listed. Draft the communication that fixes them, following `references/communication.md`:
+
+- **Consumer:**
+  - A short list of what to approve today.
+  - A ready-to-send text or email to the shop. It approves the safe, supported work, asks one direct question per questionable item, requests a written estimate, and asks for old parts back where relevant.
+  - Phone talking points, in the order the call should go.
+  - One line on the customer's key rights in their state.
+- **Shop owner:**
+  - An inspection-quality scorecard: concerns addressed, findings with measurements, findings with photos, canned or generic text, scope wider than the finding, overlaps or mis-grades.
+  - A private coaching note to the technician: specific praise, at most three changes, and a follow-up.
+  - A note to the service advisor on presentation.
+  - Three to five configuration fixes for their platform.
+  - When the customer got a confusing report, a plain reset message from the shop to the customer.
+
+Messages must be ready to send. Write them in the user's voice: calm, specific, and asking about evidence, never motives.
+
+### 11. Deliver the report
+
+Always write the report in the conversation using the markdown template below. It works everywhere and can be copied.
+
+If you can create an HTML artifact or file (Claude.ai artifacts, Claude Code with file output), also produce the visual report. Copy `assets/report-template.html` and replace **only** the JSON inside `<script id="audit-data">` with this audit's data. Set `mode` to `"consumer"` or `"owner"`, use `"both"` only if the user asks for both views, and set `"sample": false`. Leave the layout and script alone. The template renders the header, the four action buckets, items grouped by bucket, the messages with copy buttons, the documentation gaps and the assumptions. The sample data in the template is a complete worked example of every field. Never put the customer's name, phone, address or plate in the JSON.
+
+## Report template (markdown)
 
 ```
-# Inspection Audit — [Year Make Model], [mileage] mi — [Shop name if given], [date]
+# Inspection Audit — [Year Make Model], [mileage] mi — [date]
 
 ## Bottom line
-2–4 sentences: overall evidence quality, how many recommendations are well supported vs. questionable, and anything safety-related that needs attention now.
+2–4 sentences: what's urgent, how much of the list is well supported, and what to do today.
 
-## Scorecard
-| | Count |
-|---|---|
-| Items reviewed | |
-| Supported (required) | |
-| Supported – optional | |
-| Evidence missing | |
-| Inconsistent | |
-| Beyond OEM schedule | |
-| Not applicable to this vehicle | |
-| Needs OEM spec | |
-| Verify in person – safety | |
-Estimated $ by status (if prices given): Supported $__ / Optional $__ / Questionable $__
+## Your decision at a glance
+| Fix now | Approve | Ask first | Skip or defer |
+|---|---|---|---|
+| n | n | n | n |
+(Add $ per bucket if prices were given.)
 
-## Safety items — verify promptly
-(Anything with a credible safety implication, whatever its documentation quality.)
+## Conflicting statements
+Each conflict: "[statement A]" (where) vs. "[statement B]" (where), then why it matters in one line.
 
-## Line-item review
-| # | Item / position | Shop says | Evidence (rating) | Spec / schedule | Status | Why |
-|---|---|---|---|---|---|---|
+## Fix now — safety
+## Approve
+## Ask first
+## Skip or defer
+For each item, in its bucket:
+**[Item / position]** — Shop said: … · Status: … · Evidence: …
+Why: one or two sentences. **Next step:** the action or exact question.
 
-## Photo & documentation findings
-Platform identified (and what that implies), photo issues, cross-report inconsistencies.
+## What the report is missing
+Measurements, mileage, codes, photo quality, platform-specific gaps, and what the inspection did well.
 
 ## Paperwork & compliance ([state])
 What the rules generally require vs. what the documents show. Not legal advice.
 
-## [Consumer] Questions to ask the shop / Next steps
-## [Shop owner] Coaching notes, process fixes, and what to verify
+## [Consumer] Talk to your shop
+Approve today (list) → message to send (in a quote block) → phone talking points → key rights.
+
+## [Shop owner] Inspection quality and next steps
+Scorecard table → coaching note to the tech → note to the advisor → platform fixes → message to the customer (if needed).
+
+## Assumptions
+What you assumed and which conclusions would change if it's wrong.
 ```
 
-**Consumer next steps** typically include: specific questions per questionable item ("What was the LF pad measurement in mm, and what's the minimum for this vehicle?"), asking for the old parts or photos, checking the owner's manual schedule, getting a second opinion on large or safety items, approving only Supported items now, and — if a dispute arises — the escalation path in `references/consumer-protection.md` (written request to the shop, then the state regulator, card dispute, small claims).
+## Follow-up: judging the shop's answers
 
-**Shop-owner next steps** typically include: per-technician coaching points, template/configuration fixes in the DVI platform (required measurement fields, removing default grades, separating menu maintenance from condition findings), advisor presentation issues (Suggested items sold as Required), documentation gaps that create regulatory exposure, and under-recommendations that missed needed work. For multi-inspection QA programs (sampling, second-tech verification, scoring rubrics, accuracy-based KPIs), see `references/industry-standards.md`.
+Audits often continue after the report. The user asks the shop a question, gets an answer (often verbal), and comes back with "they said X". Treat that answer as new evidence and check it the way you checked the report:
+
+1. **Does it explain the whole recommendation?** An answer that justifies one part ("the fitting parts are discontinued") doesn't justify the others (a master cylinder). Name what's still unexplained.
+2. **Is it consistent with the report and with itself?** Example: "parts are discontinued, so we must replace the calipers". If new calipers can be bought, so can the fittings that come with them. Compare the answer against the claims list from step 2.
+3. **Can it be checked?** Turn it into a request for something specific: a part number and supplier for "discontinued", a code for "the scan showed", a measurement for "it's worn", the OEM interval for "it's due".
+4. **Is it in writing?** A reason that appears only after the customer pushes back, and only verbally, is weaker than one on the inspection. Ask for it to be added to the estimate or sent by text or email.
+5. **Does it change the decision?** Update the affected items' statuses and buckets, say what changed and why, and draft the next message. If the answer points elsewhere, the next step changes too. For example, if parts from another shop's recent repair can't be sourced, that shop should repair its own work, often under warranty.
+
+Stay even-handed. A good answer can move an item to Supported, and you should say so plainly when it does. Common explanations to check carefully: parts availability, "while we're in there" bundles, "it's all one assembly", "the book says", "it's due by mileage", and "we can't warranty it unless we replace everything". The last one may be a legitimate shop policy. If so, it should be stated in writing as a policy, not presented as a mechanical necessity.
 
 ## Auditing several inspections (shop-owner mode)
 
@@ -164,6 +214,8 @@ Read only what the audit needs:
 | File | Read when |
 |---|---|
 | `references/technical-criteria.md` | Every audit — per-system tests, thresholds, red flags, impossible items, commonly upsold services |
+| `references/communication.md` | Every audit, steps 9–11 — action buckets, messages to the shop / technician / advisor / customer, tone |
+| `assets/report-template.html` | Producing the visual report (fill only its JSON block) |
 | `references/image-evidence.md` | Any photos or video are present |
 | `references/dvi-platforms.md` | Identifying the report software and its known pitfalls |
 | `references/industry-standards.md` | MAP Required/Suggested codes, certifications, shop QA program design |

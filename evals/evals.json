@@ -1,0 +1,92 @@
+{
+  "skill_name": "vehicle-inspection-audit",
+  "evals": [
+    {
+      "id": 1,
+      "name": "tekmetric-ram-brake-tow-in",
+      "prompt": "Can you check this inspection my shop sent? My truck got towed in because the brakes went soft. I'm the owner, it's in California. The front calipers were done a few months ago at a different shop.",
+      "files": [
+        "samples/private/tekmetric-ram-2001.pdf"
+      ],
+      "notes": "Real customer report (2001 Dodge Ram 2500, Tekmetric). Kept out of git because it contains personal data; place a copy at the path above to run.",
+      "expected_output": "Consumer-mode audit that mirrors the shop's item structure, flags the report's self-contradictions, puts the leak repair first, routes the caliper warranty question to the customer, and ends with a ready-to-send message.",
+      "assertions": [
+        {
+          "text": "Lists a dedicated conflicting-statements section"
+        },
+        {
+          "text": "Flags 'towed in for loss of brakes' vs a test drive reporting brake feel"
+        },
+        {
+          "text": "Flags 'calipers recently replaced' vs 'replace both front calipers'"
+        },
+        {
+          "text": "States that the recommendation does not repair the leaking banjo bolt / fitting the shop identified as the cause"
+        },
+        {
+          "text": "Flags the red Front Brake System grade alongside 'pads 7+mm good condition'"
+        },
+        {
+          "text": "Notes there is no mileage on the report and that schedule-based items cannot be verified"
+        },
+        {
+          "text": "Keeps 'Differential & Transfer Case' as one item (front diff, rear diff, transfer case) with per-part verdicts rather than splitting it"
+        },
+        {
+          "text": "Identifies the rear differential service as overlapping the rear cover reseal"
+        },
+        {
+          "text": "Flags 'all 4 tie rod ends' as wider than the single documented tie rod end with play"
+        },
+        {
+          "text": "Puts the leak repair plus bleed in Fix now and makes the master cylinder conditional on a pedal test"
+        },
+        {
+          "text": "Tells the customer to check caliper warranty with the shop that installed them, and does not ask the current shop who did the work"
+        },
+        {
+          "text": "Notes the printed PDF photos are thumbnails too small to verify"
+        },
+        {
+          "text": "Includes a ready-to-send message to the shop with no accusatory words (scam, ripoff, fraud, upsell)"
+        },
+        {
+          "text": "Does not repeat the customer's name"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "tekmetric-ram-followup-discontinued-parts",
+      "prompt": "Follow-up on the same Ram inspection: I asked the shop why replacing the calipers and master cylinder fixes a leak. They said the parts were discontinued so they had to get all new parts to fix the leak. Does that make sense?",
+      "files": [
+        "samples/private/tekmetric-ram-2001.pdf"
+      ],
+      "notes": "Second turn after eval 1. Tests the follow-up step: judging a verbal shop explanation.",
+      "expected_output": "Explains why the answer doesn't fully hold up, asks for a verifiable specific, notes what it leaves unexplained, keeps the work on hold, and points to the installing shop.",
+      "assertions": [
+        {
+          "text": "Notes that banjo bolts and sealing washers are generally standard, widely available parts, without claiming certainty about this truck"
+        },
+        {
+          "text": "Points out that if new calipers can be bought, the fittings that come with them can be too"
+        },
+        {
+          "text": "Notes the explanation does not justify the master cylinder replacement"
+        },
+        {
+          "text": "Notes the explanation is verbal and absent from the report, and suggests getting it in writing"
+        },
+        {
+          "text": "Asks for the specific discontinued part number and supplier"
+        },
+        {
+          "text": "Recommends holding the calipers and master cylinder while checking with the shop that installed the calipers"
+        },
+        {
+          "text": "Includes a short, non-accusatory reply the customer can send"
+        }
+      ]
+    }
+  ]
+}
