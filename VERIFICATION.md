@@ -2,7 +2,7 @@
 
 This skill is built on cited research (see `knowledge/`), compiled 2026-10-20. Most claims were checked against primary sources: statutes, regulations, agency pages and manufacturer documentation. Some could not be. The research hit a web-search budget limit, and several official sites block automated access. Items below are open until someone confirms them against a primary source. Inside the reference files they are marked `[UNVERIFIED]`.
 
-**Verification pass, 2026-10-21:** every item below was re-checked against primary sources. Ticked items are resolved, with the source in the note. Open items carry a note saying why they're still open. Some official sites (leginfo, Shop-Ware's help center, the Connecticut and Texas statute sites) were read in a normal browser after automated fetches were blocked. Nothing was spoofed or bypassed.
+**Verification pass, 2026-10-21:** every item below was re-checked against primary sources. Ticked items are resolved, with the source in the note. Open items carry a note saying why they're still open. Some official sites (leginfo, Shop-Ware's help center, the Connecticut, Texas and Illinois statute sites, and the Colorado PUC) were read in a normal browser after automated fetches were blocked. Nothing was spoofed or bypassed.
 
 Want to help? Pick an item, confirm it against an official source, and open a pull request that updates both the `knowledge/` file and the matching `skill/.../references/` file with the citation.
 
@@ -87,7 +87,7 @@ Want to help? Pick an item, confirm it against an official source, and open a pu
 
 ## State inspection programs
 - [ ] **Reject criteria for HI, RI, WV, DE, MO and ME passenger vehicles.**
-  - *2026-10-21: mostly resolved.* HI (HAR 19-133.2), RI (280-RICR-30-15-3), MO (11 CSR 50-2; no 2/32 tire rule), DE and ME tread (29-A §1917) are now cited. Still open: the WV manual (wvsp.gov certificate error) and the ME brake-pad minimum.
+  - *2026-10-21: mostly resolved.* HI (HAR 19-133.2), RI (280-RICR-30-15-3), MO (11 CSR 50-2; no 2/32 tire rule), DE and ME tread (29-A §1917) are now cited. Still open: the WV criteria and the ME brake-pad minimum. wvsp.gov loads in a browser, but the MVI Manual PDF is download-only, and the HTML pages list statutes only.
 - [x] **Status after May 2026:**
   - New Hampshire litigation
   - Missouri HB 1838
@@ -110,7 +110,10 @@ Want to help? Pick an item, confirm it against an official source, and open a pu
 
 ## Commercial and fleet
 - [ ] **Uber/Lyft official inspection form items;** Colorado and Illinois statewide rideshare rules.
-  - *2026-10-21: still open.* No public Uber or Lyft form exists. Colorado's PUC site returned 403, and ilga.gov failed its certificate check.
+  - *2026-10-21: mostly resolved; Uber/Lyft still open.*
+    - Colorado: the PUC's official annual TNC inspection form, read in a normal browser, has 19 points (https://puc.colorado.gov/transportation-network-companies/rideshare-industry-info).
+    - Illinois: 625 ILCS 57/25(d) requires private-vehicle safety and emissions compliance (https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3589&ChapterID=48).
+    - Uber and Lyft: no official form is public.
 - [x] **Full Appendix A steering-lash table,** and whether the definition is cited as § 390.5 or § 390.5T.
   - *2026-10-21: resolved on eCFR.* The table has only 16, 18, 20 and 22 in. rows. §390.5 is suspended, so cite §390.5T (https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/subpart-A/section-390.5T).
 - [x] **NYC for-hire vehicle inspection frequency.** Sources conflict.

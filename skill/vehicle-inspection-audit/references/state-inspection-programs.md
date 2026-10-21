@@ -70,7 +70,7 @@
 
 ## 2) Reject thresholds by state
 
-"Reject" = legal failure criterion. "Advisory" = inspector warns owner; **not** a failure. Blank = not retrieved. HI, RI, MO, DE are summarized below the table; WV criteria **not retrieved** [UNVERIFIED] (State Police manual; wvsp.gov TLS error 2026-10-21).
+"Reject" = legal failure criterion. "Advisory" = inspector warns owner; **not** a failure. Blank = not retrieved. HI, RI, MO, DE are summarized below the table; WV criteria **not retrieved** [UNVERIFIED] (State Police manual; download-only PDF, https://www.wvsp.gov/departments/trafficsafety/Documents/MVI%20Manual.pdf).
 
 | Item | PA (67 Pa. Code 175) | VA (19VAC30-70) | NY (15 NYCRR 79) | MA (540 CMR 4) | VT (VN-113) | ME (16-222 CMR 1) | CA VSSI (non-periodic) |
 |---|---|---|---|---|---|---|---|

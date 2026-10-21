@@ -202,7 +202,7 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
   - **Tires (50-2.240):** Missouri uses **no 2/32 depth figure**. Reject only when the tire is worn, anywhere other than the wear indicator, to where **no tread pattern remains**, or a worn spot exposes cord. Also reject cord-exposing cuts and knots, radial and bias tires on one axle, and tires marked "not for highway use."
   - **Glass (50-2.270):** Reject windshield cracks over **3 in** in the driver's vision area (the wiper sweep above the bottom 4 in), and any unrepaired star, bull's-eye or half-moon there.
   - The MVI section investigates consumer complaints [S34].
-- **West Virginia:** Detailed reject criteria are **[UNVERIFIED]**. 91 CSR 12 adopts the State Police manual by reference (rev. 6/1/2010), and wvsp.gov returned a TLS certificate error on 2026-10-21. Inspection is biennial (§17C-16-4) [S49].
+- **West Virginia:** Detailed reject criteria are **[UNVERIFIED]**. 91 CSR 12 adopts the State Police manual by reference (rev. 6/1/2010), wvsp.gov fails certificate checks for automated fetches. In a normal browser it loads, but the current MVI Manual (https://www.wvsp.gov/departments/trafficsafety/Documents/MVI%20Manual.pdf) is served as a download only, and the HTML pages list statutes only (checked 2026-10-21). Inspection is biennial (§17C-16-4) [S49].
 
 ### 3.10 Emissions programs and OBD-II basics [S35][S36][S20][S8]
 - The Clean Air Act requires I/M programs in about **33 state/local areas** that don't meet air-quality standards. Most use **OBD-II plug-in tests** for 1996+ gas and roughly 1997-2002+ diesel light vehicles [S35].
@@ -271,7 +271,7 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 4. **North Carolina:** The date EPA finalizes the removal for the 19 counties (still proposed as of 2026-10-21). Confirm S.L. 2026-41's Mecklenburg provision from the enrolled text [S47].
 5. **Louisiana:** Implementation details of the QR-sticker system, and which local governments still require inspection [S2][S52].
 6. **PA emissions waiver:** The 2026 minimum ($450 from 9/1/2023, adjusted yearly) [S54]. **MA waiver caps:** current adjusted amounts [S51].
-7. **Primary reject criteria not retrieved:** WV (State Police manual; wvsp.gov TLS error); Maine passenger-car pad minimum; MA pad figure; NC regulation text. DE criteria come from a 2/2020 lane manual.
+7. **Primary reject criteria not retrieved:** WV (State Police MVI Manual is download-only: https://www.wvsp.gov/departments/trafficsafety/Documents/MVI%20Manual.pdf); Maine passenger-car pad minimum; MA pad figure; NC regulation text. DE criteria come from a 2/2020 lane manual.
 8. **Fee amounts:** NY (VS-77), NC (G.S. 20-183.7), RI ($55) and HI ($25.75 max) are confirmed. MA $35 rests on a mass.gov search snippet (direct fetch blocked). PA has no confirmed figure.
 9. **Readiness-monitor allowances** vary by state and model year. Only Missouri's rule and VT's "DMV-determined" approach were confirmed.
 10. **Ontario SSC details** and the **EU deficiency categories** were not confirmed from primary pages this session.
