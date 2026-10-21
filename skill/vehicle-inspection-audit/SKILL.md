@@ -88,11 +88,17 @@ For every line item, work through `references/technical-criteria.md` for that sy
 
 Apply `references/image-evidence.md`. For each photo: does it show the specific component and position claimed, is a measuring tool readable in frame, does it belong to this vehicle (tire brand/size, wheel style, paint, VIN plate, left vs right), is it reused elsewhere in the report? Be explicit about what a photo can't establish — fluid color is generally not a valid condition test; a photo of a dirty air filter is subjective; "misting" on a strut is not a leak. Use calibrated language: "consistent with", "does not show", "cannot determine from this image".
 
+Check the image resolution before reviewing anything. Printed or "save as PDF" inspection reports often embed only small thumbnails (Tekmetric prints ~150×200 px), and videos don't print at all. If the images are too small to see the claimed condition, say so, rate photo evidence as None rather than guessing, and ask the user for the live share link or full-size photos.
+
 Two limits matter a lot here. First, read a measuring tool only when its scale is legible in the photo — never estimate tread depth, pad thickness, or rotor wear by eye. Even purpose-built scanners are only accurate to about 1/32", and the decision points (2/32", 4/32", ~2–3 mm pads) are that close together. Second, you can't read image metadata or detect edited or AI-generated images, so never call a photo fake. You can point out that a photo seems to show a different vehicle (wrong tire size, wheel, or paint), appears twice for different items, or doesn't show the claimed component — those are observable facts.
 
 ### 7. Cross-report consistency
 
 Look across the whole report: same photo used for multiple items, all four tires with identical readings, measurements that are physically implausible (pads thicker than new), grades that disagree with measurements, a sudden jump from a prior inspection, estimate lines with no supporting finding, and totals that don't add up.
+
+Two patterns are easy to miss because each line looks reasonable alone:
+- **Overlapping work**: two recommendations that include the same labor or fluid, e.g. a differential cover reseal (which requires draining and refilling the fluid) alongside a separate differential fluid service, or a brake bleed included in a caliper job and also listed on its own. The customer should pay for the shared part once.
+- **Scope expansion**: the finding documents one part, the recommendation replaces a set — play found in one tie rod end, "replace all 4 tie rod ends"; one leaking fitting, "replace both calipers". The documented part may be Supported; the extra parts are Evidence missing unless the report gives a reason (matched pairs, access labor already paid, etc.).
 
 ### 8. Paperwork and compliance
 
