@@ -147,7 +147,7 @@ Legend for each component: **CAN** = a good photo can reasonably establish this.
   - internal resistance or conductance
   - voltage and state of charge
 
-  Midtronics material describes 90% or more of rated CCA as healthy and below 80% as a warning sign. It also notes that surface charge, right after charging or a jump, can distort readings ([Midtronics – hidden clues](https://www.midtronics.com/blog/the-hidden-clues-in-battery-test-printouts-that-techs-might-miss); [Midtronics – key indicators](https://www.midtronics.com/blog/key-indicators-of-a-healthy-battery-test/); vendor).
+  Midtronics material describes 90% or more of rated CCA as healthy and below 80% as a warning sign, but the same Midtronics page elsewhere calls 80%+ good, 70–79% marginal and < 70% replace, so there is no single cutoff. GM warranty policy relies on the tester's Replace/Bad decision code, not a percentage (https://gm-techlink.com/?p=16086). It also notes that surface charge, right after charging or a jump, can distort readings ([Midtronics – hidden clues](https://www.midtronics.com/blog/the-hidden-clues-in-battery-test-printouts-that-techs-might-miss); [Midtronics – key indicators](https://www.midtronics.com/blog/key-indicators-of-a-healthy-battery-test/); vendor).
 - **Printout photo checks:**
   - Does the **rated CCA entered** match the battery label in another photo? Entering the wrong rating skews the result.
   - Does the date/time match the visit?
@@ -402,7 +402,7 @@ Purpose-built systems with controlled cameras, lighting, lasers, or magnetic sen
 | **Anyline Tire Tread Scanner** (smartphone SDK) | Phone camera + CV, guided capture | Average accuracy **0.5 mm (~1/32")** for 1–10 mm depth on recommended devices; grooves ≥5 mm wide | Datasheet calls the result an estimate and says Anyline does not guarantee it matches reality. It is not a roadworthiness verdict. Extreme lighting, distance, shiny surfaces, blur, and low resolution limit accuracy. Needs a ≥1080p camera. | [Anyline datasheet](https://anyline.com/?p=25309); [MOTOR launch coverage](https://www.motor.com/2022/11/anyline-launches-industry-first-tire-tread-scanner-for-smartphones-at-sema-show/) |
 | **UVeye Artemis** (drive-through tires); Atlas (body), Helios (underbody) | Multi-camera drive-through, AI | No tread-depth tolerance published. Company CEO claim of detecting **96%** of existing vehicle problems vs. <25% for manual checks. | Vendor claim, not broken down by system, no independent test found | [Repairer Driven News](https://www.repairerdrivennews.com/?p=152963); [The Batch](https://www.deeplearning.ai/the-batch/auto-diagnosis) **[UNVERIFIED: exact article carrying the 96% quote]** |
 | **ProovStation + Michelin QuickScan / TireStation** | Drive-over **magnetic** tread sensors + cameras | "Millimeter precision" in under 5 s | Vendor wording, no tolerance or independent data | [Tire Technology International](https://tiretechnologyinternational.com/news/testing-analysis/proovstation-partners-with-michelin-to-provide-automated-tire-and-vehicle-inspection.html); [VehicleServicePros](https://vehicleservicepros.com/service-repair/undercar/news/21292135/michelin-and-proovstation-partner-on-magnetic-tire-scanner) |
-| **Hunter Quick Tread** | Drive-over 3D laser point cloud | "Most accurate" (no tolerance). Hunter material cites handheld plunger gauges varying by about ±2.4 mm depending on operator. | No published spec found | [Fleet Maintenance](https://www.fleetmaintenance.com/in-the-bay/tools/press-release/12022741/hunter-engineering-company-hunter-announces-quick-tread-drive-over-tread-depth-system) |
+| **Hunter Quick Tread** | Drive-over 3D laser point cloud | "Most accurate" (no tolerance). Hunter material is reported to cite handheld plunger gauges varying by about ±2.4 mm depending on operator (vendor claim). **[UNVERIFIED: re-checked 2026-10-21; the cited press release and Hunter's Quick Tread Edge release do not contain the figure; Hunter's site only calls plunger gauges time-consuming and error-prone. Possibly in an image-only Hunter brochure.]** | No published spec found | [Fleet Maintenance](https://www.fleetmaintenance.com/in-the-bay/tools/press-release/12022741/hunter-engineering-company-hunter-announces-quick-tread-drive-over-tread-depth-system) |
 | **Zebra Tread Intel** | Handheld swipe scanner | Within **1/32" (0.79 mm)** | Vendor fact sheet | [Zebra fact sheet](https://prod-www.zebra.com/content/dam/zebra_dam/en/fact-sheet/zebra-tread-intel-fact-sheet-en-us.pdf) |
 | **QBurst** (commercial CNN case study) | Mobile image, multi-stage CNN | **±1.5 mm on 90%** of test images | Vendor case study; ±1.5 mm ≈ ±2/32", enough to flip a pass/fail at 2/32 or 4/32 | [QBurst PDF](https://www.qburst.com/downloads/tire-inspection-system.pdf) |
 | **Open demo** (EfficientNet ensemble, 730 tires) | Single close-up photo | Not validated | Demo only; requires straight-on close-ups | [Hugging Face demo](https://uncodespecial-tire-tread-depth.hf.space/) |
@@ -410,7 +410,7 @@ Purpose-built systems with controlled cameras, lighting, lasers, or magnetic sen
 **Takeaways:**
 - Even the best purpose-built image system claims about **±0.5 mm (±1/32")** under guided capture, and disclaims real-world correlation. Generic CNN approaches report about ±1.5 mm. Decision thresholds (2/32, 4/32) are only 2/32 apart, so **image-only tread estimates can easily land on the wrong side of a threshold.**
 - Drive-over patents note that environmental conditions (rain, snow, ice) affect sensors ([US11421982](https://patents.google.com/patent/US11421982)).
-- No independent, peer-reviewed accuracy study of these products was found **[UNVERIFIED gap]**.
+- No independent, peer-reviewed accuracy study of these products was found **[UNVERIFIED gap; re-searched 2026-10-21 — only vendor datasheets, patents and a Goodyear/Taazaa proof of concept with no published error figures]**.
 - **Rule for the skill:** Claude may *read* a gauge visible in a photo. It must not *estimate* tread depth, pad thickness, or rotor thickness from appearance. At most it may say "appears near/at the wear bars" or "friction material appears very thin or absent," labeled as visual impression.
 
 ---
@@ -489,7 +489,7 @@ The technical criteria in 07 can upgrade an item, e.g., an OEM interval reached 
 
 ## 10) Open questions
 
-1. **DVI platform image handling:** Do major platforms (AutoVitals, Tekmetric, Shopmonkey, Bolt On, AutoServe1, Mitchell1, etc.) strip EXIF, re-compress, or watermark images with time/VIN? Can shops export originals? **[UNVERIFIED]**
+1. **DVI platform image handling:** Do major platforms (AutoVitals, Tekmetric, Shopmonkey, Bolt On, AutoServe1, Mitchell1, etc.) strip EXIF, re-compress, or watermark images with time/VIN? Can shops export originals? **[UNVERIFIED; a 2026-10-21 search found no public help-center statement from these vendors]**
 2. **Do any DVI platforms insert canned or reference images** that could be mistaken for vehicle photos? **[UNVERIFIED]**
 3. **Monroe ServiceGram full text** (403 on fetch). Confirm exact wording and any note about contamination from other fluids.
 4. **Gates/Dayco hose inspection guidance** not retrieved; add.
@@ -554,6 +554,7 @@ The technical criteria in 07 can upgrade an item, e.g., an OEM interval reached 
 - Virginia 19VAC30-70-110 — https://law.lis.virginia.gov/admincode/title19/agency30/chapter70/section110/
 - Midtronics, printout clues — https://www.midtronics.com/blog/the-hidden-clues-in-battery-test-printouts-that-techs-might-miss
 - Midtronics, healthy battery test — https://www.midtronics.com/blog/key-indicators-of-a-healthy-battery-test/
+- GM TechLink, battery testing and warranty replacement (OEM) — https://gm-techlink.com/?p=16086
 - Rick's, battery corrosion — https://ricksfreeautorepairadvice.com/does-corrosion-on-car-battery-terminals-mean-the-battery-is-bad/
 - ToolSource, battery corrosion — https://www.toolsource.com/blog/battery-terminal-corrosion-safe-cleanup-testing-and-when-to-replace/
 - BITOG, wiper blades — https://bobistheoilguy.com/forums/threads/replacement-wiper-blades.208727/latest

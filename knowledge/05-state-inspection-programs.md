@@ -6,7 +6,7 @@ Division 5 of 9. Covers official government inspection programs, not shop courte
 
 ## 1) Scope and as-of date
 
-- **As of:** 2026-10-20. Research ran 2026-10-20. This area changed a lot in 2025-2026 (Texas, New Hampshire, Louisiana repeals; Missouri and West Virginia repeal bills; North Carolina emissions removal). Anything marked **[UNVERIFIED]** could not be confirmed from a primary or recent source during this session. **Tool limit:** the session's web-search budget ran out partway through, so several states (HI, WV, RI, DE, NJ details; Ontario; EU) rely on secondary sources or direct page fetches only.
+- **As of:** 2026-10-20. Research ran 2026-10-20; status items (NH, MO, WV, NC, LA), HI/RI/DE/MO/ME reject criteria and NY/MA/NC/PA fees were rechecked against primary sources on 2026-10-21. This area changed a lot in 2025-2026 (Texas, New Hampshire, Louisiana repeals; Missouri and West Virginia repeal bills; North Carolina emissions removal). Anything marked **[UNVERIFIED]** could not be confirmed from a primary or recent source during this session. **Tool limit:** the first session's web-search budget ran out partway through. The 2026-10-21 recheck filled in HI, RI, DE and MO from official rules; WV's manual (wvsp.gov TLS error), NJ details, Ontario and the EU still rely on secondary sources or direct page fetches only.
 - **In scope:** US periodic passenger-vehicle safety inspection programs, US emissions (I/M) programs including OBD-II, consumer protections inside those programs, and short international notes (Canada, UK, EU).
 - **Out of scope:** Commercial/FMCSA inspections (see 06-commercial-fleet-specialty.md), detailed technical service limits (see 07-technical-inspection-criteria.md), and general repair-shop consumer law (see 04 and 09).
 - **Key principle:** A state inspection standard is a **legal minimum for road use**. It is not a maintenance guideline. A part can pass inspection and still be close to worn out (several states require or encourage an "advisory" note for that). It also works the other way: a shop can't honestly call a part a "state inspection failure" if it meets the state's reject criteria.
@@ -25,43 +25,43 @@ Legend: **Safety** = periodic passenger-vehicle safety inspection. **Emissions**
 | Arkansas | No | No | — | [S1] |
 | California | No | Yes (most counties, Smog Check) | BAR | Biennial smog check [S1] |
 | Colorado | No | Yes (Front Range areas) | CDPHE/DMV | [S1] |
-| Connecticut | No (passenger) | Yes, statewide | DMV / DEEP | Biennial emissions. Some VIN and older-vehicle checks; sources conflict on safety [S1] |
-| Delaware | **Yes** | **Yes** | DMV (state-run lanes) | Inspection is free at DMV lanes. The newest 7 model years (≤10,000 lb) may need only VIN verification. OBD-II for 1996+ gas vehicles [S30]. Frequency annual or biennial per [S1] **[UNVERIFIED exact]** |
+| Connecticut | No periodic (passenger) | Yes, statewide | DMV / DEEP | Biennial emissions [S1][S53]. No periodic passenger safety inspection. A one-time DMV safety inspection applies only on specific triggers. Current CGS §14-16a (read on cga.ct.gov through normal browser access, 2026-10-21): the commissioner *may* require vehicles 10+ model years old to be inspected within 30 days before or at transfer of ownership; inspection at transfer is *mandatory* for antique, rare or special-interest vehicles, modified antiques and historic fire apparatus. Fee cap $15 when a contractor inspects. — https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-16a . The out-of-state used-vehicle trigger in older reports is in a different section and was not re-checked [S53] |
+| Delaware | **Yes** | **Yes** | DMV (state-run lanes) | Inspection is free at DMV lanes and is required before each registration renewal (21 Del. C. §2143(a)). Registrations run 1 or 2 years, so in practice the inspection is annual or biennial [S30][S41][S42]. DMV may waive inspection for vehicles no older than 7 model years; the newest 7 model years (≤10,000 lb) may need only VIN verification. OBD-II for 1996+ gas vehicles [S30] |
 | DC | No (private cars since 2009) | Yes | DC DMV | Biennial emissions [S1] |
 | Florida | No | No | — | [S1] |
 | Georgia | No | Yes (13 Atlanta-area counties) | EPD | Annual emissions [S1] |
-| **Hawaii** | **Yes** | No | HDOT / counties | Annual. A new vehicle's first certificate lasts 2 years [S1] **[UNVERIFIED from HDOT]** |
+| **Hawaii** | **Yes** | No | HDOT / counties | Every 12 months. A new vehicle is inspected when first sold, then again 2 years later, then every 12 months (HAR §19-133.2-3). Maximum fee $25.75 plus tax for cars and trucks (§19-133.2-22) [S43] |
 | Idaho | No | No (ended 7/1/2023) | — | [S1] |
 | Illinois | No | Yes (Chicago, Metro-East) | IEPA | Biennial emissions [S1] |
 | Indiana | No | Yes (Lake, Porter) | IDEM | [S1] |
 | Iowa, Kansas, Michigan, Minnesota, Mississippi, Montana, N. Dakota, Oklahoma, S. Carolina, S. Dakota, Wyoming | No | No | — | Mississippi ended its safety inspection in 2015 [S1] (repeal year from memory, **[UNVERIFIED]**) |
 | Kentucky | No | No | — | Inspection when a vehicle comes from out of state [S1] |
-| **Louisiana** | **Ending for most personal vehicles** | Yes (5 Baton Rouge-area parishes) | LSP / LDEQ | HB 1085 was signed 6/2/2026. Stickers stop being enforced for personal vehicles from 6/30/2026 and the change takes effect 1/1/2027. A $6 registration-linked QR sticker replaces the brake tag. Commercial vehicles, school buses and some farm vehicles are still inspected, and local governments may still require inspections. Emissions continue in East Baton Rouge, West Baton Rouge, Livingston, Iberville and Ascension [S2] |
+| **Louisiana** | **Ending for most personal vehicles** | Yes (5 Baton Rouge-area parishes) | LSP / LDEQ | HB 1085 was signed 6/2/2026. Stickers stop being enforced for personal vehicles from 6/30/2026 and the change takes effect 1/1/2027. A $6 registration-linked QR sticker replaces the brake tag. Commercial vehicles, school buses and some farm vehicles are still inspected, and local governments may still require inspections. Emissions continue in East Baton Rouge, West Baton Rouge, Livingston, Iberville and Ascension. Enacted as Act No. 701 of 2026 [S2][S52] |
 | **Maine** | **Yes** | Yes (Cumberland County only) | Maine State Police | Annual [S1][S12] |
 | Maryland | No periodic (inspection on transfer) | Yes (VEIP, 13 counties + Baltimore) | MSP / MVA | Biennial emissions [S1] |
 | **Massachusetts** | **Yes** | **Yes**, statewide (OBD) | RMV / MassDEP | Annual combined safety and emissions [S1][S10] |
-| **Missouri** | **Yes (partial)** | Yes (St. Louis area) | Missouri State Highway Patrol (MVI) / DNR | Biennial. Since 8/28/2019, vehicles under 10 model years old with under 150,000 miles are exempt [S6]. HB 1838 (2026) to end most non-commercial inspections passed the House; Senate passage and signature **[UNVERIFIED]**. If enacted, the end date would be 1/1/2027 [S5][S7] |
+| **Missouri** | **Yes (partial)** | Yes (St. Louis area) | Missouri State Highway Patrol (MVI) / DNR | Biennial. Since 8/28/2019, vehicles under 10 model years old with under 150,000 miles are exempt [S6]. **HB 1838 (2026) did not become law** (as of 2026-10-21). It passed the House 104-43 but is not among the bills the governor signed on 7/13/2026. A House amendment waiving inspections was attached to SB 1408, but SB 1408 as signed only amends §304.010 (speed limits). Inspections continue [S5][S7][S44][S45] |
 | Nebraska | No periodic | No | — | Inspection for out-of-state/salvage vehicles [S1] |
 | Nevada | No | Yes (Las Vegas, Reno areas) | DMV | Annual emissions [S1] |
-| **New Hampshire** | **Ended** (repealed eff. 1/31/2026) | Ended | (was NH DOS/DMV) | HB 2 (2025 budget) repealed passenger-vehicle safety and emissions inspections. A federal district court enjoined the repeal on 1/27-28/2026. The First Circuit stayed that injunction around 5/1/2026, and the AG told motorists that annual inspections are no longer required. EPA's SIP decision was still pending as of spring 2026 **[UNVERIFIED after May 2026]** [S3][S4] |
+| **New Hampshire** | **Ended in practice** (repealed eff. 1/31/2026) | Ended in practice | (was NH DOS/DMV) | HB 2 (2025 budget) repealed passenger-vehicle safety and emissions inspections. A federal district court enjoined the repeal on 1/27/2026 (Gordon-Darby Holdings v. Quinn). The First Circuit stayed that injunction on 4/30/2026 (No. 26-1209), and the state told motorists that inspections are no longer required. On 8/11/2026 EPA proposed to **conditionally approve** removing NH's I/M program from the SIP, with comments due 9/25/2026. As of 2026-10-21 no final EPA action appears in the Federal Register and inspections remain suspended. The appeal's merits outcome was not found **[UNVERIFIED]** [S3][S4][S46] |
 | New Jersey | No (passenger, since 8/1/2010) | Yes, biennial | NJ MVC | New vehicles exempt for 5 years [S1] |
 | New Mexico | No | Yes (Bernalillo County) | Albuquerque EHD | [S1] |
 | **New York** | **Yes** | **Yes**, statewide (OBD-II) | NY DMV | Annual [S8][S9] |
-| **North Carolina** | **Yes** | Yes (19 counties; removal pending) | NCDMV / NC State Highway Patrol ISU (enforcement) / DEQ | Annual, within 90 days before registration renewal. EPA has proposed approving removal of the federal emissions requirement in the remaining 19 counties; Mecklenburg would keep a state-law program. Final approval **[UNVERIFIED]**. Tint checks were removed from safety inspection eff. 12/1/2025 (S.L. 2025-47) [S13][S14] |
+| **North Carolina** | **Yes** | Yes (19 counties; removal pending) | NCDMV / NC State Highway Patrol ISU (enforcement) / DEQ | Annual, within 90 days before registration renewal. On 5/8/2026 EPA proposed approving removal of the I/M program from the SIP for the remaining 19 counties. **As of 2026-10-21 it is not final**: the Federal Register docket shows only the proposal, and DEQ says EPA is still reviewing comments. DMV will implement within 15 days of final EPA action. S.L. 2023-134 removes 18 counties. DEQ says S.L. 2026-41 (SB 257, law 7/7/2026) also removes Mecklenburg. Safety inspection stays statewide. Tint checks were removed from safety inspection eff. 12/1/2025 (S.L. 2025-47) [S13][S14][S47] |
 | Ohio | No | Yes (Cleveland area, E-Check) | Ohio EPA | [S1] |
 | Oregon | No | Yes (Portland, Medford) | DEQ | [S1] |
 | **Pennsylvania** | **Yes** | Yes (25 counties) | PennDOT (Bureau of Motor Vehicles) | Annual safety; emissions in designated counties [S1][S15] |
-| **Rhode Island** | **Yes** | **Yes** | RI DMV | Biennial [S1] **[UNVERIFIED from RI DMV]** |
+| **Rhode Island** | **Yes** | **Yes** | RI DMV | Biennial for vehicles ≤8,500 lb. New vehicles are first due at 24 months or 24,000 miles, whichever comes first. Fee $55 for the 2-year safety and emissions inspection (280-RICR-30-15-3, §§3.3.1, 3.3.6) [S48] |
 | Tennessee | No | No (ended 2/5/2022) | — | [S1] |
 | **Texas** | **No** (non-commercial, since 1/1/2025) | Yes (17 counties, plus Bexar from 11/1/2026) | TxDMV / DPS / TCEQ | HB 3297 ended non-commercial safety inspections on 1/1/2025. Owners pay a $7.50 "Inspection Program Replacement Fee" at registration ($16.75 for 2 years on new vehicles). OBD-II emissions for gas vehicles 2-24 years old in emissions counties; the Bexar test costs $18.50 [S16][S17][S18] |
 | Utah | No | Yes (5 counties) | Counties | [S1] |
 | **Vermont** | **Yes** | **Yes** (OBD-II for vehicles 16 model years old or newer) | VT DMV (AVIP) | Annual. Manual VN-113 rev. 3/2026 [S19][S20] |
 | **Virginia** | **Yes** | Yes (Northern VA, biennial) | Virginia State Police / DEQ | Annual. Maximum safety-inspection fee $20 [S21][S22] |
 | Washington | No | No (ended 1/1/2020) | — | [S1] |
-| **West Virginia** | **Yes** | No | WV State Police | Biennial from 1/1/2024 [S1]. 2026 bills to repeal inspections (HB 4639 is dead; HB 4719 and HB 4882 status **[UNVERIFIED]**) [S23] |
+| **West Virginia** | **Yes** | No | WV State Police | Biennial, once every two years (W. Va. Code §17C-16-4) [S49]. The 2026 repeal bills all died. HB 4639 was dead. HB 4719 (introduced 1/22), HB 4882 (1/28) and SB 249 (1/14) were referred to committee with no further action before the regular session ended (as of 2026-10-21) [S23] |
 | Wisconsin | No | Yes (7 SE counties) | WisDOT/DNR | [S1] |
 
-**Current periodic safety-inspection states (late 2026):** DE, HI, ME, MA, MO (older/high-mileage cars only), NY, NC, PA, RI, VT, VA, WV. Louisiana is winding down (personal vehicles not enforced since 6/30/2026; formal end 1/1/2027). Texas ended 1/1/2025. New Hampshire ended in practice in early 2026 while litigation continued.
+**Current periodic safety-inspection states (as of 2026-10-21):** DE, HI, ME, MA, MO (older/high-mileage cars only; HB 1838 repeal not enacted), NY, NC, PA, RI, VT, VA, WV (2026 repeal bills died). Louisiana is winding down (personal vehicles not enforced since 6/30/2026; formal end 1/1/2027). Texas ended 1/1/2025. New Hampshire ended in practice in 2026; the First Circuit stayed the injunction on 4/30/2026, and EPA's SIP approval was proposed but not final.
 
 ---
 
@@ -84,7 +84,7 @@ Legend: **Safety** = periodic passenger-vehicle safety inspection. **Emissions**
   - Replaced parts must be kept for the customer to examine.
   - Parts that pass but may become unsafe before the next inspection must be noted in writing.
   - **Brake and tire measurements must be written on the receipt or work order.** This is a strong audit lever: a PA "failed brakes" claim with no recorded measurement is a documentation defect.
-- **Emissions waiver:** An owner who still fails after spending at least a minimum amount on emissions repairs can get a waiver. The minimum was raised from $150 to **$450** (PennDOT bulletin, apparently 2023) and is adjusted every year under §177.282. The current figure is **[UNVERIFIED]** [S25][S26].
+- **Emissions waiver:** An owner who still fails after spending at least a minimum amount on emissions repairs can get a waiver. PennDOT bulletin SI 23-01 raised the minimum from $150 to **$450** effective 9/1/2023, adjusted every year after that under §177.282. The 2026 figure is **[UNVERIFIED]** [S25][S26][S54].
 
 ### 3.2 Virginia — 19VAC30-70 (Virginia State Police); 2026 Safety Inspection Manual [S21][S27][S28][S29]
 - **Brakes (‑80):** Reject any lining or pad under **2/32 in** at any point. Don't measure in manufactured slots or over rivet heads. **A pad-wear warning light alone is not a reason to reject**; the inspector must measure. Reject rotors or drums worn or scored beyond the manufacturer's spec. Reject an external rotor or drum crack longer than half the width of the friction surface. Reject stopping distance over **25 ft from 20 mph** (4-wheel brakes). Hold, start and reserve tests also apply.
@@ -117,7 +117,7 @@ Legend: **Safety** = periodic passenger-vehicle safety inspection. **Emissions**
   - A station that can't inspect promptly must offer a written appointment within 8 working days.
   - The full inspection fee is owed whether the car passes or fails. A reinspection fee applies only if the car leaves and comes back. Within 30 days only the failed category is redone; after 30 days both are [S31].
   - Complaints go on DMV Form VS-35. Repair-shop complaints must be filed within 90 days or 3,000 miles.
-- Fees (from memory, **[UNVERIFIED]**): about $10 safety, plus about $11 OBD upstate or $27 in the NYC metro area.
+- **Maximum fees** (DMV fee chart VS-77, rev. 7/15, rates effective 1/1/2011): $10 safety for light vehicles. OBD-II emissions adds $27 in the NY Metropolitan Area or $11 elsewhere. The station may charge less but not more, the fee is owed pass or fail, and there is no sales tax [S50].
 
 ### 3.4 Massachusetts — 540 CMR 4.00 (RMV); Mass Vehicle Check [S10][S11]
 - **Tires:** Reject under **2/32 in** in any original groove, or if a wear bar touches the road. Reject cuts over 1 in or visible cords. Studded tires are prohibited May 1 to Nov 1.
@@ -131,7 +131,8 @@ Legend: **Safety** = periodic passenger-vehicle safety inspection. **Emissions**
 - **Exhaust:** Reject visible black or blue smoke when warm, leaks, or noise above original equipment.
 - **Also rejected:** An airbag warning lamp showing a fault, a deployed or missing airbag (unlike NY and VA), and a missing or ill-fitting gas cap.
 - **Retest:** A rejection certificate lets you drive for **60 days**, provided safety defects are fixed. It also gives **one free reinspection at the same station** within 60 days.
-- Inspection fee ($35) and the cost cap on emissions waivers: from memory, **[UNVERIFIED]**.
+- **Fee:** $35 for a passenger car, per mass.gov's vehicle-inspection page as surfaced in search; mass.gov returned 403 on direct fetch [S51].
+- **Emissions waiver (310 CMR 60.02):** Available after a failed reinspection, if DTC-appropriate emissions repairs were done by a registered repair technician, within 60 days of the first failure. Base spending caps are $750 (≤5 model years old), $650 (over 5 to 10 years) and $550 (over 10 years), adjusted every year from 2010. The current adjusted figures are **[UNVERIFIED]** [S51].
 
 ### 3.5 Vermont — VN-113 Periodic Inspection Manual (rev. 3/2026), VT DMV [S19][S20]
 Vermont is the best example of a **two-tier "Reject vs. Advise customer"** structure, which is the model a shop's DVI should follow.
@@ -154,14 +155,14 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 - **Exhaust:** Reject pipes extending more than 2 in beyond the body or bumper, unless factory.
 - **Steering:** Reject bushings loose beyond manufacturer spec. Ball joints and tie rods are judged by the manufacturer's procedure.
 - **Rust:** Reject brake or fuel lines at specified rust stages, and rust holes in unibody structure or rockers.
-- **Tread:** By statute, a tire with under **2/32 in** of tread is not in safe condition [S32] (older code version; current text **[UNVERIFIED]**).
-- **Pads:** A 2/32 bonded-lining minimum appears in the motorcycle section. The passenger-car figure is **[UNVERIFIED]**.
+- **Tread:** By statute, a tire with under **2/32 in** of tread at any required gauge point is not in safe condition. Readings are taken in all major grooves at 2+ points at least 15 in apart (29-A M.R.S. §1917(4), current text) [S32].
+- **Pads:** A 2/32 bonded-lining minimum appears in the motorcycle section. The passenger-car (Class A) figure is still **[UNVERIFIED]**. Cornell shows only the rule's table of contents and summary, and the maine.gov rule file returned 403 (2026-10-21).
 
 ### 3.7 North Carolina — G.S. 20-183.2 et seq.; NCDMV [S13][S14]
 - Annual safety inspection covers brakes, lights, horn, steering, wipers, directional signals, tires (**2/32 in**, per a secondary source [S33]) and mirrors.
 - Window tint (32% limit) was removed from the safety inspection effective 12/1/2025.
 - Emissions in 19 counties, done at the same visit as safety. Vehicles over 8,500 lb get safety only. Emissions waivers exist under G.S. 20-183.5.
-- Fees (secondary source [S33]): about $13.60 safety-only, about $30 combined.
+- **Fees (G.S. 20-183.7):** Safety-only is a fixed $12.75 station fee plus a $0.85 state authorization fee, or **$13.60**. Emissions plus safety is at most $23.75 station fee plus $6.25 state fee, or **$30.00 max** [S47].
 
 ### 3.8 Texas — HB 3297 (2023) [S16][S17][S18]
 - **No safety inspection** for non-commercial vehicles since 1/1/2025. A Texas shop that tells a non-commercial customer "you need this to pass state inspection" for brakes, tires or lights is **factually wrong**, unless the vehicle is commercial.
@@ -170,8 +171,38 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 
 ### 3.9 Other safety states (brief)
 - **Delaware:** State-run DMV lanes, free of charge. Checks safety items (tires, brakes, windows), a fuel-system pressure test, and OBD-II. Because the state does the inspecting, there is no conflict of interest between the inspector and a repair shop [S30].
-- **Hawaii, Rhode Island, West Virginia:** Detailed reject criteria were not retrieved this session **[UNVERIFIED]**. WV moved to biennial inspections on 1/1/2024 [S1].
-- **Missouri:** Inspections by MSHP-licensed stations. The MVI section investigates consumer complaints [S34]. Thresholds not retrieved **[UNVERIFIED]**.
+- **Delaware, criteria:** The DMV Inspection Lane Manual (rev. 2/20) [S42]:
+  - Tires: reject under **2/32 in** uniform tread in any two adjacent grooves at 3 spots.
+  - Brakes: tested dynamically on a brake-pad tester. Each wheel must show braking action within set balance and deceleration limits; the manual does not list a lining-thickness figure.
+  - Glass: chips or stars over **1 in** in the wiper range, and cracks over **5 in** on any window, are mandatory failures.
+- **Hawaii — HAR ch. 19-133.2 (HDOT)** [S43] (text from HDOT's 2025 amendment/compilation draft; current-rule sections carry "comp 5/29/25"):
+  - **Tires (§-29):** Reject under **2/32 in** in any two adjacent major grooves, or wear bars level with the tread there. Reject cracks over 1 in deep enough to expose cords, bulges and similar damage.
+  - **Brakes (§-31):** No pad-thickness measurement. Reject if:
+    - pedal travel is over 1 in to apply, or under 1.5 in reserve to the floor;
+    - the stop test at 4-8 mph suggests worn pads (a squealing wear indicator) or warped rotors;
+    - **the pad-wear warning light is lit**;
+    - there are hydraulic leaks;
+    - the parking brake won't hold;
+    - a rotor has cracks to the edge, is deeply scored, or has a contaminated surface.
+  - **Other items:** Reject wheel-bearing movement of ⅛ in or more with grinding. Reject windshield damage that hurts driving visibility (no size figure). Reject **any** exhaust leak. Reject excessive muffler noise.
+  - **Airbags:** A car can **pass with a non-functional airbag** if the seat belts pass; the problem is printed on the certificate.
+- **Rhode Island — 280-RICR-30-15-3 (RI DMV)** [S48]:
+  - **Brakes (§3.5.7):** Reject lining under **1/32 in** at the thinnest point over metal; American Motors disc pads under 2/32 in.
+  - **Rotors (§3.5.6):** Reject a rotor below its embossed minimum thickness, or below manufacturer spec if not embossed. Reject cracks reaching an open edge.
+  - **Tires (§3.5.33):** Reject under **2/32 in** in two adjacent major grooves at 3 or more spots. Reject cuts over 1 in exposing cord. Studs are banned 4/1-11/15.
+  - **Steering (§3.5.29):** Reject wheel lash over **3 in**. Reject wheel-bearing movement over ⅛ in. Linkage play limits are ¼ in (wheels ≤16 in), ⅜ in (16-18 in) and ½ in (over 18 in).
+  - **Windshield (§3.5.15):** No size figure. Reject damage in the driver's wiper sweep and loose, moving glass.
+  - **Airbags (§3.5.2):** Reject a missing or deployed airbag, or an airbag light that stays on (like MA, unlike NY, VA and VT).
+- **Missouri — 11 CSR 50-2 (MSHP)** [S34][S45]:
+  - **Brakes (50-2.160):** At least one wheel and drum must be pulled. Reject:
+    - bonded lining under **2/32 in** at the thinnest point;
+    - riveted lining under 2/32 in above any rivet head;
+    - bonded pads under **2/32 in**, riveted pads under **6/32 in** (pads of unknown type count as bonded);
+    - cracks to the open edge, contaminated friction surfaces, and leaks that form droplets.
+  - **Tires (50-2.240):** Missouri uses **no 2/32 depth figure**. Reject only when the tire is worn, anywhere other than the wear indicator, to where **no tread pattern remains**, or a worn spot exposes cord. Also reject cord-exposing cuts and knots, radial and bias tires on one axle, and tires marked "not for highway use."
+  - **Glass (50-2.270):** Reject windshield cracks over **3 in** in the driver's vision area (the wiper sweep above the bottom 4 in), and any unrepaired star, bull's-eye or half-moon there.
+  - The MVI section investigates consumer complaints [S34].
+- **West Virginia:** Detailed reject criteria are **[UNVERIFIED]**. 91 CSR 12 adopts the State Police manual by reference (rev. 6/1/2010), and wvsp.gov returned a TLS certificate error on 2026-10-21. Inspection is biennial (§17C-16-4) [S49].
 
 ### 3.10 Emissions programs and OBD-II basics [S35][S36][S20][S8]
 - The Clean Air Act requires I/M programs in about **33 state/local areas** that don't meet air-quality standards. Most use **OBD-II plug-in tests** for 1996+ gas and roughly 1997-2002+ diesel light vehicles [S35].
@@ -181,7 +212,7 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
   3. **Readiness monitors** are set. Most programs allow 1 unset monitor for 2001+ and 2 for 1996-2000, set by state rule. Missouri's rule, for example, allows up to 2 unset non-continuous monitors on 1996-2000 gas cars [S36].
   4. The data link connector is present and communicating.
 - **Readiness traps:** Monitors reset after a battery disconnect or after codes are cleared. Gas vehicles usually re-set all monitors within about 2 weeks of normal driving; diesels can take 8+ weeks. Programs increasingly read **permanent DTCs**, which clearing codes can't erase [S35]. An "unready" result **right after a repair or battery replacement is normal**. It is not, by itself, proof of a new fault.
-- **Waivers:** Most programs grant a waiver after a minimum spend on qualifying emissions repairs plus a failed retest. Examples: PA $450 (adjusted yearly; current figure [UNVERIFIED]), NC per G.S. 20-183.5, VT repair-assistance program.
+- **Waivers:** Most programs grant a waiver after a minimum spend on qualifying emissions repairs plus a failed retest. Examples: PA $450 from 9/1/2023 (adjusted yearly; 2026 figure [UNVERIFIED]); MA base caps $550-$750 by vehicle age (adjusted yearly; current figure [UNVERIFIED]); NC per G.S. 20-183.5; VT repair-assistance program.
 - **Repair-shop link:** An emissions fail gives a **diagnostic starting point** (DTCs). It does not dictate a parts list. Auditors should expect diagnosis notes such as freeze frame, DTC, test results and root cause before parts like catalytic converters or O2 sensors are replaced.
 
 ---
@@ -191,11 +222,11 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 ### 4.1 Using official reject criteria as a benchmark
 1. **Find the jurisdiction first.** Is the vehicle registered in a state that requires periodic safety inspection (§2)? If not (for example a TX non-commercial car, NH, FL or CA), then **no shop finding is a "state inspection failure."** Any such wording is a factual error.
 2. **Map each "red/fail/unsafe" DVI item to the state criterion.** Compare the shop's **measurement** to the state minimum:
-   - Pads and linings: most states use 2/32 in (PA, VA, NY = 1/16). VT uses the OEM minimum.
-   - Tread: 2/32 in nearly everywhere.
+   - Pads and linings: most states use 2/32 in (PA, VA, MO bonded; NY = 1/16). MO riveted pads: 6/32. RI: 1/32. VT uses the OEM minimum. HI and DE don't measure lining thickness; HI rejects on a lit pad-wear light, and DE uses a brake-tester result.
+   - Tread: 2/32 in nearly everywhere (incl. HI, RI, DE, ME). **MO has no depth figure**: it rejects only when no tread pattern remains outside the wear indicator, or cord shows.
    - Rotors: below OEM minimum ("discard") thickness. PA adds 0.015 in scoring; VT adds ½ in cumulative pitting.
    - Steering play: VA uses ¼, ⅜ or ½ in by wheel size, and 0.4 in lash for rack-and-pinion.
-   - Windshield: varies a lot. MA: 1 in bruise or 3 in crack in the critical area. NY: 11 in crack in the wiper area. VA: 1½ in chip or star. ME: crack over 6 in in the critical area. VT: intersecting cracks in the critical area.
+   - Windshield: varies a lot. MA: 1 in bruise or 3 in crack in the critical area. NY: 11 in crack in the wiper area. VA: 1½ in chip or star. ME: crack over 6 in in the critical area. VT: intersecting cracks in the critical area. MO: crack over 3 in, or any unrepaired star, in the driver's vision area. DE: chip or star over 1 in in the wiper range, or crack over 5 in on any window.
 3. **Classify each finding:**
    - **Meets a state reject criterion:** legally required before the car passes. That still doesn't mean *this* shop must do the repair.
    - **Fails the OEM service limit but not the state criterion:** a legitimate maintenance recommendation, not a legal requirement.
@@ -204,9 +235,10 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 4. **Check that wear is consistent:** For example, "pads 2 mm, rotors fine" versus "pads 7 mm, rotors replace." Cross-check with 07-technical-inspection-criteria.md.
 
 ### 4.2 Red flags
-- The shop calls an item a "state inspection failure" in a state with no safety inspection, or on an exempt vehicle (MO under 10 model years and under 150k miles; DE newest 7 model years; LA personal vehicles after 6/30/2026; TX non-commercial).
+- The shop calls an item a "state inspection failure" in a state with no safety inspection, or on an exempt vehicle (MO under 10 model years and under 150k miles; DE newest 7 model years; RI new vehicles before 24 months/24,000 mi; LA personal vehicles after 6/30/2026; TX non-commercial; NH since 2026).
+- A Missouri shop fails tires at "2/32" or "4/32" as a *state* requirement. MO's rule rejects only tires with no tread pattern left or exposed cord. Below 2/32 is still a sound safety *recommendation*.
 - A finding is marked "fail" when the recorded measurement **meets** the state minimum, for example "pads 3/32 — FAIL STATE."
-- Failing a car on items the state lists as **advisory only**: airbag light (NY, VA, VT; but MA rejects it), TPMS light (VT advisory), tire pressure (NY), rust on rotor faces (VT), non-structural body holes (VT), or a pad-wear light without measurement (VA).
+- Failing a car on items the state lists as **advisory only**: airbag light (NY, VA, VT; HI passes with a note on the certificate; but MA and RI reject it), TPMS light (VT advisory), tire pressure (NY), rust on rotor faces (VT), non-structural body holes (VT), or a pad-wear light without measurement (VA).
 - Rotors or pads "fail" with no micrometer reading or OEM minimum quoted. In PA or VA, a brake rejection with no wheels pulled or no readings recorded.
 - **Required to repair here:** pressure to authorize repairs before releasing the rejection paperwork, or a claim that re-inspection must happen at the same station. NY, PA and VA expressly allow repair elsewhere. MA's free retest is tied to the same station, but repair location is the owner's choice.
 - Inspection fee above the statutory cap (VA $20 maximum), or a fee not posted (VT and PA require posting).
@@ -227,22 +259,23 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 - Watch for inspector conflict of interest. The inspection license is the station's legal privilege, and inflated rejections risk suspension or revocation (VT, PA, NY, VA all have administrative penalties).
 - Post fees and record authorizations. Keep replaced parts available (PA). Give an itemized invoice and the VIR whether the car passes or fails (VT).
 - Train on the advisory-only items in your state (airbag light, TPMS, tire pressure, rotor surface rust, etc.).
-- Watch for program changes: TX (2025), NH and LA (2026), MO and WV bills, NC emissions. Outdated "state requires" scripts cause compliance and deceptive-practice exposure.
+- Watch for program changes: TX (2025), NH and LA (2026), NC emissions (EPA final action pending as of 2026-10-21). MO and WV repeal bills failed in 2026 but may return. Outdated "state requires" scripts cause compliance and deceptive-practice exposure.
 
 ---
 
 ## 5) Open questions and uncertainties
 
-1. **New Hampshire:** Litigation status after May 2026, EPA's final SIP decision, and whether any inspection obligation revived [S3][S4].
-2. **Missouri HB 1838:** Whether it passed the Senate and was signed; whether inspections end 1/1/2027 [S5][S7].
-3. **West Virginia HB 4719/HB 4882:** Final status [S23].
-4. **North Carolina:** Whether EPA finalized removal of the federal emissions requirement in the 19 counties, and the effective date [S14].
-5. **Louisiana:** Implementation details of the QR-sticker system, and which local governments still require inspection [S2].
-6. **PA emissions waiver:** Current minimum amount for 2026 [S25][S26].
-7. **Primary reject criteria not retrieved:** HI, RI, WV, DE, MO; Maine passenger-car pad minimum and current tread rule; MA pad figure; NC regulation text.
-8. **Fee amounts** for NY, MA, NC, PA, RI and others are from memory or secondary sources.
+1. **New Hampshire:** EPA's *final* SIP decision (proposed conditional approval 8/11/2026; not final as of 2026-10-21), and the First Circuit merits ruling in No. 26-1209 [S3][S46].
+2. **Missouri:** Settled 2026-10-21. HB 1838 was not enacted and inspections continue. Watch the 2027 session [S44][S45].
+3. **West Virginia:** Settled 2026-10-21. HB 4719, HB 4882 and SB 249 died in committee [S23].
+4. **North Carolina:** The date EPA finalizes the removal for the 19 counties (still proposed as of 2026-10-21). Confirm S.L. 2026-41's Mecklenburg provision from the enrolled text [S47].
+5. **Louisiana:** Implementation details of the QR-sticker system, and which local governments still require inspection [S2][S52].
+6. **PA emissions waiver:** The 2026 minimum ($450 from 9/1/2023, adjusted yearly) [S54]. **MA waiver caps:** current adjusted amounts [S51].
+7. **Primary reject criteria not retrieved:** WV (State Police manual; wvsp.gov TLS error); Maine passenger-car pad minimum; MA pad figure; NC regulation text. DE criteria come from a 2/2020 lane manual.
+8. **Fee amounts:** NY (VS-77), NC (G.S. 20-183.7), RI ($55) and HI ($25.75 max) are confirmed. MA $35 rests on a mass.gov search snippet (direct fetch blocked). PA has no confirmed figure.
 9. **Readiness-monitor allowances** vary by state and model year. Only Missouri's rule and VT's "DMV-determined" approach were confirmed.
 10. **Ontario SSC details** and the **EU deficiency categories** were not confirmed from primary pages this session.
+11. **Connecticut:** (Resolved 2026-10-21) No periodic passenger safety inspection; §14-16a triggers confirmed on cga.ct.gov (https://www.cga.ct.gov/current/pub/chap_246.htm#sec_14-16a). Still unchecked: the out-of-state used-vehicle trigger [S53].
 
 ---
 
@@ -291,7 +324,7 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 - [S29] 19VAC30-70 Part III (full text) — https://law.lis.virginia.gov/admincodefull/title19/agency30/chapter70/partIII/ ; VSP 2026 Manual — https://vsp.es.virginia.gov/wp-content/uploads/2026/03/Motor-Vehicle-Safety-Inspection-Manual-2026.pdf
 - [S30] Delaware DMV, Inspections — https://dmv.de.gov/VehicleServices/inspections/index.shtml
 - [S31] NY DMV, Light Vehicle Inspection Checklist VS-47.1 (8/26) — https://dmv.ny.gov/forms/vs471.pdf
-- [S32] Maine 29-A §1917 (older code, Justia) — https://law.justia.com/codes/maine/2011/title29a/chapter17/section1917/
+- [S32] Maine 29-A §1917 (current, Maine Legislature) — https://legislature.maine.gov/statutes/29-A/title29-Asec1917.html ; older code (Justia) — https://law.justia.com/codes/maine/2011/title29a/chapter17/section1917/
 - [S33] Secondary: ok.com Q&A on NC inspection — https://us.ok.com/ask/what-is-required-for-an-nc-vehicle-inspection/ ; ABC11 — https://abc11.com/amp/post/emissions-tests-nc-drivers-epa-approval-could-save-car-owners-millions-inspections-north-carolina/19089069/
 - [S34] Missouri State Highway Patrol, MVI Section — https://www.mshp.dps.missouri.gov/MSHPWeb/PatrolDivisions/MVI/index.html
 - [S35] EPA, I/M information for state and local agencies — https://www.epa.gov/state-and-local-transportation/vehicle-emissions-inspection-and-maintenance-im-information-state ; EPA readiness memo — https://www.epa.gov/state-and-local-transportation/improving-inspection-and-maintenance-performance-and-board ; EPA OBD I/M status — https://beta.epa.gov/state-and-local-transportation/board-diagnostics-obd-status-state-and-local-obd
@@ -300,3 +333,17 @@ Vermont is the best example of a **two-tier "Reject vs. Advise customer"** struc
 - [S38] Wikipedia, "Vehicle inspection" (EU, Canada sections; secondary) — https://en.wikipedia.org/wiki/Vehicle_inspection
 - [S39] GOV.UK, Getting an MOT — https://www.gov.uk/getting-an-mot
 - [S40] GOV.UK, After the MOT test — https://www.gov.uk/getting-an-mot/after-the-test
+- [S41] 21 Del. C. ch. 21 subch. III (§2143, inspection before registration/renewal; 7-model-year waiver) — https://delcode.delaware.gov/title21/c021/sc03/index.html
+- [S42] Delaware DMV, Inspection Lane Manual (rev. 2/20) — https://dmv.de.gov/forms/veh_serv_forms/pdfs/Vehicle_Inspection_Manual.pdf
+- [S43] HAR ch. 19-133.2, Periodic Inspection of Vehicles (HDOT amendment and compilation, 11/2025) — https://hidot.hawaii.gov/highways/files/2026/01/HAR-19-133.2-Amendment-and-compilation-Ramseyer-20251106AS.pdf ; §19-133.2-29 (Cornell LII) — https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-19-133-2-29
+- [S44] Missouri Governor, bills signed 7/13/2026 (HB 1838 absent) — https://governor.mo.gov/press-releases/archive/governor-kehoe-takes-action-remaining-legislation ; SB 1408 — https://governor.mo.gov/legislation/sb-1408 ; SB 1408 truly agreed text — https://www.senate.mo.gov/26info/pdf-bill/tat/SB1408.pdf
+- [S45] Missouri 11 CSR 50-2 (current, Secretary of State) — https://www.sos.mo.gov/cmsimages/adrules/csr/current/11csr/11c50-2.pdf
+- [S46] Federal Register, EPA proposed rule "Air Plan Approval; New Hampshire; Repeal of Motor Vehicle Inspection and Maintenance Program" (8/11/2026, doc. 2026-16330, docket EPA-R01-OAR-2026-2147) — https://www.federalregister.gov/documents/2026/08/11/2026-16330/air-plan-approval-new-hampshire-repeal-of-motor-vehicle-inspection-and-maintenance-program ; First Circuit stay 4/30/2026 reported by InDepthNH [S4]
+- [S47] Federal Register docket EPA-R04-OAR-2025-0305 (NC proposed rule 5/8/2026, doc. 2026-09146; no final rule as of 2026-10-21) — https://www.federalregister.gov/documents/2026/05/08/2026-09146/air-plan-approval-nc-removal-of-the-states-vehicle-inspection-and-maintenance-program ; NC DEQ, I/M Program — https://deq.nc.gov/about/divisions/air-quality/motor-vehicles-and-air-quality/inspection-maintenance-im-program ; G.S. 20-183.7 (fees) — https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-183.7.html
+- [S48] Rhode Island 280-RICR-30-15-3, Vehicle Inspection Regulations — https://rules.sos.ri.gov/Regulations/part/280-30-15-3
+- [S49] W. Va. Code §17C-16-4 — https://code.wvlegislature.gov/17C-16-4/ ; SB 249 (2026) — https://bills.wvlegislature.gov/bill/history/2026/RS/SB249 ; 91 CSR 12 (Cornell LII) — https://www.law.cornell.edu/regulations/west-virginia/agency-91/title-91/series-91-12
+- [S50] NY DMV, Inspection Groups and Fee Chart VS-77 (rev. 7/15) — https://dmv.ny.gov/forms/vs77.pdf
+- [S51] Mass.gov, Vehicle inspections — https://www.mass.gov/info-details/vehicle-inspections ; 310 CMR 60.00 (waiver, 60.02) — https://www.mass.gov/doc/310-cmr-60-air-pollution-control-for-mobile-sources/download
+- [S52] Louisiana HB 1085 (2026), enrolled as Act No. 701 — https://legis.la.gov/legis/ViewDocument.aspx?d=1480656
+- [S53] CT Emissions (DMV program contractor) — https://ctemissions.com/ ; CT OLR report 96-R-0059 (older inspection triggers) — https://www.cga.ct.gov/PS96/rpt/olr/htm/96-R-0059.htm
+- [S54] PennDOT Safety Inspection Bulletin SI 23-01 (waiver minimum $450 eff. 9/1/2023) — https://www.pa.gov/content/dam/copapwp-pagov/en/dmv/documents/vehicle-services/bmv-safety-inspection-bulletins/si23-01.pdf

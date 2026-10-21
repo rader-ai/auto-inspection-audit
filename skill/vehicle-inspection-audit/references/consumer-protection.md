@@ -138,7 +138,7 @@ Escalate in order. Keep everything in writing. **No public accusations before ge
 |---|---|
 | **TCPA** | Texts are "calls." *Facebook v. Duguid* (2021) narrowed "autodialer" to random/sequential number generators → less federal exposure for platform texts. Informational texts: prior express consent (e.g., number given for the service visit). Marketing: prior express **written** consent [general framework; not re-verified vs FCC text] |
 | One-to-one consent rule | **Vacated** by 11th Cir. 2025-01-24 (*Insurance Marketing Coalition v. FCC*) |
-| Revocation | Since **2025-04-11**: STOP, QUIT, END, CANCEL, UNSUBSCRIBE etc. = reasonable revocation; honor within **10 business days**. "Revoke-all-unrelated-messages" piece waived to 2026-04-11, reportedly delayed further to 2027-01-31 [UNVERIFIED current status] |
+| Revocation | Since **2025-04-11**: STOP, QUIT, END, REVOKE, OPT OUT, CANCEL, UNSUBSCRIBE = reasonable revocation; honor within **10 business days**. "Revoke-all-unrelated-messages" piece never took effect: waived to 2026-04-11, then to **2027-01-31** (FCC DA 26-12) — https://docs.fcc.gov/public/attachments/DA-26-12A1.pdf . **FCC 26-67** (released 2026-10-01) replaces it: a revocation of an informational text may be limited to that message category (a revocation of marketing stops all marketing); callers may designate and disclose an exclusive opt-out method; 10 business days unchanged. Effective 30 days after Federal Register publication (not yet published as of 2026-10-21) — https://docs.fcc.gov/public/attachments/FCC-26-67A1.pdf |
 | State mini-TCPAs | **FL FTSA** (2021 amend.) and **OK OTSA** (2022): broader autodialer language, private rights of action; mainly reach *telephone solicitations* → a DVI text mixing in promotions raises risk |
 | **A2P 10DLC** | Business texting from 10-digit numbers must register brand + campaign with The Campaign Registry; unregistered traffic blocked (Twilio error 30034); full carrier cutoffs reported ~Dec 2024 |
 | **CTIA Messaging Principles** (carrier-enforced) | Opt-in confirmation with program name, frequency, "msg & data rates may apply," STOP/HELP instructions; honor every opt-out; answer HELP |
@@ -229,7 +229,7 @@ Use the SKILL.md labels: **Supported**, **Supported – optional**, **Evidence m
 - Recent (2023–2026) enforcement thin: Mavis PA AVC is the main one; no recent FTC upsell case or dealer DVI class action; Firestone 2016 and Jiffy Lube Fanticola outcomes unconfirmed.
 - Trust data dated: AAA Dec 2016 (~two-thirds distrust; 76% unnecessary recommendations; 73% overcharging). Consumer Reports: independents rated above dealers (2009, 2012, 2024). No CarMD/NHTSA/NADA/AASP upsell quantification found.
 - E-SIGN 7001(c) vs state written-estimate rules with link-only delivery — unresolved.
-- TCPA revoke-all status after April 2026 (delayed to Jan 2027?).
+- TCPA: FCC 26-67 effective date (30 days after Federal Register publication; not yet published as of 2026-10-21).
 - TILA 1666i limits not re-verified.
 - Statute currency: CA Civ. 3068 caps, FL $150 threshold, MI pending HB 5149 — check official sites. NY citation is GBL 398-d (not VTL); 2025 bills S516/A1385 would add fines, status unknown.
 - No rule found requiring production of DVI photo metadata/originals.

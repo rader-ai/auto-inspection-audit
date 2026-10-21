@@ -107,7 +107,7 @@ Each system uses the same blocks: **How tested · Thresholds · Evidence a legit
 | Rotor | Below discard → Required. Above discard but below machine-to after refinishing → Required if refinishing is needed. Above both, no pulsation/scoring/DTV → no service required; replacement at most Suggested | (MOTOR/MAP) |
 | Runout | OEM-specific; ~0.002" (0.05 mm) commonly cited good-condition limit; > 0.005" likely pulsation | (Phoenix Systems), (Brake & Front End) |
 | DTV | Often ≤ 0.0005–0.001" | same |
-| Brake fluid (test) | Copper ≥ 200 ppm = depleted inhibitors → replace (described as MAP standard; reported via a vendor — treat with caution) | (Phoenix Systems, vendor claim) |
+| Brake fluid (test) | Copper ≥ 200 ppm = depleted inhibitors → replace (MAP standard adopted 2005 per trade press; MAP/OEM text not seen [UNVERIFIED]) | (Phoenix Systems, vendor claim), (FenderBender) |
 | Brake fluid (time) | Most OEMs 2–3 yrs (AAA); Honda every 3 yrs regardless of Minder; Tesla check every 4 yrs, replace if needed. Some OEMs list long or no fixed interval | (AAA), (Honda dealer guide), (Tesla) |
 
 - Hub-to-rotor rust is the leading runout cause — cleaning the hub may fix it without parts.
@@ -165,7 +165,7 @@ Each system uses the same blocks: **How tested · Thresholds · Evidence a legit
 **Automatic / CVT / DCT fluid**
 - How determined: OEM schedule (many list "inspect" under normal use, replace under severe); OEM level-check method (many sealed units have no dipstick and need a temperature-specific check-plug procedure).
 - "Lifetime/sealed" often means warranty-period or normal-use life. Treat replacement as **Suggested** unless the OEM schedule calls for it, severe use applies, or fluid is burnt/contaminated/low.
-- Drain-and-fill replaces ~25–50% depending on design (forum reports); machine exchange replaces more. Some specialists prefer repeated drain-and-fills on neglected high-mileage units, citing debris risk [anecdotal — UNVERIFIED as engineering consensus].
+- Drain-and-fill replaces ~25–50% depending on design (forum reports); machine exchange replaces more. Some specialists prefer repeated drain-and-fills on neglected high-mileage units, citing debris risk [anecdotal — UNVERIFIED as engineering consensus]. GM bulletin 04-06-01-029 reportedly advises against flush/exchange machines on all GM transmissions, any mileage [UNVERIFIED: not read directly].
 - Errors: flush machine where OEM specifies drain-and-fill only; "universal" fluid where OEM requires a specific fluid (Toyota WS, Honda ATF DW-1/HCF-2, CVT fluids).
 - Red flags: flush on a low-mileage vehicle outside schedule; judged by color/smell only; universal fluid on invoice; flush sold to "fix" shifting without diagnosis.
 
@@ -179,7 +179,7 @@ Each system uses the same blocks: **How tested · Thresholds · Evidence a legit
 
 **Differential / transfer case / manual transmission:** OEM schedules commonly specify gear-oil change at 30k–60k under severe use (towing); longer or inspect-only under normal use [vehicle-specific]. Legit for AWD/4WD that tow. Red flags: diff service on a FWD car (shares the transaxle); front and rear diffs billed on a 2WD vehicle.
 
-**Fuel system / induction / throttle body cleaning:** generally **not** in OEM schedules; Top Tier gasoline is designed to keep injectors clean; some OEMs reportedly issued bulletins against unneeded fuel services (Rick's), (Haynes) [bulletin specifics UNVERIFIED]. Exceptions are **diagnosis-driven**: OEM TSBs for intake-valve carbon cleaning on specific direct-injection engines; throttle-body cleaning for an idle/drivability complaint. Red flags: mileage-based "fuel induction service" at 15k/30k/45k; injector cleaning without a misfire/lean code, fuel-trim data, or flow test.
+**Fuel system / induction / throttle body cleaning:** generally **not** in OEM schedules; Top Tier gasoline is designed to keep injectors clean; OEMs have issued bulletins against unneeded fuel services — GM does not endorse injector cleaning as preventive maintenance, only when a GM diagnostic procedure directs it (GM TechLink, bulletins 05-00-89-072 / 04-06-04-051), (Rick's), (Haynes). Exceptions are **diagnosis-driven**: OEM TSBs for intake-valve carbon cleaning on specific direct-injection engines; throttle-body cleaning for an idle/drivability complaint. Red flags: mileage-based "fuel induction service" at 15k/30k/45k; injector cleaning without a misfire/lean code, fuel-trim data, or flow test.
 
 **Brake fluid:** see 3.2.
 
@@ -211,7 +211,7 @@ Each system uses the same blocks: **How tested · Thresholds · Evidence a legit
 
 | Item | Threshold | Source |
 |---|---|---|
-| Measured vs. rated CCA | Healthy ≥ ~80–90% of rated; 70–79% marginal; < 70% replace (sources vary) | (Midtronics, vendor), (Rotronics) |
+| Measured vs. rated CCA | No single published cutoff: one Midtronics page cites ≥ 90%, 80%+ and ≥ 70% as "healthy" and < 70% replace. GM uses the tester's Replace/Bad decision code, not a %. Treat % as rule of thumb | (Midtronics, vendor), (Rotronics), (GM TechLink battery) |
 | Wrong rating entered | Can produce a false Replace | (GM TechLink) |
 | Resting voltage | ~12.6 V full; < 12.4 V low charge [typical] | — |
 | Age | Typically 3–5 yrs; test from ~year 3; heat shortens life | (AAA), (WECT/AAA regional) |
@@ -259,7 +259,7 @@ Each system uses the same blocks: **How tested · Thresholds · Evidence a legit
 **Thresholds**
 - Ball-joint play: **OEM-specific** (many load-carrying joints allow zero; some allow small values).
 - **Misting vs. leaking:** a light film/weep near the upper seal is normal and does not need replacement; a leak is fluid wet over most of the body, or dripping/streaming (Monroe), (KYB), (NZTA).
-- Bounce test is crude; gas-charged dampers may pass while worn; not adequate sole evidence [UNVERIFIED single source]. Mileage-based strut replacement ("every 50,000 miles") is marketing guidance, not an OEM requirement in most cases [UNVERIFIED].
+- Bounce test is crude; gas-charged dampers may pass while worn; not adequate sole evidence (KYB rep on MotorWeek: partial check only) [UNVERIFIED in OEM/agency source]. Mileage-based strut replacement ("every 50,000 miles") is marketing guidance, not an OEM requirement in most cases [UNVERIFIED].
 
 **Evidence:** measured play vs. spec, or video of the movement; photo of wet/dripping damper (not dust-coated mist); cupping photos; road-test notes.
 
@@ -303,7 +303,7 @@ State note: Virginia's inspection rules treat torn CV boots as advisory, not rej
 
 - **12 V battery:** present in most hybrids/EVs and a common failure; test the same way; often AGM — replacement must match type.
 - **HV battery state of health:** from OEM scan tool (e.g., Toyota hybrid health check) or OEM report. Per-block voltage deltas, internal resistance, or capacity are more informative than pass/fail. Replacement needs scan data and OEM DTCs; check warranty (federal emissions and state rules often cover HV batteries 8 yrs/100k, 10 yrs/150k in CARB states) [UNVERIFIED — see `federal.md`]. HV work requires trained techs and OEM safety procedures.
-- **Brakes:** regen does much of the slowing, so pad/rotor wear is typically much lower; common problems are rotor corrosion and seized slides from under-use [UNVERIFIED single source]. Low-mileage pad replacement needs measurement scrutiny. Brake fluid still per OEM (Tesla: check every 4 yrs).
+- **Brakes:** regen does much of the slowing, so pad/rotor wear is typically much lower (US DOE AFDC); common problems are rotor corrosion and seized slides from under-use [UNVERIFIED single source]. Low-mileage pad replacement needs measurement scrutiny. Brake fluid still per OEM (Tesla: check every 4 yrs).
 - **Coolant loops:** separate circuits (engine, inverter/power electronics, battery thermal) with distinct OEM fluids, intervals, and bleed procedures (sometimes scan-tool pump activation). Red flag: generic "coolant flush" on an EV or wrong spec.
 - **No-fluid items on EVs:** no engine oil, spark plugs, engine air filter, timing belt, or exhaust. EV reduction-gear oil intervals are OEM-specific (some "lifetime").
 - **Questions:** Can I see the scan-tool SoH/block data? Is this covered by HV warranty? Which coolant loop and which fluid?
@@ -415,7 +415,7 @@ For every inspection, estimate, and invoice line:
 
 ## 8. Open uncertainties
 
-Not verified to primary sources: current MAP UICS text (logic from 1999 MOTOR article; 200 ppm Cu via vendor); CR 4/32" data (paywalled); automaker 6-year tire-age guidance; Midtronics CCA percentages (sources differ 70/80/90%); transmission-flush risk on neglected units; OEM bulletins against fuel services; hybrid/EV pad wear and HV warranty terms. Runout/DTV are trade figures. Ball-joint play, bearing endplay, AWD mismatch, fluid intervals, and severe-service qualification are vehicle- or OEM-specific → Needs OEM spec.
+Not verified to primary sources: current MAP UICS text (logic from 1999 MOTOR article; 200 ppm Cu via vendor + 2005 trade press; no public MAP rotor guidance); CR 4/32" data (paywalled); automaker 6-year tire-age guidance; a single CCA % cutoff (none exists in Midtronics/GM sources; GM uses tester decision codes); transmission-flush risk on neglected units; bounce-test unreliability (no OEM/agency source); HV warranty terms. Confirmed: GM bulletins against preventive injector cleaning; DOE on reduced hybrid/EV brake wear. Runout/DTV are trade figures. Ball-joint play, bearing endplay, AWD mismatch, fluid intervals, and severe-service qualification are vehicle- or OEM-specific → Needs OEM spec.
 
 ---
 
@@ -480,3 +480,8 @@ Not verified to primary sources: current MAP UICS text (logic from 1999 MOTOR ar
 57. PA 67 Pa. Code §175.80: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/067/chapter175/s175.80.html
 58. VA 19VAC30-70-80 / -130: https://law.lis.virginia.gov/admincode/title19/agency30/chapter70/section80/ ; https://law.lis.virginia.gov/admincode/title19/agency30/chapter70/section130/
 59. VT DMV VN-113 Periodic Inspection Manual: https://dmv.vermont.gov/sites/dmv/files/documents/VN-113-Periodic_Inspection_Manual.pdf
+60. FenderBender — UICS brake fluid standard (trade press, 2005): https://www.fenderbender.com/33022065
+61. GM TechLink — Injector cleaning position (OEM): https://gm-techlink.com/?p=16530
+62. GM TechLink battery — Battery testing and warranty replacement (OEM): https://gm-techlink.com/?p=16086
+63. US DOE AFDC — Hybrid/EV maintenance: https://afdc.energy.gov/vehicles/electric-maintenance
+64. MotorWeek — Bounce test (KYB): https://motorweek.org/goss_garage/replacing_those_shocks

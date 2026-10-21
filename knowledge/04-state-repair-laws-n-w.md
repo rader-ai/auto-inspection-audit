@@ -10,6 +10,7 @@
   - **[S]** supported only by secondary sources (news, legal aid, or code aggregators).
   - **[UNVERIFIED]** could not be confirmed. This includes cases where a statute's *absence* was assumed but not searched exhaustively.
 - **Research limit:** the shared web-search budget ran out partway through. After that, verification relied on direct fetches of known official URLs. Areas left thin are flagged in Section 5.
+- **2026-10-21 verification pass:** Tennessee (official bill text and AG opinion), New Mexico (state-hosted rule text), Ohio (2015 vs. 2026 authenticated rule text), NYC licensing (DCWP list), and NJ retention were re-checked against official sources. Updates are marked inline.
 
 ## 2) Comparison table
 
@@ -21,19 +22,19 @@ Abbreviations: **Est.** = estimate; **auth** = authorization; **UDAP** = the sta
 | **Nebraska** | None found | AG (UDAP, Neb. Rev. Stat. 59-1602); none | None | n/a | n/a | n/a | n/a | UDAP [V]; absence [UNVERIFIED] |
 | **Nevada** | NRS 487.530–.570 (garage registration); NRS 487.6871–.6897 (repairs) | DMV Compliance Enforcement Division; **garages must register with DMV yearly and post a $5,000 bond** | Required for repairs **> $50**; customer may waive in a signed writing at authorization | Notice and approval needed once added charges exceed the **lesser of 20% or $100** | Signed statement of charges with itemized parts and labor | On request (warranty/exchange parts excepted) | **1 yr** | [V] |
 | **New Hampshire** | RSA 358-D | AG Consumer Protection (enforced via RSA 358-A); none | **On request** (any amount): itemized work, labor/parts estimate, completion date | **10%** over estimate needs **written** consent | Itemized (each part > $0.50, labor hours); used/rebuilt/reconditioned marked | If requested before work | **1 yr** (invoice copy) | [V] |
-| **New Jersey** | N.J.A.C. 13:45A-26C (Consumer Fraud Act regs) | Division of Consumer Affairs; no general repair shop license found (auto body facilities are separately licensed by MVC, N.J.A.C. 13:21-21) | **Required before any paid work** unless waived in a signed writing; signed written auth with odometer reading | **No overage** without consent obtained before extra work; oral consent must be recorded | Parts and labor itemized separately; new/rebuilt/reconditioned/used stated | If requested before work | Not stated [UNVERIFIED] | [V] (Cornell copy) |
+| **New Jersey** | N.J.A.C. 13:45A-26C (Consumer Fraud Act regs) | Division of Consumer Affairs; no general repair shop license found (auto body facilities are separately licensed by MVC, N.J.A.C. 13:21-21) | **Required before any paid work** unless waived in a signed writing; signed written auth with odometer reading | **No overage** without consent obtained before extra work; oral consent must be recorded | Parts and labor itemized separately; new/rebuilt/reconditioned/used stated | If requested before work | Not stated in 26C.1–26C.2 | [V] (Cornell copy) |
 | **New Mexico** | 12.2.6 NMAC (AG rule under the Unfair Practices Act) | AG Consumer Protection; none | Required for repairs **> $100**; signed informed waiver allowed | **Greater of 10% or $50** | Itemized unless parts/materials ≤ $50; sublet work flagged; used/rebuilt/aftermarket crash parts disclosed (else presumed new) | Kept available for inspection; customer may keep them (with exceptions) | Not stated | [V] |
 | **New York** | VTL Art. 12-A (§§ 398 et seq.); 15 NYCRR Part 82 | **DMV: shop registration required** (VTL 398-c; 2-yr certificate); body-shop estimators licensed | **On request** (reasonable fee allowed) | **None**: cannot exceed estimate without consent; phone approvals recorded on invoice | Detailed invoice; used/non-original parts flagged; odometer reading | Written request before work; parts held for phone-authorized jobs | **2 yrs** (15 NYCRR 82.9) | [V] |
 | **North Carolina** | G.S. 20-354 to 20-354.9 (Motor Vehicle Repair Act) | Private right of action (fees available); no registration | Required for repairs **> $350**, before diagnosis or repair; written waiver allowed | **10%** over estimate plus any authorized increases | Itemized labor and parts; used/rebuilt/reconditioned identified | If requested at authorization | Not stated | [V] |
 | **North Dakota** | None found | AG Consumer Protection (N.D.C.C. 51-15); none | None | n/a | n/a | n/a | n/a | [UNVERIFIED absence] |
-| **Ohio** | Ohio Adm. Code 109:4-3-13 (CSPA rule); amended eff. **3/21/2026** | AG Consumer Protection; none statewide (some local codes, e.g., Summit County ch. 769) | Customer picks written / oral / no estimate when anticipated cost **> $50** | Authorization needed for added work of **10% or more**; bill may not exceed estimate by > 10% without approval | Itemized parts, labor, and who did the work; used/rebuilt/remanufactured marked | Offered back (exceptions for rebuild/warranty) | Not stated in rule | [V] |
+| **Ohio** | Ohio Adm. Code 109:4-3-13 (CSPA rule); re-adopted eff. **3/21/2026** (wording-only changes) | AG Consumer Protection; none statewide (some local codes, e.g., Summit County ch. 769) | Customer picks written / oral / no estimate when anticipated cost **> $50** | Authorization needed for added work of **10% or more**; bill may not exceed estimate by > 10% without approval | Itemized parts, labor, and who did the work; used/rebuilt/remanufactured marked | Offered back (exceptions for rebuild/warranty) | Not stated in rule | [V] |
 | **Oklahoma** | None enacted (SB 784, 2025–26, still in Senate committee) | AG (Consumer Protection Act, 15 O.S. § 753); none | None | n/a | n/a | n/a | n/a | Bill status [V]; absence otherwise [UNVERIFIED] |
 | **Oregon** | ORS 646A.480–.495 | DOJ (unlawful trade practice); none | **Estimate required before any work**; separate auth when an action costs **> $200** | Changes that raise cost by more than the **lesser of 10% or $200** need re-auth | Copies given; used parts must be disclosed | Not addressed in statute | **1 yr** | [V] (public.law mirror of the official ORS) |
 | **Pennsylvania** | 37 Pa. Code § 301.5 (AG Automotive Industry Trade Practices) | AG Bureau of Consumer Protection; none | No fixed $; auth must be **in writing**; if cost unknown, customer chooses one of 3 options | Customer-set cap (no statutory %) | Itemized invoice (parts with names/numbers and prices, labor hours × rate); used/reconditioned/rebuilt stated | Customer told before auth of right to get/inspect parts | Not stated | [V] |
 | **Rhode Island** | R.I. Gen. Laws ch. 5-38.3 (Motor Vehicle Repair Shop Act) | AG; no general repair registration found | **On request**; must state labor-rate method | **None** without consent | Itemized; used/rebuilt status; odometer in/out | Timely written request (presumed for phone-auth jobs) | Not stated (mechanics' time cards open to customer) | [V] |
 | **South Carolina** | None (a 2011 bill, S.912, died in committee) | AG/DCA (SCUTPA § 39-5-20); vehicle-glass rules only (§§ 39-5-170/-180) | None | n/a | n/a | n/a | n/a | [V] |
 | **South Dakota** | None found | AG (SDCL 37-24-6); none | None | n/a | n/a | n/a | n/a | [UNVERIFIED absence] |
-| **Tennessee** | Tenn. Code Ann. § 66-19-104 (consumer-rights disclosure) | Private/AG (TCPA 47-18); none | For repairs **> $250**, customer must be told of the right to a written estimate | **25%** over written estimate without consent or a good-faith attempt to reach the customer | [UNVERIFIED] | [UNVERIFIED] | [UNVERIFIED] | [S] |
+| **Tennessee** | Tenn. Code Ann. § 66-19-104 (consumer-rights disclosure; 2001 Pub. Acts ch. 194) | Private/AG (TCPA 47-18); none. Non-compliance forfeits the § 66-19-103 repair lien | For repairs **> $250**, customer must be told of the right to a written estimate | **25%** over written estimate without consent or a good-faith attempt to reach the customer | [UNVERIFIED] | [UNVERIFIED] | [UNVERIFIED] | [V] (2001 bill text + 2009 AG opinion; current codified text not read) |
 | **Texas** | None (DTPA only) | AG Consumer Protection; none | None | n/a | DTPA § 17.46(b)(13) and (b)(22) | n/a | n/a | [V] DTPA; absence [S] |
 | **Utah** | Utah Admin. Code R152-11-5 (Consumer Sales Practices rule); HB 119 (2026), aftermarket crash parts | Division of Consumer Protection; none | Express auth after explaining work, charges, and completion date; copy of auth for work **> $50** | Unforeseen added work of **10% or more** needs express auth | Itemized; work done **and the reason for it**; each part new/used/rebuilt/aftermarket; labor hours; mechanic identified | Written notice of inspection right (exceptions) | Not stated | R152-11-5 [V]; HB 119 [S] |
 | **Vermont** | None found | AG Consumer Assistance (9 V.S.A. § 2453); none | None | n/a | n/a | n/a | n/a | UDAP [V]; absence [UNVERIFIED] |
@@ -111,7 +112,7 @@ Abbreviations: **Est.** = estimate; **auth** = authorization; **UDAP** = the sta
   - **Parts:** returned if requested before work, unless impractical or exchange/warranty.
   - **Other:** a customer-rights sign is required; written guarantees have set content rules; misleading statements meant to induce authorization are barred. [V via Cornell LII; Justia returned HTTP 403]
 - **Licensing:** auto body repair facilities are licensed separately by the MVC under N.J.A.C. 13:21-21. Its estimate rule (13:21-21.10) requires listing non-new parts and a parts-return statement. No general repair-shop license was found. [S/V partial]
-- **Record retention:** not found in 26C.2. [UNVERIFIED]
+- **Record retention:** subchapter 26C has only two sections (26C.1 definitions, 26C.2 practices), and 26C.2 sets no retention period. A general NJ retention rule elsewhere was not searched. [V for 26C; elsewhere UNVERIFIED]
 - Source: https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-45A-26C-2 ; https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-21-21-10
 
 ### New Mexico
@@ -123,7 +124,7 @@ Abbreviations: **Est.** = estimate; **auth** = authorization; **UDAP** = the sta
   - **Parts disclosure:** used, rebuilt, or aftermarket crash parts must be disclosed, otherwise they are presumed new.
   - **Replaced parts:** kept available for inspection.
   - **Other:** labor-rate methods and warranty terms must be posted. [V]
-- **Note:** the Justia copy (current through Sept 2024) showed the $100 estimate rule. The overage language was seen only in the state-hosted copy. The two are believed consistent. [V/partial]
+- **Note:** the overage rule is confirmed in 12.2.6.10.A on the State Records Center and Archives copy. The sentence says new authorization is needed if repairs exceed the estimate by the greater of 10% or $50, then refers to repairs "beyond 110 percent or ($50)", so the drafting is loose; the greater-of reading is the plain one. The Justia copy (through Sept 2024) showed the same $100 estimate rule. No record-retention period appears in the rule. [V]
 - Source: https://srca.nm.gov/parts/title12/12.002.0006.html
 
 ### New York
@@ -135,7 +136,7 @@ Abbreviations: **Est.** = estimate; **auth** = authorization; **UDAP** = the sta
   - **Parts:** returned on a **written request before work**, except warranty/exchange parts. Parts are held for phone-authorized jobs.
   - **Records:** estimates, work orders, invoices, and parts purchase orders kept **2 years** (15 NYCRR 82.9).
 - **Other:** body-shop estimators need a DMV license. Complaints go to the DMV on form VS-35 within 90 days or 3,000 miles, and the DMV may order restitution. [V]
-- **Local:** Nassau and Suffolk County consumer-affairs licensing lists did **not** show a general auto repair license (Nassau licenses dismantlers and scrap processors; Suffolk does not list auto repair). NYC was not confirmed. [S — absence not confirmed; check county codes]
+- **Local:** Nassau and Suffolk County consumer-affairs licensing lists did **not** show a general auto repair license (Nassau licenses dismantlers and scrap processors; Suffolk does not list auto repair). [S — absence not confirmed; check county codes]. **NYC:** DCWP's list of licensed business types (updated 09/2026) has no auto repair license; vehicle-related licenses are tow truck company/driver, secondhand dealer (auto), car wash, and garage/parking lot. Repair shops in NYC are covered by the state DMV registration. [V] — https://home4.nyc.gov/assets/dca/downloads/pdf/businesses/licensing_industries_list.pdf . **Westchester:** no county auto repair license found; the only source was a 2008 county budget presentation listing home improvement, ATM, and waste-hauler licensing. [UNVERIFIED]
 - **Changes 2023–2026:** none found. 398-c was last revised in 2014 per nysenate.gov.
 - Sources: https://www.nysenate.gov/legislation/laws/VAT/398-C ; https://www.nysenate.gov/legislation/laws/VAT/398-D ; https://dmv.ny.gov/know-your-rights-auto-repair ; https://regulations.justia.com/states/new-york/title-15/chapter-i/subchapter-f/part-82/section-82-9/ ; https://www.nassaucountyny.gov/1563/Licensing
 
@@ -162,9 +163,10 @@ Abbreviations: **Est.** = estimate; **auth** = authorization; **UDAP** = the sta
   - **Invoice:** itemizes parts with costs, labor charge, and **who performed the work**, and marks used, rebuilt, or remanufactured parts.
   - **Parts:** replaced parts offered back, with exceptions for rebuild/warranty. Intended reuse must be disclosed before work.
   - **Prohibitions:** falsely claiming a repair is necessary or was done; falsely calling a vehicle dangerous; charging for unauthorized work; materially understating estimates. [V]
-- **Discrepancy:** the AG business guide still says **$25**, but the authenticated 2026 rule text says **$50**. Treat $50 as current. The rule summary did not describe what the 2026 amendment changed. [UNVERIFIED: delta]
+- **Discrepancy:** the AG business guide still says **$25**, but the authenticated 2026 rule text says **$50**. Treat $50 as current.
+- **What the 2026 amendment changed:** comparing the authenticated 8/10/2015 and 3/21/2026 texts, the only edits are gender-neutral wording (for example, "his representative" became "the consumer's representative"). The $50 threshold, 10% overage, and all prohibitions are unchanged; $50 was already in the 2015 version. Prior effective dates: 9/11/1978, 3/14/2005, 8/10/2015. [V]
 - **Local:** Summit County has its own motor vehicle repair code (ch. 769). [S]
-- Sources: https://codes.ohio.gov/ohio-administrative-code/rule-109:4-3-13 ; https://codes.ohio.gov/assets/laws/administrative-code/authenticated/109/4/3/109$4-3-13_20260321.pdf ; https://ohioattorneygeneral.gov/Business/Services-for-Business/Business-Guide/Repairs-and-Services ; https://codelibrary.amlegal.com/codes/summitcounty/latest/summitco_oh/0-0-0-16215
+- Sources: https://codes.ohio.gov/ohio-administrative-code/rule-109:4-3-13 ; https://codes.ohio.gov/assets/laws/administrative-code/authenticated/109/4/3/109$4-3-13_20260321.pdf ; https://codes.ohio.gov/assets/laws/administrative-code/authenticated/109/4/3/109$4-3-13_20150810.pdf ; https://ohioattorneygeneral.gov/Business/Services-for-Business/Business-Guide/Repairs-and-Services ; https://codelibrary.amlegal.com/codes/summitcounty/latest/summitco_oh/0-0-0-16215
 
 ### Oklahoma
 - No repair-specific statute was found.
@@ -218,10 +220,14 @@ Abbreviations: **Est.** = estimate; **auth** = authorization; **UDAP** = the sta
 ### Tennessee
 - **Tenn. Code Ann. § 66-19-104:**
   - Before repairs over **$250**, a repair facility must tell the consumer of their rights: the right to a written estimate, and no charge more than **25%** above the written estimate without consent or a good-faith attempt to get it (at least an attempted phone call).
-  - If the rights are given in writing, they appear under a "Consumer's Rights" heading on the repair authorization form, just before the signature line. [S: two news sources; the official text was not retrieved because Justia returned HTTP 403]
+  - Repairs not originally authorized can't be charged without consent unless the shop made a good-faith attempt to get it first.
+  - If the rights are given in writing, they appear under a "Consumer's Rights" heading on the repair authorization form, just before the signature line and set apart from other terms. If given orally, the shop records the name of the person notified, the date and time, and the notifier's signature.
+  - Failing to comply forfeits the shop's lien rights under § 66-19-103.
+  - The amendment also exempted motor vehicle dealers licensed under Title 55, ch. 17, with an effective date of July 1, 2001.
+  - [V: confirmed in the official 2001 House subcommittee amendment to SB 1470/HB 861 (capitol.tn.gov) and in Tenn. AG Op. 09-187, which says § 66-19-104 was enacted as 2001 Pub. Acts ch. 194 and restates the $250 rule and the lien forfeiture. The current codified text (Lexis-hosted TCA) was not read, so later amendments can't be ruled out. Justia returned HTTP 403.]
 - **Related:** the mechanic's lien statute (§ 66-19-103) was at issue in *Borena v. Jacocks* (Tenn. Ct. App. 2017), where a $5,267 quote grew to $9,489 and the court affirmed a conversion award. [S]
 - The general TCPA (Tenn. Code Ann. § 47-18-104) applies. [UNVERIFIED: not fetched]
-- Sources: https://www.actionnews5.com/story/22238132/andys-5-rights-in-auto-repair/ ; https://www.tncourts.gov/sites/default/files/wondimuborena.opn_.pdf
+- Sources: https://www.capitol.tn.gov/Bills/102/Amend/SA0240.pdf ; https://www.tn.gov/content/dam/tn/attorneygeneral/documents/ops/2009/op09-187.pdf ; https://www.tncourts.gov/sites/default/files/wondimuborena.opn_.pdf ; [S] https://www.actionnews5.com/story/22238132/andys-5-rights-in-auto-repair/
 
 ### Texas
 - No auto-repair-specific statute (bills HB 672 in 2005 and HB 4526 in 2009 were not shown enacted). [S]
@@ -346,15 +352,15 @@ These checks apply whether the reviewer is a consumer checking their own paperwo
 
 ## 5) Open questions / uncertainties
 
-- **Tennessee § 66-19-104:** the official text was not retrieved (Justia 403); the $250, 25%, and good-faith-attempt rules rest on secondary sources. Invoice, parts-return, and records rules are unknown.
-- **Ohio:** what the 3/21/2026 amendment changed. The AG guide's $25 vs. the rule's $50 should be reconciled; the rule text says $50.
+- **Tennessee § 66-19-104:** the $250, 25%, and good-faith-attempt rules are now confirmed from the 2001 bill text and a 2009 AG opinion, but the current codified text was not read. Whether the dealer exemption survived enactment is unconfirmed. The section has no invoice, parts-return, or records rules as drafted.
+- **Ohio:** resolved. The 3/21/2026 version made wording-only changes. The AG guide's $25 is outdated; the rule has said $50 since at least 2015.
 - **Oregon:** whether 2026 session changes to ch. 646A touched §§ 646A.480–.495; the exact ORS 646.608 paragraph making violations unlawful.
 - **Utah HB 119 (2026):** enrolled text and codified section numbers not confirmed; effective date (5/6/2026) comes from trade press.
 - **Virginia:** subject of the repealed § 59.1-207.5:1 (Acts 2026).
-- **New Jersey:** record-retention requirement; other 26C sections (e.g., 26C.1 definitions) not read.
+- **New Jersey:** record retention. Subchapter 26C sets none; a general rule elsewhere was not searched.
 - **DC:** invoice and record-retention provisions of 16 DCMR ch. 6; exact current section numbering after any DCMR renumbering.
-- **Absence claims** for MT, ND, SD, WY, VT, WV, OK, and TX are not exhaustive. A repair rule (especially an AG rule, as in Vermont) could exist.
-- **Local licensing:** Nassau/Suffolk/Westchester/NYC (NY) were not confirmed; other city or county ordinances (e.g., Summit County OH ch. 769) may impose more.
+- **Absence claims** for MT, ND, SD, WY, VT, WV, OK, and TX are not exhaustive. A repair rule (especially an AG rule, as in Vermont, or a dealer-board rule, as found for Louisiana in file 03) could exist.
+- **Local licensing:** NYC confirmed as having no city auto repair license. Nassau/Suffolk/Westchester absence not confirmed from current county codes; other city or county ordinances (e.g., Summit County OH ch. 769) may impose more.
 - **New Hampshire:** whether 2023–2026 amendments touched RSA 358-D beyond the airbag sections.
 - The web-search budget ran out mid-task, so several citations (MT 30-14-103, ND 51-15-02, SD 37-24-6, WY 40-12-105, OK 15 O.S. 753, TN 47-18-104, DC 28-3904, OR 646.608) come from background knowledge and were not fetched.
 
@@ -364,15 +370,15 @@ These checks apply whether the reviewer is a consumer checking their own paperwo
 - NH: https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXXI-358-D.htm ; https://gc.nh.gov/rsa/html/XXXI/358-D/358-D-1.htm ; -2.htm ; -5.htm ; -9.htm ; -10.htm ; -11.htm ; -12.htm
 - NJ: https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-45A-26C-2 ; https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-13-21-21-10
 - NM: https://srca.nm.gov/parts/title12/12.002.0006.html ; https://regulations.justia.com/states/new-mexico/title-12/chapter-2/part-6/section-12-2-6-10
-- NY: https://www.nysenate.gov/legislation/laws/VAT/398-C ; https://www.nysenate.gov/legislation/laws/VAT/398-D ; https://dmv.ny.gov/know-your-rights-auto-repair ; https://regulations.justia.com/states/new-york/title-15/chapter-i/subchapter-f/part-82/section-82-5/ ; https://regulations.justia.com/states/new-york/title-15/chapter-i/subchapter-f/part-82/section-82-9/ ; https://www.nassaucountyny.gov/1563/Licensing
+- NY: https://www.nysenate.gov/legislation/laws/VAT/398-C ; https://www.nysenate.gov/legislation/laws/VAT/398-D ; https://dmv.ny.gov/know-your-rights-auto-repair ; https://regulations.justia.com/states/new-york/title-15/chapter-i/subchapter-f/part-82/section-82-5/ ; https://regulations.justia.com/states/new-york/title-15/chapter-i/subchapter-f/part-82/section-82-9/ ; https://www.nassaucountyny.gov/1563/Licensing ; https://home4.nyc.gov/assets/dca/downloads/pdf/businesses/licensing_industries_list.pdf
 - NC: https://ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_20/Article_15B.html ; https://ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-354.3.html
-- OH: https://codes.ohio.gov/ohio-administrative-code/rule-109:4-3-13 ; https://codes.ohio.gov/assets/laws/administrative-code/authenticated/109/4/3/109$4-3-13_20260321.pdf ; https://ohioattorneygeneral.gov/Business/Services-for-Business/Business-Guide/Repairs-and-Services ; https://codelibrary.amlegal.com/codes/summitcounty/latest/summitco_oh/0-0-0-16215
+- OH: https://codes.ohio.gov/ohio-administrative-code/rule-109:4-3-13 ; https://codes.ohio.gov/assets/laws/administrative-code/authenticated/109/4/3/109$4-3-13_20260321.pdf ; https://codes.ohio.gov/assets/laws/administrative-code/authenticated/109/4/3/109$4-3-13_20150810.pdf ; https://ohioattorneygeneral.gov/Business/Services-for-Business/Business-Guide/Repairs-and-Services ; https://codelibrary.amlegal.com/codes/summitcounty/latest/summitco_oh/0-0-0-16215
 - OK: http://www.oklegislature.gov/BillInfo.aspx?Bill=SB784&Session=2500 ; https://www.repairerdrivennews.com/2024/02/12/oklahoma-proposed-law-caps-repair-storage-fees-labor-rates-and-charges/
 - OR: https://oregon.public.law/statutes/ors_646A.482 ; https://oregon.public.law/statutes/ors_646A.486 ; https://oregon.public.law/statutes/ors_646A.490 ; https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html ; https://olis.oregonlegislature.gov/liz/2009R1/Measures/Overview/HB2268
 - PA: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/037/chapter301/s301.5.html ; https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/037/chapter301/chap301toc.html
 - RI: https://webserver.rilegislature.gov/Statutes/TITLE5/5-38.3/INDEX.htm ; https://webserver.rilegislature.gov/Statutes/TITLE5/5-38.3/5-38.3-3.htm ; https://www.repairerdrivennews.com/2025/07/09/rhode-island-governor-signs-bill-amending-appraisal-process-adds-loser-pays-rule/
 - SC: https://www.scstatehouse.gov/code/t39c005.php ; https://www.scstatehouse.gov/sess119_2011-2012/bills/912.htm
-- TN: https://www.actionnews5.com/story/22238132/andys-5-rights-in-auto-repair/ ; https://www.tncourts.gov/sites/default/files/wondimuborena.opn_.pdf
+- TN: https://www.capitol.tn.gov/Bills/102/Amend/SA0240.pdf ; https://www.tn.gov/content/dam/tn/attorneygeneral/documents/ops/2009/op09-187.pdf ; https://www.tncourts.gov/sites/default/files/wondimuborena.opn_.pdf ; [S] https://www.actionnews5.com/story/22238132/andys-5-rights-in-auto-repair/
 - TX: https://texas.public.law/statutes/tex._bus._and_com._code_section_17.46 ; https://capitol.texas.gov/tlodocs/81R/analysis/html/HB04526H.htm
 - UT: https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R152-11-5 ; https://www.autobodynews.com/news/utah-h-b-119-signed-into-law-aftermarket-parts-disclosure-requirements-take-effect-may-6 ; https://le.utah.gov/~2026/bills/static/HB0119.html
 - VT: https://legislature.vermont.gov/statutes/section/09/063/02453

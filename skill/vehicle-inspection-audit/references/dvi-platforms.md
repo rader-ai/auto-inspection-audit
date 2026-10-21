@@ -4,7 +4,7 @@ As of 2026-10-20. Built from public help centers, vendor pages, release notes, a
 
 **Provenance tags:** **[DOC]** = vendor help article, release note or official source. **[3P]** = third-party listing, trade press, review or forum. **[INF]** = inference, not stated anywhere. **[UNVERIFIED]** = plausible but not confirmed publicly. Vendor performance claims (ARO lift, close rates, approval times) are vendor-reported and unverified. Changes dated 2023–2026 are marked **(Mon YYYY)**. Numbers in `[n]` point to Sources (section 6).
 
-**Shop-Ware caveat:** Shop-Ware help-center details (support.shop-ware.com) were fetched with a search-engine user agent. Claims from there are tagged **(re-verify via normal access)**.
+**Shop-Ware note:** Shop-Ware help-center details (support.shop-ware.com) were first fetched with a search-engine user agent, then re-checked through normal browser access on 2026-10-21. They matched, with two corrections: AutoWrite went live in v13.1.0 (Mar 2026), and MMS texting in v13.4.0 was only "coming soon".
 
 ## Contents
 
@@ -118,7 +118,7 @@ Format per mode: **What** happens · **Where** (platforms) · **Shows as** · **
 - **Where:**
   - Tekmetric **internal inspections** (e.g., check-in damage, QA) are hidden from all customer documents and links and excluded from the Inspection Report [DOC]. Since Sept 2025 the customer Vehicle Health chart drops N/A and incomplete tasks and hides "Not found" findings [DOC]. Customer Concern block can be hidden via Transparency Settings [DOC].
   - AutoVitals **Hidden** status suppresses an item from the customer report; image suppressor/eye icon hides photos; tech notes stay shop-only until moved to customer notes [DOC].
-  - Shop-Ware: recommendations must be **published**; drafts are invisible to the customer [DOC (re-verify via normal access)].
+  - Shop-Ware: recommendations must be **published**; drafts are invisible to the customer [DOC].
   - ALLDATA: N/C items may be omitted or overlooked [DOC/INF].
 - **Shows as:** customer report with fewer items than the template; sparse report that hides skipped items.
 - **Detect:** ask for the full shop-view inspection, including N/A/hidden items and internal check-in photos.
@@ -127,10 +127,10 @@ Format per mode: **What** happens · **Where** (platforms) · **Shows as** · **
 ### 2.7 AI-rewritten or advisor-edited customer text
 - **Where:**
   - AutoVitals **Otto Notes** rewrites customer notes for clarity/grammar (not shop notes or measurements); auto-enabled for eligible packages from **Feb 12, 2026**, opt-out [DOC]. Note-conflict icon flags tech-vs-advisor discrepancies [DOC].
-  - Shop-Ware **AutoWrite** summarizes, improves, changes tone or translates Notes/Findings and messages (announced v12.7.0, **Oct 2025**, early adoption) [DOC (re-verify via normal access)]. Techs enter details; advisors write customer text; some users can be limited to "save as draft" (**Jan 2024**) [DOC].
+  - Shop-Ware **AutoWrite** summarizes, improves, changes tone or translates Notes/Findings and messages (previewed v12.7.0, Oct 2025; **generally released v13.1.0, Mar 2026**, on Pro, Master and Ultimate+ plans; https://support.shop-ware.com/s/release-notes/a6nUM000000J3wfYAC/version-1310-plans-to-be-released-the-week-of-03022026) [DOC]. Techs enter details; advisors write customer text; some users can be limited to "save as draft" (**Jan 2024**) [DOC].
   - Tekmetric **"Smart DVI"** (announced **Apr 2026**, "coming soon"): tech narrates a video; AI transcribes, organizes images and drafts estimate items [3P].
   - Shopmonkey: "Completed By" can differ from the rater [DOC]. Dealer DMS: "updates made by Advisors/Managers" counted in upsell report [DOC].
-  - Whether AI tools leave any marker in customer output or logs: [UNVERIFIED].
+  - Whether AI tools leave any marker in customer output or logs: [UNVERIFIED]. As of 2026-10-21, none of the vendor docs (AutoVitals Otto Notes, Shop-Ware AutoWrite v13.1.0, Tekmetric Recommended Maintenance on DVI) mentions a customer-facing label. Otto Notes overwrites the Customer Notes field in place, with undo only before sending [DOC]. Treat polished prose and interval-pattern wording as the only visible clues.
 - **Shows as:** polished, uniform prose; text that doesn't match the photo or the tech's terse note.
 - **Detect:** ask for the technician's original notes / shop view; compare.
 - **Label:** prose alone never supports a finding; mismatch with photo → **Inconsistent**.
@@ -146,7 +146,7 @@ Format per mode: **What** happens · **Where** (platforms) · **Shows as** · **
 - **Label:** **Evidence missing** (request measurements), not Inconsistent.
 
 ### 2.10 Online vs PDF / print content differences
-- **Where:** Dealer-FX inspection-level media (e.g., "All Green" video) **not in the Inspection Report PDF** [DOC]. ALLDATA PDF "View" omits sub-items (e.g., which position failed); "Print inc sub items" shows them [DOC]. Tekmetric videos never print; PDFs can print without photos [DOC]. Shop-Ware PDFs can print without pictures (Jan 2024); Authorization Summary excluded from PDFs unless ticked [DOC (re-verify via normal access)]. AutoFlow → Tekmetric drops image markups (2023) [DOC]. AutoVitals template change **restyles all historical links**; links embedded in the POS stop working after a shop leaves AutoVitals [DOC]. Tekmetric links can be unshared [DOC]. Shopmonkey images follow upload order (spring 2026) [DOC].
+- **Where:** Dealer-FX inspection-level media (e.g., "All Green" video) **not in the Inspection Report PDF** [DOC]. ALLDATA PDF "View" omits sub-items (e.g., which position failed); "Print inc sub items" shows them [DOC]. Tekmetric videos never print; PDFs can print without photos [DOC]. Shop-Ware PDFs can print without pictures (Jan 2024); Authorization Summary excluded from PDFs unless ticked [DOC]. AutoFlow → Tekmetric drops image markups (2023) [DOC]. AutoVitals template change **restyles all historical links**; links embedded in the POS stop working after a shop leaves AutoVitals [DOC]. Tekmetric links can be unshared [DOC]. Shopmonkey images follow upload order (spring 2026) [DOC].
 - **Detect:** get both the online link and the PDF; compare item counts and positions. Save copies with retrieval date; the current link is not proof of what was originally sent.
 - **Label:** content present in one format but not the other → note it; contradictions → **Inconsistent**.
 
@@ -168,12 +168,12 @@ Format per mode: **What** happens · **Where** (platforms) · **Shows as** · **
 - **Label:** tire/brake verdicts → **Evidence missing**; fluid/filter by mileage → check schedule (**Beyond OEM schedule** if early).
 
 ### 2.14 Severity mismatch between layers / thresholds
-- **Where:** Shop-Ware inspection-line color and recommendation urgency are **independent**; default urgency white = not set [DOC (re-verify via normal access)]. AutoVitals CRM "Needs Immediate Attention" reminder mode may re-recommend work already done [DOC]. Gauge color bands vary by tool (OTC pencil gauge vs heavy-duty gauge, section 4) and store policy (Discount Tire 4/32") vs legal 2/32" [DOC].
+- **Where:** Shop-Ware inspection-line color and recommendation urgency are **independent**; default urgency white = not set [DOC]. AutoVitals CRM "Needs Immediate Attention" reminder mode may re-recommend work already done [DOC]. Gauge color bands vary by tool (OTC pencil gauge vs heavy-duty gauge, section 4) and store policy (Discount Tire 4/32") vs legal 2/32" [DOC].
 - **Detect:** compare line color vs recommendation urgency; ask which threshold/gauge set the color; check mm vs 32nds (ALLDATA mm: 3 mm ≈ 3.8/32").
 - **Label:** **Inconsistent** when layers disagree; store policy shown as legal requirement → **Supported – optional**.
 
 ### 2.15 Approval-record gaps
-- **Where:** Shop-Ware Authorization Summary opt-in, off PDFs by default (since Jul 2024) [DOC (re-verify via normal access)]; Tekmetric method dropdown allows phone/text with no signature, digital signature optional [DOC]; Shopmonkey "reset authorization when price increases" optional [DOC]; Shopmonkey "Recommended" services sit outside the estimate total until authorized [DOC/INF].
+- **Where:** Shop-Ware Authorization Summary opt-in, off PDFs by default (since Jul 2024) [DOC]; Tekmetric method dropdown allows phone/text with no signature, digital signature optional [DOC]; Shopmonkey "reset authorization when price increases" optional [DOC]; Shopmonkey "Recommended" services sit outside the estimate total until authorized [DOC/INF].
 - **Detect:** ask for authorization history / point-in-time copy; compare price at approval vs invoice.
 
 ### 2.16 Fleet issue-carryover quirks
@@ -219,14 +219,14 @@ Template: **Structure · Grading · Measurements · Media · Finding → estimat
 - **Doc quality:** deep, current. **Src:** [26]–[45], [186], [187].
 
 #### Shop-Ware (Vehlo since Mar 2024; customer portal "DVX")
-- Help-center claims below are **(re-verify via normal access)**; marketing-page claims (shop-ware.com) are not affected.
-- **Structure:** templates in the "Cannery"; added on the fly; auto-populated safety inspection on every work order [DOC, marketing]. Inspections live **under a service** on the RO (with labor, parts, fees, sublet), added in Edit Mode (re-verify via normal access). No item types beyond color + notes + images.
-- **Grading:** two independent layers (2.14): **inspection line** green/orange(yellow)/red in TechApp; **recommendation urgency** set by advisor: white = not set (default), green low, yellow medium, red high (re-verify via normal access). Orange vs yellow likely the same tier [INF]. **Swipe-to-green** without opening (2.3) [DOC, marketing]; yellow/red open "Create Findings".
-- **Measurements:** none documented (2.9). API partners include AutoVitals, AutoFlow, so a measurement-capable add-on may sit on top (re-verify via normal access).
-- **Media:** native camera; photo markup (Mar 2024); video limit 50 MB → **500 MB (Jul 2025)**; notes/attachments as icons per item; PDFs printable without pictures (Jan 2024); MMS photos/videos (May 2026, v13.4.0) (re-verify via normal access).
-- **Finding → estimate:** clipboard-and-wrench icon on a line, "Create a Finding" in Notes Feed, or convert a service. Recommendation must be **published** to be visible; users can be limited to "save as draft only" (Jan 2024). States: Approve, Add to RO, Reset to Pending, Decline ("Decline for Now"), Mark as Done, Postpone. Pending/declined reappear on new estimates and in unfulfilled-recommendations export; no automatic declined-work reminders; recommendation added to a **closed** RO doesn't carry forward. Labor: canned jobs, past services, "Estimator" guide; good/better/best options. **AutoWrite** AI (Oct 2025) (2.7). (All re-verify via normal access.)
-- **Customer report & approval:** **DVX**: full RO + inspection + photos + recommendations ranked by urgency + out-the-door totals + approve/"Decline for Now" + signature + payment [DOC, marketing]. Shop notified when opened; viewer-logging fix for additional contacts (Apr 2026). **Approval capture** (opt-in, off by default, Jul 2024): in person = contact + signature; phone = contact + number; email = address; stored in **Authorization Summary, not in PDFs unless ticked**; CA BAR "Write it Right"-format summary available. Optional block on job start until signed. (Re-verify via normal access.)
-- **Owner audit data:** Technician Report (efficiency, productivity, parts); unfulfilled-recommendations export; public API (re-verify via normal access). Inspection KPI report [UNVERIFIED]. Vendor-reported: median share rate 56%, close rate ~56% with DVX.
+- Help-center claims below were re-checked through normal browser access on 2026-10-21.
+- **Structure:** templates in the "Cannery"; added on the fly; auto-populated safety inspection on every work order [DOC, marketing]. Inspections live **under a service** on the RO (with labor, parts, fees, sublet), added in Edit Mode. No item types beyond color + notes + images.
+- **Grading:** two independent layers (2.14): **inspection line** green/orange(yellow)/red in TechApp; **recommendation urgency** set by advisor: white = not set (default), green low, yellow medium, red high. Orange vs yellow likely the same tier [INF]. **Swipe-to-green** without opening (2.3) [DOC, marketing]; yellow/red open "Create Findings".
+- **Measurements:** none documented (2.9). API partners include AutoVitals, AutoFlow, so a measurement-capable add-on may sit on top.
+- **Media:** native camera; photo markup (Mar 2024); video limit 50 MB → **500 MB (Jul 2025)**; notes/attachments as icons per item; PDFs printable without pictures (Jan 2024); MMS texting listed as "coming soon" in v13.4.0 (May 2026), not yet released.
+- **Finding → estimate:** clipboard-and-wrench icon on a line, "Create a Finding" in Notes Feed, or convert a service. Recommendation must be **published** to be visible; users can be limited to "save as draft only" (Jan 2024). States: Approve, Add to RO, Reset to Pending, Decline ("Decline for Now"), Mark as Done, Postpone. Pending/declined reappear on new estimates and in unfulfilled-recommendations export; no automatic declined-work reminders; recommendation added to a **closed** RO doesn't carry forward. Labor: canned jobs, past services, "Estimator" guide; good/better/best options. **AutoWrite** AI (released Mar 2026, v13.1.0) (2.7).
+- **Customer report & approval:** **DVX**: full RO + inspection + photos + recommendations ranked by urgency + out-the-door totals + approve/"Decline for Now" + signature + payment [DOC, marketing]. Shop notified when opened; viewer-logging fix for additional contacts (Apr 2026). **Approval capture** (opt-in, off by default, Jul 2024): in person = contact + signature; phone = contact + number; email = address; stored in **Authorization Summary, not in PDFs unless ticked**; CA BAR "Write it Right"-format summary available. Optional block on job start until signed.
+- **Owner audit data:** Technician Report (efficiency, productivity, parts); unfulfilled-recommendations export; public API. Inspection KPI report [UNVERIFIED]. Vendor-reported: median share rate 56%, close rate ~56% with DVX.
 - **Pitfalls:** two color scales (2.14); white urgency = none stated; advisor-written/AI-rephrased text (2.7); swipe-to-green (2.3); Authorization Summary missing from consumer PDFs (2.15).
 - **Doc quality:** public but thin on inspection mechanics. **Src:** [46]–[61], [182], [183].
 
@@ -435,7 +435,7 @@ Dealer DMS vendors publish little user-level MPI documentation; much below comes
 | Tekmetric | Inspection Report (avg inspection time, avg findings, attachments, % sent/viewed, ARO/close ratio with vs without inspection; by tech/writer); Inspection History per vehicle; posted ROs only, internal excluded |
 | Shopmonkey | Vehicle Inspections Detail (inspectors vs Completed By, Items Rated %, Avg Finding %, "Unassigned"); Summary (Orders with Inspection %, per-tech ARO) |
 | AutoVitals | BCP (pictures/RO, edited pictures/inspection, recommendation rate, research time); built-in 0–5 image audit tool (2 per staff per pay period) |
-| Shop-Ware | Unfulfilled-recommendations export; Technician Report (re-verify via normal access) |
+| Shop-Ware | Unfulfilled-recommendations export; Technician Report |
 | ALLDATA | Inspection Search (Open/Complete) |
 | Xtime | Tech performance/inspection-quality dashboards; approval rate |
 | Dealer DMS (Dominion pattern) | MPI Results & Upsell Report incl. advisor/manager edits |
@@ -514,7 +514,7 @@ Dealer DMS vendors publish little user-level MPI documentation; much below comes
 44. https://help.shopmonkey.io/en/articles/5564534-how-do-tires-work-in-shopmonkey
 45. https://www.shopmonkey.io/demo-digital-vehicle-inspections
 
-**Shop-Ware** (support.shop-ware.com items: re-verify via normal access)
+**Shop-Ware** (support.shop-ware.com items re-checked via normal browser access, 2026-10-21)
 46. https://support.shop-ware.com/s/article/What-is-TechApp-by-Shop-Ware
 47. https://support.shop-ware.com/s/article/How-Do-I-Create-a-Recommendation
 48. https://support.shop-ware.com/s/article/Recommendations-Urgency-Sorting-and-Viewing-Totals

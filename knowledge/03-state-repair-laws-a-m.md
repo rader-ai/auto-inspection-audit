@@ -4,7 +4,7 @@
 
 - **As of:** 2026-10-20. Statute text was read between 2026-10-20 and the dates shown on each official site (for example, Florida 2025 statutes, Iowa Code 2026, and Michigan MCL as amended by 2025 PA 59).
 - **Covered (24 states):** AL, AK, AZ, AR, CO, CT, DE, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO. California is out of scope here because another file covers it in depth. Montana through Wyoming and DC are in `04-state-repair-laws-n-w.md`.
-- **Method:** Where possible, the official statute or regulation text was read directly from legislature or agency sites. Some agency sites (mass.gov, maine.gov, capitol.hawaii.gov main host, ilga.gov main host) block automated access. For those I used official mirrors (ftp.ilga.gov, data.capitol.hawaii.gov) or Cornell LII (for 940 CMR 5.05). Anything I could not read in primary or near-primary text is marked **[UNVERIFIED]**.
+- **Method:** Where possible, the official statute or regulation text was read directly from legislature or agency sites. Some agency sites (mass.gov, capitol.hawaii.gov main host, ilga.gov main host) block automated access. (Maine's repair statute was later read on legislature.maine.gov in a 2026-10-21 verification pass, which also checked CT, LA, MD, MI and the Florida county items against official sources.) For those I used official mirrors (ftp.ilga.gov, data.capitol.hawaii.gov) or Cornell LII (for 940 CMR 5.05). Anything I could not read in primary or near-primary text is marked **[UNVERIFIED]**.
 - **Research limit:** The shared web-search budget ran out partway through. I then fetched known official URLs directly, without searching. As a result, states with no repair-specific statute (marked "UDAP only" below) got less coverage. I did not run an exhaustive search to rule out a repair-specific rule in every one of them, and those conclusions are flagged.
 - **Paraphrase rule:** Everything below is paraphrased. Dollar and percentage figures are exact.
 - **Not legal advice.** The skill should tell users to confirm against current official text before relying on any figure.
@@ -20,7 +20,7 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 | AZ | None found (UDAP only) | AG; no registration | No | — | — | — | — | — | — |
 | AR | None found (UDAP only) [UNVERIFIED] | AG; no registration | No | — | — | — | — | — | — |
 | CO | **Yes.** Motor Vehicle Repair Act, C.R.S. 42-9-101 et seq. | AG / DAs via the CCPA; no shop registration found [UNVERIFIED] | No | Estimate required before repairs (written, or oral where allowed); customer may sign a waiver | **Lesser of 10% or $25** | Yes: date, time, manner, phone number, names of both parties | Yes, plus the mechanic name or ID on the invoice | On request at authorization | **3 years** (invoices and work orders) |
-| CT | **Yes.** CGS 14-65e to 14-65j | **DMV** (Dealer & Repairer Division); **repairer license required** (CGS 14-52) | No | Written authorization with a maximum-cost estimate before **any** repair. Estimate not required under **$50** unless the customer asks | **None.** Any amount above the estimate needs consent | Yes: recorded on the invoice | Yes | On request at authorization | Copy retained; period [UNVERIFIED] |
+| CT | **Yes.** CGS 14-65e to 14-65j | **DMV** (Dealer & Repairer Division); **repairer license required** (CGS 14-52) | No | Written authorization with a maximum-cost estimate before **any** repair. Estimate not required if the total is **less than $50** unless the customer asks (so required at $50) | **None.** Any amount above the estimate needs consent | Yes: recorded on the invoice | Yes | On request at authorization | Copy retained; no period in statute (DMV regs not read) [UNVERIFIED] |
 | DE | None found (UDAP only) [UNVERIFIED] | AG; no registration | No | — | — | — | — | — | — |
 | FL | **Yes.** Motor Vehicle Repair Act, F.S. 559.901 to 559.9221 | **FDACS**; **registration required** (biennial) | No | **> $150** (raised from $100 by ch. 2024-137) | **Greater of $10 or 10%, capped at $50** | Oral approval allowed; no recording rule found in 559.909 | Yes | On request at authorization (unless a warranty or exchange program applies) | **12 months** |
 | GA | None found (UDAP only) [UNVERIFIED] | AG / Dept. of Law Consumer Protection; no registration | No | — | — | — | — | — | — |
@@ -31,11 +31,11 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 | IA | **Yes.** Motor Vehicle Service Trade Practices Act, Iowa Code ch. 537B; 61 IAC 29 | **AG**; no registration | No | Right to a written or oral estimate if expected cost is **> $50**; disclosure form required | **10%** (excluding tax) | Customer's response must be noted on the form | Yes, plus **identity of the person who did the work** | Shop must **tender** replaced parts (with exceptions) | **9 months** (estimates and disclosure forms) |
 | KS | None found (UDAP only) | AG; no registration | No | — | — | — | — | — | — |
 | KY | None found (UDAP only) [UNVERIFIED] | AG; no registration | No | — | — | — | — | — | — |
-| LA | None found (UDAP only) [UNVERIFIED] | AG; no registration | No | — | — | — | — | — | — |
-| ME | Possible AG rule under 5 MRSA 207 **[UNVERIFIED; could not access maine.gov]** | AG | No | [UNVERIFIED] | [UNVERIFIED] | [UNVERIFIED] | [UNVERIFIED] | [UNVERIFIED] | [UNVERIFIED] |
-| MD | **Yes.** Com. Law 14-1001 to 14-1011 | **AG** Consumer Protection Division; no shop registration found | No | **> $50**, on the customer's request; rights must be printed on the authorization form | **10%** | Oral notice of rights must be recorded (towed or after-hours cases); additional repairs need written or oral permission | Yes | Shop must **tender all replaced parts** (warranty exception) | Copy retained; period not stated |
+| LA | **New-vehicle dealers only:** LAC 46:V.1101–1103 (LMVC rule); R.S. 32:1263 (itemized bill). Independent shops: UDAP only [UNVERIFIED] | LMVC for dealers; AG otherwise | No | Dealers: **> $125**, on request | Dealers: **25%** (excl. tax) | Oral or written; added work estimated separately in writing | Used parts disclosed; mechanic named on bill | — | — |
+| ME | **Yes.** 29-A M.R.S. §§1801–1811 (repair subchapter); violation = UTPA (§1807) | AG (UTPA); no registration | No | None; customer may set a **written maximum** before work | Nothing above the customer's written cap without further oral or written agreement | No recording rule | Used/rebuilt parts need prior specific agreement | Inspect before paying; returned on request (warranty/exchange excepted) | Not stated |
+| MD | **Yes.** Com. Law 14-1001 to 14-1011 | **AG** Consumer Protection Division; no statewide registration (**Montgomery County** requires registration, County Code ch. 31A) | No | **> $50**, on the customer's request; rights must be printed on the authorization form | **10%** | Oral notice of rights must be recorded (towed or after-hours cases); additional repairs need written or oral permission | Yes | Shop must **tender all replaced parts** (warranty exception) | Copy retained; period not stated |
 | MA | **Yes.** 940 CMR 5.05 (AG reg. under c. 93A). Also M.G.L. c. 100A registration for **damage/collision and glass** shops | **AG** (93A). **Division of Standards** registers collision and glass shops | No | Signed written authorization listing repairs and **total price** (or signed waiver) before **any** repair | **$10** over authorized price needs new authorization; **any** unauthorized added repair needs authorization | Yes: date, time, employee, authorizer, **exact statement**, phone number | Yes | Customer told of right to return or inspection before authorization | Not stated in 5.05 [UNVERIFIED elsewhere] |
-| MI | **Yes.** Motor Vehicle Service and Repair Act, MCL 257.1301 et seq. (amended by **2025 PA 59**) | **Michigan Dept. of State**; **facility registration required** | **Yes.** Certified specialty or master mechanics; trainees supervised | Written estimate before repairs; **not required under $50** unless the customer asks | **Lesser of 10% or $50**, and only if no waiver was signed | "Knowing" written or oral consent; no recording format found | Yes (new OEM, new, used, rebuilt, reconditioned) on the final repair statement, and **prior written disclosure** of used parts | **Must return** replaced parts (exceptions); hold unreturned parts 2 business days | [UNVERIFIED] |
+| MI | **Yes.** Motor Vehicle Service and Repair Act, MCL 257.1301 et seq. (amended by **2025 PA 59**) | **Michigan Dept. of State**; **facility registration required** | **Yes.** Certified specialty or master mechanics; trainees supervised | Written estimate before repairs; **not required if the total is less than $50** unless the customer asks (so required at $50) | **Lesser of 10% or $50**, and only if no waiver was signed | "Knowing" written or oral consent; no recording format found | Yes (new OEM, new, used, rebuilt, reconditioned) on the final repair statement, and **prior written disclosure** of used parts | **Must return** replaced parts (exceptions); hold unreturned parts 2 business days | **3 years** (MCL 257.1318) |
 | MN | **Yes.** Truth in Repairs Act, Minn. Stat. 325F.56 to 325F.66 | **AG**; no registration | No | **> $100**, **on request** | **110%** of the estimate (10%) | Not specified | Yes, plus OEM or non-OEM for new parts | On request **before** repairs start | **1 year** |
 | MS | None found (UDAP only) [UNVERIFIED] | AG; no registration | No | — | — | — | — | — | — |
 | MO | None found (UDAP only) [UNVERIFIED] | AG; no registration | No | — | — | — | — | — | — |
@@ -98,10 +98,10 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
   - If the needed repairs are unknown at drop-off, the shop must call with a maximum estimate before starting and record the authorization on the invoice.
   - The same applies when additional repairs are found or the estimate will be exceeded.
   - After-hours drop-off: authorization may be oral but must be recorded.
-  - Advance written estimate not required under **$50** unless the customer asks.
+  - Advance written estimate not required when parts and labor total **less than $50**, unless the customer asks (14-65f(f)). At exactly $50 it is required.
   - The shop also needs a written acknowledgment of the customer's right to choose a licensed shop. This is aimed at insurance claims and may be sent by fax or email.
-- **Waiver (14-65g):** Must be written, in prescribed form, and authorize "reasonable and necessary" repairs up to a fixed dollar cap. The shop must keep a written record of oral consents. Before work, the invoice must show customer contact details, drop-off date and time, vehicle year, make, and registration, odometer reading, and the specific repairs requested or the problem described. A diagnosis charge requires prior notice and consent, which must be written if the charge is $50 or more.
-- **Invoice and parts (14-65h):** Separately itemized parts and labor, including sublet and warranty work. Used parts must be stated, as must mixed new/used component systems. Warranties must be in writing. Replaced parts are made available if requested **at authorization**; warranty or rebuild parts are for inspection only. The customer gets one copy and the shop keeps one. Retention period is set by regulation **[UNVERIFIED]**.
+- **Waiver (14-65g):** Must be written, in prescribed form, and authorize "reasonable and necessary" repairs up to a fixed dollar cap. The shop must keep a written record of oral consents. Before work, the invoice must show customer contact details, drop-off date and time, vehicle year, make, and registration, odometer reading, and the specific repairs requested or the problem described. A diagnosis charge requires prior notice and consent, which must be written if the customer asks or if the charge is $50 or more (14-65g(f)).
+- **Invoice and parts (14-65h):** Separately itemized parts and labor, including sublet and warranty work. Used parts must be stated, as must mixed new/used component systems. Warranties must be in writing. Replaced parts are made available if requested **at authorization**; warranty or rebuild parts are for inspection only. The customer gets one copy and the shop keeps one. The statute sets no retention period. DMV regulations (RCSA 14-63 series, which include a records section for dealers and repairers) may, but they were not read because the eRegulations site did not render **[UNVERIFIED]**.
 - **Prohibitions (14-65j):** No statement the shop knows or should know is false or misleading, including about the **necessity of repairs** or vehicle condition. No charging for repairs not performed. Violations of (a) or (b) are a class B misdemeanor. Repairs are due the same business day unless the customer is told otherwise or consents.
 - **Signs (14-65i):** Customer-rights sign (24"x36"); posted labor rate, storage, and diagnosis charges.
 - **Enforcement:** The DMV Commissioner investigates and holds hearings (14-65k). Other violations are infractions (added by P.A. 13-271).
@@ -143,7 +143,12 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
   - ch. 2024-137 raised the estimate threshold to $150 and amended 559.904. Effective date [UNVERIFIED].
   - 2025 SB 92 (crash report/estimate database, front plates) **died** 6/16/2025.
   - 2025 H 807 (motor vehicle repair work) reportedly died in subcommittee [secondary source].
-- **Local:** Some counties have historically run their own repair-shop licensing, and 559.904 exempts shops licensed under an equivalent local ordinance from the state fee. I could not confirm which counties currently do so **[UNVERIFIED: Miami-Dade, Broward]**. Pinellas County's consumer page points to FDACS and does not mention county registration. That page still cites the old $100 threshold.
+- **Local:** Some counties have historically run their own repair-shop licensing, and 559.904 exempts shops licensed under an equivalent local ordinance from the state fee. Confirmed on county sites:
+  - **Miami-Dade** requires shops (mechanical, paint and body) and their mechanics, technicians and apprentices to register with the county (County Code ch. 8A, art. VII). The county page cites a written estimate when charges exceed $150 and authorization before exceeding the estimate by more than $10 or 10%. — https://www.miamidade.gov/global/economy/consumer-protection/motor-vehicle-repairs.page
+  - **Broward** requires a county license for repair work done for pay, with at least one certified technician per shop (County Code §20-176.77 et seq.). — https://www.broward.org/Consumer/ConsumerProtection/AutoRepair/Pages/default.aspx
+  - **Palm Beach:** the county consumer affairs FAQ says shops register with FDACS; no county license found. — https://discover.pbcgov.org/publicsafety/consumeraffairs/pages/faq.aspx
+  - **Pinellas:** the county page points to FDACS and does not mention county registration; it still cites the old $100 threshold.
+  - **Hillsborough:** not checked **[UNVERIFIED]**.
 - Sources: https://www.flsenate.gov/Laws/Statutes/2025/559.905 , /559.909 , /559.911 , /559.915 , /559.920 , /559.904 , /559.903 ; https://www.flsenate.gov/Session/Bill/2025/92 ; https://pinellas.gov/motor-vehicle-repair-101/
 
 ### Georgia — UDAP only [UNVERIFIED that none exists]
@@ -238,12 +243,26 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 ### Kentucky — UDAP only [UNVERIFIED that none exists]
 - No repair-specific statute found. The Consumer Protection Act, KRS 367.110 to 367.300 (unlawful acts at 367.170), applies; the AG enforces. **[UNVERIFIED: statute not read online.]**
 
-### Louisiana — UDAP only [UNVERIFIED that none exists]
-- No repair-specific statute found. The Unfair Trade Practices and Consumer Protection Law, La. R.S. 51:1401 et seq. (unlawful at 51:1405), applies; the AG enforces. **[UNVERIFIED: statute not read online.]**
+### Louisiana — dealer-only repair rule (LMVC); UDAP for other shops
+- **LAC 46:V, ch. 11 (Louisiana Motor Vehicle Commission):** the "supplier" definition covers only new-vehicle dealers that do repairs; work on vehicles over 20,000 lb GVWR is excluded. As restated in LMVC Bulletin B-2022-001 (Aug. 10, 2022):
+  - If the customer asks and anticipated repairs exceed **$125**, the dealer must give a written original estimate in advance. It lists each repair, its labor, and parts cost in separate columns, plus any disassembly or reassembly charge. A flat-rate price satisfies this where customary.
+  - Estimate fee: at most $5 for estimates up to $200, and $10 above $200, if posted.
+  - **Overage:** unanticipated but necessary work that will exceed the estimate (or an itemized part) by **more than 25%**, excluding tax, needs oral or written authorization. The added work is estimated separately in writing.
+  - Sign: white background, 1-inch black letters, stating the $125 right. The dealer may lower the $125 figure.
+  - Unfair acts also include: willfully claiming repairs are needed, done, or that parts are dangerous when untrue; understating an estimate by more than 25% to win the job; using used parts without the customer's knowledge and consent; no itemized bill naming the mechanic.
+  - Source: https://www.lmvc.la.gov/wp-content/uploads/2025/07/B-2022-001-Written-Estimate-for-Repairs-and-Services.pdf
+- **R.S. 32:1263:** suppliers of repairs for vehicles regulated under that chapter must give an itemized bill (work, parts, materials, total labor, identity of the mechanic or supplier). A shop-supply fee may not exceed the lesser of 10% of the invoice or $50. RV repairs are excluded. — https://legis.la.gov/legis/Law.aspx?d=321504
+- **Independent shops:** no repair-specific statute found. The Unfair Trade Practices and Consumer Protection Law, La. R.S. 51:1401 et seq. (unlawful at 51:1405), applies; the AG enforces. **[UNVERIFIED: statute not read online; absence not searched exhaustively.]**
 
-### Maine — [UNVERIFIED]
-- The Unfair Trade Practices Act, 5 M.R.S. §207, declares unfair or deceptive acts unlawful and lets the AG adopt implementing rules. Source: https://legislature.maine.gov/statutes/5/title5sec207.html
-- I believe the Maine AG may have adopted a motor-vehicle-repair rule under this authority, but **I could not confirm it**, because maine.gov returned HTTP 403. Treat any Maine estimate, overage, or parts figure as **unknown** until verified.
+### Maine — 29-A M.R.S. §§1801–1811 (Title 29-A, ch. 15, subch. 2: Repair)
+- **Scope (§1801):** "repair facility" means a motor vehicle repair shop serving the public for pay. "Repair" includes body work, painting, storage and towing; selling fuel is excluded. Enacted by PL 1993 c. 683; amended by PL 2005 c. 189 (shop supplies) and the 2023 citizen initiative (telematics and mechanical-data definitions).
+- **Maximum charge (§1802):** before work starts the customer may give a written limit on charges. The customer owes nothing above it without a further specific oral or written agreement. Bills must use the hourly labor rate and shop-supply method shown in the estimate. Shop supplies may be charged as a percentage of labor or by another disclosed method, as a single line item.
+- **Parts (§1803):** the customer may examine replaced parts before paying and take them on request, unless they must go back to a manufacturer or distributor under a warranty or exchange.
+- **Used parts (§1804):** used, rebuilt or reconditioned parts may not be installed without the customer's specific prior agreement.
+- **Notices (§1805):** a conspicuous posted notice lists these rights, the hourly labor rate and the time-rounding interval. Separate notices are required for flat-rate billing and for shop supplies where used.
+- **No fee (§1806)** for exercising these rights; **no waiver (§1808)**. A violation is an unfair trade practice under 5 M.R.S. ch. 10 (§1807).
+- No estimate threshold, overage percentage, invoice-content list, or retention period appears in the statute. The former Title 29 ch. 23 (Motor Vehicle Repair) is repealed. Whether the AG also has a repair rule under 5 M.R.S. §207 was not checked.
+- Sources: https://legislature.maine.gov/statutes/29-A/title29-Ach15sec0.html ; https://legislature.maine.gov/statutes/29-A/title29-Asec1801.html (and sec1802 to sec1808) ; https://legislature.maine.gov/statutes/5/title5sec207.html
 
 ### Maryland — Com. Law 14-1001 to 14-1011 (AG Consumer Protection Division)
 - **Estimate (14-1002):** For work billed **more than $50**, on the customer's request the shop gives a written statement before work. It covers the estimated completion date, estimated parts and labor, a notice about the shop's responsibility for damage and its insurance, and any surcharge. An estimate fee is allowed only if disclosed first. The shop may not charge **more than 10%** over the written estimate without consent.
@@ -252,7 +271,7 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 - **Parts (14-1004):** The shop must **tender all replaced parts**, except warranty returns.
 - **Unauthorized repairs (14-1006):** No charges for repairs not originally authorized or requested. Additional repairs need written or oral permission.
 - **Enforcement:** A violation is an unfair or deceptive trade practice under Title 13 (14-1009). Complaints go to the AG CPD (14-1007).
-- **Local:** Possible county-level auto repair registration (e.g., Montgomery County) **[UNVERIFIED]**.
+- **Local:** **Montgomery County** requires businesses doing motor vehicle repair, maintenance or towing to register with the county Office of Consumer Protection (County Code ch. 31A). The county also requires a written estimate before work over $25. — https://www.montgomerycountymd.gov/office-consumer-protection/business-education-registration-unit-bear/motor-vehicle-repair-maintenance-towing . Other counties not checked.
 - Source: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-1002&enactments=false (and sections 14-1001 to 14-1009)
 
 ### Massachusetts — 940 CMR 5.05 (AG, under M.G.L. c. 93A); M.G.L. c. 100A
@@ -279,7 +298,7 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
   - **Mechanics:** No one may work as a specialty or master mechanic without a Department of State certificate, renewed annually. Some specialties (engine tune-up and performance, electrical, brakes) require periodic retesting, approved training, or recognized certification such as ASE (257.1311).
 - **Estimate (257.1332):**
   - A written estimate itemizing parts and labor "as closely as possible" is required before repairs.
-  - **Not required for jobs under $50** unless the customer asks (257.1334a).
+  - **Not required when the total for services and parts is less than $50** unless the customer asks (257.1334a, as amended by 2016 PA 430). At exactly $50 it is required.
   - Overage needs "knowing" written or oral consent, obtained after the shortfall is found and before the extra work. Without a waiver, consent is not required for an overage of no more than the **lesser of 10% or $50** unless the customer asked for it.
   - Diagnosis cost must be in the estimate.
   - If the customer declines, reasonable costs to restore the vehicle must be itemized in writing.
@@ -302,9 +321,16 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
   - After a paid diagnosis, failing to disclose the malfunction, the recommended remedy, and the **tests or procedures used**.
   - Also 257.1307: false or misleading statements, waivers used to evade the Act, blank documents, and similar.
 - **2023 to 2026 changes:**
-  - **2025 PA 59 (SB 25)**, signed Dec. 23, 2025. The legislature's compiled text shows 257.1332 as amended effective **Feb. 1, 2026**. Its main subjects: multiple facilities under one registration, fee changes, and a mechanic-exam fund. It touched sections 2, 9, 10b, 13b to 18, 22, 30, 32, 32a, 33, and 40, and added 30a. I could not confirm the exact edits to §32 **[UNVERIFIED]**.
-  - **HB 5149 (2025)** would further amend §§7e and 32. Status as of this writing: [UNVERIFIED].
-- Record retention period: [UNVERIFIED].
+  - **2025 PA 59 (SB 25)**, approved Dec. 23, 2025, effective **Feb. 1, 2026**. It amended sections 2, 9, 10b, 13b to 18, 22, 30, 32, 32a, 33, and 40, and added 30a. Main changes, from the enrolled act:
+    - New "auxiliary facility" option: one extra site within 3 miles under the same registration, with records kept at the main facility (§14).
+    - Name-based criminal background checks for facility applicants; zoning verification of the place of business (§§9, 14, 16).
+    - Mechanics' certification numbers on repair statements; administrator may require training or limit repairs after a hearing (§13b).
+    - Record retention set at 3 years (§18, below).
+    - From July 1, 2026: sliding-scale registration fees ($100 to $500 by revenue), multiyear renewal for larger shops, and a new mechanic-exam fund (§§15, 30, 30a, 40).
+    - §32's estimate, waiver, and lesser-of-10%-or-$50 rules carry forward; the act adds a defined term "estimate" in §2.
+    - Source: https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0059.htm
+  - **HB 5149 (2025)** would bar hidden storage fees by amending §§7e and 32. It was introduced and referred to the Committee on Regulatory Reform on Oct. 28, 2025, with no later action shown. It is not law. — https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-5149
+- **Record retention (257.1318):** keep copies of every repair-transaction document (signed forms, estimates, diagnoses, invoices, warranties, waivers) for at least **3 years** after the repair. Keep records tied to an open complaint until the administrator closes it in writing or 3 years, whichever is later, and records of longer obligations for their full term. — https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-257-1318
 - Sources: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-1332 (also -1333, -1334, -1334a, -1307, -1307a, -1311); https://www.michiganvotes.org/legislation/2025/senate/bill-25
 
 ### Minnesota — Truth in Repairs Act, Minn. Stat. 325F.56 to 325F.66 (AG)
@@ -356,7 +382,7 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 | **Customer complaint recorded** | Symptoms or requested repairs on the work order | CT, FL, MA, MN (on invoice), HI, MI |
 | **Replaced parts** | Return or inspection offered; request timing | Must tender: IA, MD, MI. On request: CO, CT, FL, HI, MN (before start), MA, ID |
 | **Shop / tech credentials** | Registration number on documents; tech certification | FL (FDACS registration number on invoice), MI (registration number on all documents; certified mechanics), HI (registered dealer and certified mechanics), CT (DMV repairer license) |
-| **Record retention** | Ask for records within the period | CO 3 yr; HI 2 yr; IL 2 yr; FL 12 mo; MN 1 yr; IA 9 mo |
+| **Record retention** | Ask for records within the period | CO 3 yr; MI 3 yr; HI 2 yr; IL 2 yr; FL 12 mo; MN 1 yr; IA 9 mo |
 
 ### 4.3 How to tell a consumer which rules apply (suggested skill wording)
 - Ask for **the shop's state (and city or county)**, the **date of service**, and whether the shop is a **dealer, independent, collision/glass, or fleet** shop.
@@ -371,15 +397,14 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 - Flag findings as **"possible noncompliance"**, not legal conclusions. Thresholds change. FL changed in 2024, and MI and MN were amended in 2024 to 2026.
 
 ## 5) Open questions / uncertainties
-- **Maine:** Whether an AG motor-vehicle-repair rule exists, and its terms. maine.gov blocked access.
-- **Michigan:** The exact changes 2025 PA 59 made to §32 (estimates); HB 5149 status; record retention period.
+- **Maine:** The repair statute is 29-A §§1801–1811 (resolved). Whether the AG also has a repair rule was not checked.
 - **Minnesota:** What 2024 c 114 changed in 325F.56 and 325F.62. It may be a threshold or wording change.
-- **Florida:** Effective date of the $150 threshold (ch. 2024-137); which counties (Miami-Dade, Broward, others) currently require local repair-shop licensing.
-- **Connecticut:** Record retention period in DMV regulations (Regs. Conn. State Agencies §14-65j series).
+- **Florida:** Effective date of the $150 threshold (ch. 2024-137); Hillsborough County licensing (Miami-Dade and Broward confirmed; Palm Beach and Pinellas defer to FDACS).
+- **Connecticut:** Record retention period in DMV regulations (RCSA 14-63 series). The statute sets none.
 - **Colorado:** Whether any shop registration exists; exact enforcement wording in 42-9-112 to 113.
-- **Massachusetts:** Record retention; the official current text of 940 CMR 5.05 on mass.gov (read via Cornell LII instead).
-- **Maryland:** County-level registration (e.g., Montgomery County).
-- **UDAP-only states (AL, AR, DE, GA, IN, KY, LA, MS, MO, KS, AZ):** I did not run an exhaustive search for repair-specific rules or AG regulations, because the search budget ran out. Statutory citations for AL, AR, GA, IN, KY, LA, and MS are from knowledge and were not read online.
+- **Massachusetts:** Record retention (none in 940 CMR 5.05; other sources not found); the official current text of 940 CMR 5.05 on mass.gov (read via Cornell LII instead).
+- **Maryland:** County-level registration outside Montgomery County.
+- **UDAP-only states (AL, AR, DE, GA, IN, KY, MS, MO, KS, AZ):** I did not run an exhaustive search for repair-specific rules or AG regulations, because the search budget ran out. Statutory citations for AL, AR, GA, IN, KY, LA (general UDAP), and MS are from knowledge and were not read online. A light follow-up pass found Louisiana's dealer-only LMVC rule, so dealer-board or agency rules may exist elsewhere.
 - **Electronic authorization:** None of the statutes read expressly address text or e-signature approvals, except CT, which allows fax or email for the right-to-choose acknowledgment. Whether a digital-inspection "approve" click counts as "written" consent is unresolved. Federal and state E-SIGN/UETA likely apply, but that is outside this file.
 
 ## 6) Sources
@@ -388,15 +413,16 @@ Legend: "Est." = written estimate. "Overage" = how far the final bill may exceed
 - Colorado 42-9 (unofficial mirror): https://colorado.public.law/statutes/crs_42-9-104 ; /crs_42-9-106 ; /crs_42-9-108 ; /crs_42-9-109 ; /crs_42-9-111 ; /crs_42-9-102
 - Connecticut ch. 246: https://www.cga.ct.gov/current/pub/chap_246.htm
 - Delaware 6 Del. C. ch. 25 subch. II: https://delcode.delaware.gov/title6/c025/sc02/index.html
-- Florida: https://www.flsenate.gov/Laws/Statutes/2025/559.903 ; /559.904 ; /559.905 ; /559.909 ; /559.911 ; /559.915 ; /559.920 ; part index https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0559/0559PartIXContentsIndex.html ; SB 92 (2025): https://www.flsenate.gov/Session/Bill/2025/92 ; Pinellas County: https://pinellas.gov/motor-vehicle-repair-101/
+- Florida: https://www.flsenate.gov/Laws/Statutes/2025/559.903 ; /559.904 ; /559.905 ; /559.909 ; /559.911 ; /559.915 ; /559.920 ; part index https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0559/0559PartIXContentsIndex.html ; SB 92 (2025): https://www.flsenate.gov/Session/Bill/2025/92 ; Pinellas County: https://pinellas.gov/motor-vehicle-repair-101/ ; Miami-Dade: https://www.miamidade.gov/global/economy/consumer-protection/motor-vehicle-repairs.page ; Broward: https://www.broward.org/Consumer/ConsumerProtection/AutoRepair/Pages/default.aspx ; Palm Beach: https://discover.pbcgov.org/publicsafety/consumeraffairs/pages/faq.aspx
 - Hawaii: https://data.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0437B/HRS_0437B-0011.htm (and -0002, -0013, -0014, -0015, -0016, -0017); HAR 16-87: https://cca.hawaii.gov/wp-content/uploads/2026/02/har_87-c1.pdf ; Board: https://cca.hawaii.gov/pvl/boards/motor-vehicle-repair/
 - Idaho IDAPA 04.02.01: https://adminrules.idaho.gov/rules/current/04/040201.pdf
 - Illinois 815 ILCS 306: https://ftp.ilga.gov/ILCS/Ch%200815/Act%200306/
 - Iowa ch. 537B: https://www.legis.iowa.gov/docs/code/537B.pdf ; 61 IAC 29: https://www.legis.iowa.gov/docs/iac/chapter/61.29.pdf ; AG rule chapter list: https://www.legis.iowa.gov/law/administrativeRules/chapters?agency=61
 - Kansas 50-626: https://www.ksrevisor.gov/statutes/chapters/ch50/050_006_0026.html
-- Maine 5 M.R.S. §207: https://legislature.maine.gov/statutes/5/title5sec207.html
-- Maryland Com. Law 14-1001 to 14-1009: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-1002&enactments=false
+- Maine 5 M.R.S. §207: https://legislature.maine.gov/statutes/5/title5sec207.html ; 29-A ch. 15: https://legislature.maine.gov/statutes/29-A/title29-Ach15sec0.html (and title29-Asec1801 to sec1808)
+- Louisiana: LMVC Bulletin B-2022-001: https://www.lmvc.la.gov/wp-content/uploads/2025/07/B-2022-001-Written-Estimate-for-Repairs-and-Services.pdf ; R.S. 32:1263: https://legis.la.gov/legis/Law.aspx?d=321504
+- Maryland Com. Law 14-1001 to 14-1009: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-1002&enactments=false ; Montgomery County ch. 31A: https://www.montgomerycountymd.gov/office-consumer-protection/business-education-registration-unit-bear/motor-vehicle-repair-maintenance-towing
 - Massachusetts 940 CMR 5.05 (via LII): https://www.law.cornell.edu/regulations/massachusetts/940-CMR-5-05 ; M.G.L. c. 100A §1: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter100A/Section1
-- Michigan MCL: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-1332 ; -1333 ; -1334 ; -1334a ; -1307 ; -1307a ; -1311 ; 2025 SB 25 / PA 59: https://www.michiganvotes.org/legislation/2025/senate/bill-25
+- Michigan MCL: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-1332 ; -1333 ; -1334 ; -1334a ; -1307 ; -1307a ; -1311 ; -1318 ; 2025 PA 59 (enrolled): https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0059.htm ; 2025 SB 25: https://www.michiganvotes.org/legislation/2025/senate/bill-25 ; HB 5149: https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-5149
 - Minnesota 325F.56 to .66: https://www.revisor.mn.gov/statutes/cite/325F.58 (and siblings)
 - Missouri 407.020: https://revisor.mo.gov/main/OneSection.aspx?section=407.020

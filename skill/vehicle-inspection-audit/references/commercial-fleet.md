@@ -1,6 +1,6 @@
 # Commercial, Fleet & Specialty Vehicle Inspections (US)
 
-As of 2026-10-20. Regulations change; re-check primary sources before relying on a number. [UNVERIFIED] = not confirmed from a primary source (research search budget ran out; eCFR/FMCSA blocked automated fetch, so Part 396 text came from Cornell LII). Paid standards (CVSA OOS handbook, TMC RP Manual, NFPA 1910/1900, CAAS GVS) are summarized only from public descriptions.
+As of 2026-10-20. Regulations change; re-check primary sources before relying on a number. [UNVERIFIED] = not confirmed from a primary source (research search budget ran out; most Part 396 text came from Cornell LII, but Appendix A and §390.5T were checked against eCFR on 2026-10-21). Paid standards (CVSA OOS handbook, TMC RP Manual, NFPA 1910/1900, CAAS GVS) are summarized only from public descriptions.
 
 **Why this file exists:** a commercial or for-hire report is checked against a *regulatory floor* — specific numbers, required items, a qualified inspector, retention periods. Flag errors in **both directions**: a "fail/replace" on a component that meets the federal minimum presented as if regulation required it, and a "pass" on one that doesn't meet it.
 
@@ -27,14 +27,14 @@ As of 2026-10-20. Regulations change; re-check primary sources before relying on
 
 ## 1. Recognize the vehicle and inspection type
 
-### Is it a federally regulated CMV? (49 CFR 390.5 / 390.5T, interstate)
+### Is it a federally regulated CMV? (49 CFR 390.5T, interstate)
 Any one of:
 1. GVWR, GCWR or actual gross weight **≥10,001 lb** (whichever greater) — check door-jamb label
 2. Designed/used to carry **>8 passengers incl. driver for compensation** (9+)
 3. Designed/used to carry **>15 passengers incl. driver without compensation** (16+)
 4. Carrying **placardable hazmat**
 
-- [UNVERIFIED: Cornell shows §390.5 suspended, temporary §390.5T in effect; definitions believed identical — confirm section number before citing.]
+- Cite **§390.5T**: eCFR shows §390.5 suspended indefinitely (July 21, 2026) and §390.5T in force with this same CMV definition — https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/subpart-A/section-390.5T
 - Intrastate-only → state law. Many states adopt FMCSRs with changes; some use **26,001 lb** instead of 10,001 (e.g., Texas, CA BIT (k)).
 - Part 396 exemptions: some provisions for private nonbusiness passenger carriers; DVIRs not required for driveaway-towaway or single-CMV carriers (396.11).
 - Government-operated emergency vehicles are generally outside Part 396 → expect NFPA 1910 / state EMS checklists.
@@ -147,7 +147,7 @@ Don't confuse Appendix A with §393.47 [JJK-393.47].
 | Drawbar tongue slider/subframe movement | 1/4 in |
 
 ### Steering
-**Steering-wheel lash — reject if more than** (more diameters exist; pull full table):
+**Steering-wheel lash — reject if more than** (complete table per eCFR; engine running for power steering):
 
 | Wheel diameter | Manual | Power |
 |---|---|---|
@@ -157,7 +157,8 @@ Don't confuse Appendix A with §393.47 [JJK-393.47].
 | 22 in | 2-3/4 in | 5-3/4 in |
 
 - Ball/socket joints: >1/4 in non-rotational movement at any linkage point
-- Loose column, gearbox mounting, U-joint wear [UNVERIFIED in detail]
+- Also defects: column U-bolts or positioning parts loose or missing; U-joints worn, faulty, or repair-welded; wheel not secured; cracks or welded repairs in the axle beam or steering parts; gear box mounting bolts loose or missing, or box/brackets cracked; pitman arm loose on the shaft; power-assist cylinder loose; ball-joint stud nut moves under load; tie-rod/drag-link clamps or threaded joints loose; steering nuts loose or missing; anything that binds steering movement — https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/appendix-Appendix%20A%20to%20Part%20396
+- Other wheel diameters: the appendix gives no value. The report should state the diameter used.
 
 ### Tires
 
@@ -247,7 +248,7 @@ Voluntary unless a contract/policy adopts them. 2026–2027 RP Manual released A
 
 ### California BIT (CVC 34501.12, 34505.5)
 - **Covered (34500):** (a) 3+ axle motortrucks >10,000 lb GVWR; (b) truck tractors; (c) buses, school buses, SPABs, youth buses, farm labor vehicles, modified limousines, general public paratransit; (e) trailers/dollies used with them; (f) motortruck combos >40 ft; (g) hazmat vehicles; (k) CMVs ≥26,001 lb or towing trailer >10,000 lb; others.
-- **AB 3278 (eff. 2025-01-01)** removed subdivision **(j)** ("other motortrucks regulated by DMV, DCA, or USDOT") from BIT and the 90-day rule. **Conflict:** one secondary summary describes (j) as hazmat trucks; the statute lists hazmat under (g). Read the CHP bulletin.
+- **AB 3278 (eff. 2025-01-01)** removed subdivision **(j)** ("J-trucks": other motortrucks regulated by DMV, DCA, or USDOT) from BIT and the 90-day rule. (j) is **not** hazmat; hazmat is (g) and stays in BIT. A truck that also fits another subdivision (a, b, f, g, k...) stays in BIT and the 90-day rule through that subdivision. J-trucks remain subject to 13 CCR (incl. §1215 vehicle condition, §1232 maintenance, §1234 records), to CVC 34500.7, and to non-BIT CHP terminal inspections. Source: CHP Information Bulletin, Feb. 11, 2025 — https://www.chp.ca.gov/siteassets/policy/ib/ib-removal-of-motortrucks-identified-in-sec.-34500j-of-the-cvc.pdf
 - **Terminal inspections:** since 2016 selected by performance (FMCSA SMS BASIC percentiles); unsatisfactory → reinspect within **120 days**; review request within 5 business days, CHP decides within 10. Sample by fleet size: 1–2 = all; 3–8 = 3; 9–15 = 4; 16–25 = 6; 26–50 = 9; 51–90 = 14; 91+ = 20. Sunsets **2031-01-01** unless extended.
 - **90-day self-inspection (34505.5):** vehicles in (a), (b), (e), (f), (g), (k); at least **every 90 days** as part of maintenance/lube program. Minimum: brake adjustment; brake components and leaks; steering and suspension; tires and wheels; connecting devices. Defective vehicle driven only to repair; carrier rep signs off before return. Records: vehicle ID, date and nature of each inspection/repair, signature; keep **2 years** at terminal.
 
@@ -257,7 +258,7 @@ Voluntary unless a contract/policy adopts them. 2026–2027 RP Manual released A
 
 ### Texas (post-2025)
 - HB 3297 ended **non-commercial** safety inspections 2025-01-01. **All commercial vehicles in all counties still need a passing safety inspection** (plus emissions where applicable); exempt from $7.50 replacement fee.
-- **Texas commercial vehicle (DPS page dated 2026-03-19):** GVWR >26,000 lb; farm vehicle ≥48,000 lb; 15+ passengers [note: source wording; compare federal 16+ unpaid / 9+ paid]; placarded hazmat; GVWR >10,000 lb interstate; school bus operating at 60 mph outside an urban district.
+- **Texas commercial vehicle (DPS page dated 2026-03-19):** GVWR >26,000 lb; farm vehicle ≥48,000 lb; designed or used to carry **more than 15 passengers incl. driver** (16+; Tex. Transp. Code 548.001(1)(B); no separate 9+ paid tier as in federal rule) — https://statutes.capitol.texas.gov/Docs/TN/htm/TN.548.htm (official, checked 2026-10-21) ; placarded hazmat; GVWR >10,000 lb interstate; school bus operating at 60 mph outside an urban district.
 - **Items (if originally equipped):** backup lamps; beam indicator; coupling devices; emission/exhaust; frame; fuel system and gas cap; headlamps; horn; insurance; license plate lamp; mirrors; parking and service brakes; rear reflector; seat belts; steering; stop/tail/turn lamps; suspension; tires; wheel assembly; window tint; windshield and wipers. >80 in wide adds clearance/ID/side marker lamps and reflectors, rear impact guard, splash guards. School buses add crossover mirrors, fire extinguisher, red warning lamps, signage.
 - Treated as **equivalent** to the federal annual inspection, except intrastate farm vehicles <48,000 lb, covered farm vehicles, government/emergency vehicles, out-of-state IRP vehicles with valid federal annual. [UNVERIFIED — J.J. Keller summary only]
 
@@ -286,7 +287,9 @@ Voluntary unless a contract/policy adopts them. 2026–2027 RP Manual released A
 | New Jersey | Must meet state motor vehicle inspection requirements |
 | Virginia | Proof of current VA or approved out-of-state safety inspection |
 | Lacey & Pullman, WA | Annual TNC inspection by city ordinance |
-| Colorado, Illinois statewide, others | [UNVERIFIED] |
+| Colorado | Safety inspection before approval and **at least annually**, on PUC-approved forms (C.R.S. 40-10.1-605 per Legislative Council brief IB 16-34: https://content.leg.colorado.gov/sites/default/files/transportation_network_companies_ib_16-34.pdf). [Item list / current 4 CCR 723-6 text UNVERIFIED — PUC site 403] |
+| Illinois statewide | TNP Act (625 ILCS 57/25) reportedly requires the vehicle to meet state private-vehicle safety/emissions requirements; no separate statewide TNC inspection found (Chicago has its own). [UNVERIFIED — ilga.gov fetch failed] |
+| Others | [UNVERIFIED] |
 
 - Uber/Lyft forms: official text not retrieved. Third-party guides describe generic pass/fail checklists (lights, brakes, tires — one guide says 2/32" min, horn, wipers, glass, belts, doors/windows, mirrors, exhaust); varies by market. [UNVERIFIED — the form in the driver app is authoritative]
 
@@ -299,7 +302,7 @@ Voluntary unless a contract/policy adopts them. 2026–2027 RP Manual released A
 |---|---|
 | Yellow cabs | **3/year**: 1st at any NYS DMV station in sticker-expiry month; 2nd and 3rd at TLC Woodside |
 | Green cabs (SHL) | Every 6 months |
-| FHVs | Woodside every 2 years at renewal. **Conflict:** a 2024 pilot resolution describes 6 inspections per 2-year license, 5 at owner-selected facilities (≥500 mi: full DMV-type; <500 mi: visual only). Confirm current rule |
+| FHVs | **3/year, at least once every 4 months** (35 RCNY 59A-26(a)). New/renewal inspections (every 2 years) at TLC Woodside (≥500 mi: full DMV-type; <500 mi: visual only); the others at any DMV-registered facility. 10+ seat or stretched/modified FHVs not exempt from NYS DOT: NYS DOT inspection **2x/year** — https://www.nyc.gov/assets/tlc/downloads/pdf/rule_book_current_chapter_59.pdf |
 | Commuter vans, paratransit, FHVs seating 10+ | NYS DOT inspection first |
 
 - Woodside tests brakes, seatbelts, lights, suspension, emissions. No passengers until pass.
@@ -387,22 +390,22 @@ Voluntary unless a contract/policy adopts them. 2026–2027 RP Manual released A
 ---
 
 ## 14. Open questions
-1. Not confirmed from primary sources: Uber/Lyft official form items; CO and IL statewide TNC rules; full MA 540 CMR 30 item list; CHP limo inspection frequency; 396.9 15-day return; CVSA Level II official text; CAAS GVS version; NFPA 1910 intervals/OOS; TMC tire RPs and pull points.
-2. Part 396 text from Cornell LII (eCFR/FMCSA blocked); confirm against eCFR.
-3. §390.5 vs §390.5T designation.
-4. Appendix A steering-lash table: only 16/18/20/22 in rows captured; pull full table.
-5. AB 3278 (j)-truck scope conflict (secondary summary says hazmat; statute says "other regulated motortrucks").
+1. Not confirmed from primary sources: Uber/Lyft official form items (no official public copy); CO TNC item list / current PUC rule text; IL TNP Act current §25 text; full MA 540 CMR 30 item list; CHP limo inspection frequency; 396.9 15-day return; CVSA Level II official text; CAAS GVS version; NFPA 1910 intervals/OOS (paid standard); TMC tire RPs and pull points (member/paid RP Manual).
+2. Most Part 396 text is from Cornell LII. Appendix A steering and 390.5T were checked against eCFR on 2026-10-21; the remaining sections still need an eCFR check.
+3. ~~§390.5 vs §390.5T~~ resolved: cite 390.5T (390.5 suspended).
+4. ~~Steering-lash table~~ resolved: eCFR has only the 16/18/20/22 in rows.
+5. ~~BIT (j) scope~~ resolved via CHP bulletin: other DMV/DCA/USDOT-regulated motortrucks, not hazmat.
 6. Texas equivalence to 396.17 from J.J. Keller only; FMCSA equivalent-state list not retrieved.
 7. CARB quarterly OBD start (Oct 2027 vs "2027") and any 2026 amendments.
-8. NYC FHV cadence (TLC page vs 2024 pilot).
+8. ~~NYC FHV cadence~~ resolved: 59A-26(a), 3/year.
 9. CPUC 50,000-mile trigger petition outcome.
 10. CVSA 2026 OOS change details (paid handbook).
 
 ## 15. Sources
 - 49 CFR Part 396 (Cornell): https://www.law.cornell.edu/cfr/text/49/part-396 ; sections 396.3, .11, .13, .17, .19, .21, .23, .25 at https://www.law.cornell.edu/cfr/text/49/396.3 (etc.)
-- [AppA] Appendix A to Part 396 (formerly App. G): https://www.law.cornell.edu/cfr/text/49/appendix-A_to_part_396
+- [AppA] Appendix A to Part 396 (formerly App. G): https://www.law.cornell.edu/cfr/text/49/appendix-A_to_part_396 ; eCFR: https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396/appendix-Appendix%20A%20to%20Part%20396
 - eCFR Part 396 (primary): https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-396
-- 49 CFR 390.5: https://www.law.cornell.edu/cfr/text/49/390.5
+- 49 CFR 390.5 (suspended) / 390.5T (in force): https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/subpart-A/section-390.5T
 - [JJK-393.47]: https://jjkellercompliancenetwork.com/regsense/details/r49CFR393.47
 - DVIR no-defect rules: https://downloads.regulations.gov/FMCSA-2012-0336-0046/content.htm ; https://www.govinfo.gov/content/pkg/FR-2020-08-18/pdf/2020-15667.pdf
 - CVSA: https://cvsa.org/inspections/about-inspection-decals/ ; https://cvsa.org/inspections/all-inspection-levels/ ; https://cvsa.org/wp-content/uploads/Roadside-Inspection-Operational-Policies.pdf ; https://cvsa.org/inspections/level-viii-definition-purpose ; https://cvsa.org/news/2024-oosc-handbook/
@@ -417,6 +420,6 @@ Voluntary unless a contract/policy adopts them. 2026–2027 RP Manual released A
 - NSTSP: https://stnonline.com/news/2025-national-school-transportation-specs-procedures-manual-released ; https://nasdpts.org/ncst-nstsp ; MN: https://www.revisor.mn.gov/statutes/cite/169.451 ; SD: https://sdlegislature.gov/api/Rules/24:06:08:03.html ; FL: https://www.fldoe.org/file/7585/FSBSIM.pdf
 - CPUC: https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/consumer-protection-and-enforcement-division/documents/tlab/tcp-forms/pl668.pdf ; https://www.cpuc.ca.gov/-/media/cpuc-website/files/uploadedfiles/cpuc_public_website/content/licensing/transportation_network_companies/basicinformationfortncs.pdf ; TEB-001: https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M598/K715/598715251.pdf
 - Other TNC: https://www.mass.gov/doc/540-cmr-30-annual-inspection-of-transportation-network-company-tnc-vehicles/download ; https://www.uber.com/drive/boston/inspections ; https://www.uber.com/ae/ar/drive/fayetteville-ar/inspections ; https://www.chicago.gov/content/dam/city/depts/bacp/publicvehicleinfo/publicvehicle/TNP/pvnotice22030annualvehicleinspections.pdf ; https://www.azleg.gov/legtext/55leg/2R/summary/S.2273TAT.DOCX.htm ; https://www.nj.gov/mvc/pdf/business/tncfaq.pdf ; https://dmv.virginia.gov/businesses/tnc/vehicle-req ; https://lacey.municipal.codes/LMC/5.26.070 ; https://pullman.municipal.codes/Code/6.94.050 ; https://www.ridester.com/uber-vehicle-inspection/
-- NYC TLC: https://www.nyc.gov/site/tlc/vehicles/vehicle-inspections.page ; https://www.nyc.gov/assets/tlc/downloads/pdf/extend_si_dmv_pilot_03_24.pdf
+- NYC TLC: https://www.nyc.gov/site/tlc/vehicles/vehicle-inspections.page ; rules ch. 59: https://www.nyc.gov/assets/tlc/downloads/pdf/rule_book_current_chapter_59.pdf ; 2014 SI pilot: https://www.nyc.gov/assets/tlc/downloads/pdf/extend_si_dmv_pilot_03_24.pdf
 - NFPA / ambulance: https://webstore.ansi.org/standards/nfpa/nfpa19102024 ; https://www.fire-police-ems.com/NFPA1900-2024.shtml ; https://www.ul.com/offerings/performance-testing-arff-vehicles ; https://www.firerescue1.com/fire-products/vehicles/ambulances/articles/tale-of-two-ambulance-standards-d9a1lGXCCQAuDQju/ ; https://nasemso.org/nasemso-document/new-changes-to-kkk-a-1822f-by-state ; https://ems.utah.gov/wp-content/uploads/sites/34/2024/07/ut_approved_ambulance_std.pdf ; https://apps.legislature.ky.gov/law/kar/titles/202/007/550/REG/
 - CARB Clean Truck Check: https://ww2.arb.ca.gov/clean-truck-check-overview-fact-sheet ; https://ww2.arb.ca.gov/clean-truck-check-emissions-compliance-testing-requirements ; https://ww2.arb.ca.gov/resources/fact-sheets/clean-truck-check-compliance-fee-update-effective-112026 ; https://ww2.arb.ca.gov/resources/fact-sheets/clean-truck-check-faq-0

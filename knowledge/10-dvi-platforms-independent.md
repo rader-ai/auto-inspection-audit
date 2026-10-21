@@ -31,7 +31,7 @@
 | Customer delivery | Text/email link; "Vehicle Health Report" sent as second tab with estimate | SMS/email with PDF attachment plus live link | "DVX" share link by text/email | "Inspection Results" link (3 templates) by text/email | Text/email to phone |
 | Approval record | Point-in-time authorization snapshots on RO Summary; method dropdown (digital signature, paper, in-person, phone, text, email) | Per-service authorize with optional e-signature; signed PDF in Activity; separate inspection e-signature (2026) | "Authorization Summary" (opt-in) with method, contact, phone/email, signature; CA BAR-format summary | Approvals live in host POS [INFERENCE] | Vendor says techs can capture signature on tablet ([src](https://lp.boltontechnology.com/mitchell-1)) |
 | Owner KPIs | Inspection Report: completion rate, avg inspection time, avg findings, % sent / % viewed, ARO and close ratio vs attachment count | Vehicle Inspections Summary/Detail: completion rate, items rated %, Avg Finding % | Technician report (efficiency/productivity); unfulfilled-recommendations export | BCP: inspection rate, sent rate, avg pictures per RO, edited-picture rate, recommendation rate, customer research time | "Reporting" module [metrics UNVERIFIED] |
-| AI text tools on findings | "Smart DVI" (video narration to AI-built DVI) announced April 2026, "coming soon" | Voice notes in mobile app | "AutoWrite" AI rewrite/translate on Notes/Findings (announced Oct 2025, early adoption) | "Otto Notes" AI rewrite of customer notes (rolled out Feb–Mar 2026) | AI phone advisor "MILES" (not a DVI tool) |
+| AI text tools on findings | "Smart DVI" (video narration to AI-built DVI) announced April 2026, "coming soon" | Voice notes in mobile app | "AutoWrite" AI rewrite/translate on Notes/Findings (previewed Oct 2025; generally released Mar 2026, v13.1.0) | "Otto Notes" AI rewrite of customer notes (rolled out Feb–Mar 2026) | AI phone advisor "MILES" (not a DVI tool) |
 
 ---
 
@@ -220,7 +220,7 @@
 **4. Photos/video**
 - **Capture and markup.** TechApp uses the native camera. Photo markup (arrows, circles, squares, text) arrived March 2024. Video upload limit rose from 50 MB to 500 MB in July 2025 ([Product Updates index](https://support.shop-ware.com/s/product-updates); see v11.04.0 and v12.4.0).
 - **Display.** Notes and attachments show as icons under each inspection item. PDFs can be printed without pictures (Jan 2024).
-- **MMS.** MMS texting of photos and videos arrived May 2026 (v13.4.0).
+- **MMS.** The v13.4.0 release notes (May 2026) list MMS texting only as "coming soon" ([v13.4.0](https://support.shop-ware.com/s/release-notes/a6nUM000000Lm01YAC/version-1340-plans-to-be-released-the-week-of-05262026)). Release not confirmed as of 2026-10-21.
 
 **5. Canned jobs / recommendations**
 - **Three ways to make a recommendation:** the clipboard-and-wrench icon on an inspection line, "Create a Finding" in the Notes Feed, or converting an existing service ([Create a Recommendation](https://support.shop-ware.com/s/article/How-Do-I-Create-a-Recommendation)).
@@ -229,7 +229,7 @@
 - **Carry-forward.** Pending and declined recommendations reappear at the top of new estimates and in an unfulfilled-recommendations export ([Declined tracking](https://support.shop-ware.com/s/article/Are-You-Able-to-Track-Declined-Work-Or-Estimated-Work-per-Invoice-Can-You-Look-at-Daily-and-Weekly-Declined-Sales)). There are no automatic declined-work reminder texts ([FAQ](https://support.shop-ware.com/s/article/If-a-Customer-Declines-Work-Will-Shop-Ware-Still-Send-an-Email-or-Text-Remind-Them-of-Needed-Work)).
 - **Closed-RO caveat.** A recommendation added to a *closed* RO will not carry forward ([Create](https://support.shop-ware.com/s/article/How-Do-I-Create-a-Recommendation)).
 - **Labor.** Canned jobs, past services, or the "Estimator" labor/maintenance guide ([Getting Started](https://support.shop-ware.com/s/article/Getting-Started-Repair-Orders-and-Appointments)). Good/better/best options can be offered ([DVX innovations](https://shop-ware.com/digital-vehicle-inspections-dvi-innovations-shop-ware/)).
-- **AI rewriting.** "AutoWrite" AI can summarize, improve, change tone or translate text in Notes/Findings (inspection and RO), customer-visit reason and messages. It was announced in v12.7.0 (Oct 2025) for early adoption ([v12.7.0](https://support.shop-ware.com/s/product-updates)).
+- **AI rewriting.** "AutoWrite" AI can summarize, improve, change tone or translate text in Notes/Findings (inspection and RO), customer-visit reason and messages. It was previewed in v12.7.0 (Oct 2025) for early adoption ([v12.7.0](https://support.shop-ware.com/s/product-updates)) and generally released in v13.1.0, week of 2026-03-02, on Pro, Master and Ultimate+ plans ([v13.1.0](https://support.shop-ware.com/s/release-notes/a6nUM000000J3wfYAC/version-1310-plans-to-be-released-the-week-of-03022026)). The release notes say nothing about labeling AI-edited text for customers.
 
 **6. Customer-facing report**
 - **"DVX" (Digital Vehicle Experience).** The full RO with inspection report, photos, recommendations ranked by urgency, out-the-door totals, approve / "Decline for Now," online signature and payment ([DVX](https://shop-ware.com/features/dvx/); [DVI vs DVX](https://shop-ware.com/features/dvx/digital-vehicle-inspection-vs-dvx/)).
@@ -450,7 +450,7 @@
 4. Bolt On's actual template builder, measurement support, customer report layout, approval record contents and KPIs. Public docs are minimal.
 5. Shopmonkey custom statuses: how they are created and how they render to customers.
 6. Whether Tekmetric's interval-based pre-ratings are visibly labeled as such on the customer report, or only show as red/yellow.
-7. Whether AI rewrite tools (Otto Notes, AutoWrite, Tekmetric Smart DVI) leave any marker in the customer-facing output or audit log.
+7. Whether AI rewrite tools (Otto Notes, AutoWrite, Tekmetric Smart DVI) leave any marker in the customer-facing output or audit log. Re-checked 2026-10-21 through normal browser access: the Otto Notes article, the Shop-Ware v13.1.0 AutoWrite release note and Tekmetric's Recommended Maintenance on DVI article describe no customer-facing label. Otto Notes replaces the Customer Notes text in place (undo available before sending). Absence from the docs is not proof; a real customer report would settle it.
 8. API field lists for inspection objects: Tekmetric public API inspection endpoint, Shop-Ware public API, and Shopmonkey v3 (inspection objects not confirmed).
 9. Shop-Ware inspection-line color naming. The TechApp article says orange; web articles say yellow. Likely the same tier [INFERENCE].
 
@@ -523,6 +523,7 @@
 - Declined work reminders FAQ — https://support.shop-ware.com/s/article/If-a-Customer-Declines-Work-Will-Shop-Ware-Still-Send-an-Email-or-Text-Remind-Them-of-Needed-Work
 - Approved total FAQ — https://support.shop-ware.com/s/article/When-a-Client-Approves-Repairs-Online-Do-They-See-the-Total-Revised-Amount
 - Technician Report — https://support.shop-ware.com/s/article/What-is-the-Technician-Report-in-Shop-Ware
+- Help-center articles above were re-checked through normal browser access on 2026-10-21; content matched except the AutoWrite and MMS corrections noted in section 3.3.
 - Product Updates (release notes v10.10 to v13.4, 2023–2026) — https://support.shop-ware.com/s/product-updates
 - DVX feature page — https://shop-ware.com/features/dvx/
 - DVI vs DVX — https://shop-ware.com/features/dvx/digital-vehicle-inspection-vs-dvx/
