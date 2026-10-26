@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+<title id="t">Step 1: the shop's report</title>
+<desc id="d">Excerpt of the real report: Front Brake System graded red, right front banjo bolt leaking, pads 7+ mm good; reason for visit says calipers were recently replaced but recommends replacing both calipers and the master cylinder; a yellow item bundles front diff, rear diff and transfer case service as due by interval.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.in0 { animation: in0 12s linear infinite both; }
+@keyframes in0 { 0%,6.0% { opacity: 0; } 9.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.in1 { animation: in1 12s linear infinite both; }
+@keyframes in1 { 0%,20.0% { opacity: 0; } 23.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.in2 { animation: in2 12s linear infinite both; }
+@keyframes in2 { 0%,34.0% { opacity: 0; } 37.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1280" height="360" rx="18" fill="#0B1218"/>
+<rect x="48" y="24" width="1184" height="320" rx="10" fill="#121C25" stroke="#2D3B47"/><line x1="48" y1="64" x2="1232" y2="64" stroke="#2D3B47"/><text class="s" x="66" y="50" font-size="14" font-weight="600" fill="#94A6B5">The shop’s report, as written (excerpt)</text>
+<g class="in0"><circle cx="80" cy="92" r="6" fill="#FF6B78"/><text class="s" x="100" y="98" font-size="17" font-weight="700" fill="#E9EEF2">Front Brake System</text><text class="s" x="100" y="126" font-size="16" fill="#94A6B5">“Right front brake line banjo bolt is leaking. Brake pads at 7+mm – currently in good condition.”</text></g>
+<g class="in1"><circle cx="80" cy="168" r="6" fill="#2A3743"/><text class="s" x="100" y="174" font-size="17" font-weight="700" fill="#E9EEF2">Reason for visit: brakes</text><text class="s" x="100" y="202" font-size="16" fill="#94A6B5">“Front brake calipers recently have been replaced… Recommend replacing both front calipers, and replacing the master</text><text class="s" x="100" y="226" font-size="16" fill="#94A6B5">cylinder.”</text></g>
+<g class="in2"><circle cx="80" cy="268" r="6" fill="#F2B544"/><text class="s" x="100" y="274" font-size="17" font-weight="700" fill="#E9EEF2">Differential &amp; Transfer Case</text><text class="s" x="100" y="302" font-size="16" fill="#94A6B5">“Recommend servicing the front differential, rear differential and transfer case… due based on maintenance intervals.”</text></g>
+</svg>

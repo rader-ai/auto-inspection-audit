@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="700" viewBox="0 0 640 700" role="img" aria-labelledby="t d">
+<title id="t">How the audit works</title>
+<desc id="d">Six steps: read the documents then ask what only you know; list every claim keeping the shop's items; apply the inspection software's known quirks; check evidence and the OEM schedule; find contradictions; decide each item and draft the messages.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.mk { animation: mk 11s cubic-bezier(.45,0,.55,1) infinite both; }
+@keyframes mk { 0%,4% { transform: translateY(0); opacity: 0; } 6% { opacity: 1; } 84% { transform: translateY(572px); opacity: 1; } 92%,100% { transform: translateY(572px); opacity: 0; } }
+.st0 { animation: st0 11s linear infinite both; }
+@keyframes st0 { 0%,6.0% { opacity: 0; } 8.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st1 { animation: st1 11s linear infinite both; }
+@keyframes st1 { 0%,21.6% { opacity: 0; } 23.6%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st2 { animation: st2 11s linear infinite both; }
+@keyframes st2 { 0%,37.2% { opacity: 0; } 39.2%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st3 { animation: st3 11s linear infinite both; }
+@keyframes st3 { 0%,52.8% { opacity: 0; } 54.8%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st4 { animation: st4 11s linear infinite both; }
+@keyframes st4 { 0%,68.4% { opacity: 0; } 70.4%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st5 { animation: st5 11s linear infinite both; }
+@keyframes st5 { 0%,84.0% { opacity: 0; } 86.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="640" height="700" rx="18" fill="#0B1218"/>
+<line x1="64" y1="64" x2="64" y2="636" stroke="#2D3B47" stroke-width="3"/>
+<circle cx="64" cy="64.0" r="18" fill="#121C25" stroke="#2D3B47" stroke-width="2"/><circle class="st0" cx="64" cy="64.0" r="18" fill="#0A141C"/><text class="s" x="64" y="69.0" font-size="15" font-weight="700" text-anchor="middle" fill="#F0A33A">1</text><text class="s" x="104" y="62.0" font-size="20" font-weight="700" fill="#E9EEF2">Read, then ask</text><text class="s" x="104" y="88.0" font-size="16" fill="#94A6B5">confirms vehicle, timeline, why it came in</text>
+<circle cx="64" cy="178.4" r="18" fill="#121C25" stroke="#2D3B47" stroke-width="2"/><circle class="st1" cx="64" cy="178.4" r="18" fill="#0A141C"/><text class="s" x="64" y="183.4" font-size="15" font-weight="700" text-anchor="middle" fill="#F0A33A">2</text><text class="s" x="104" y="176.4" font-size="20" font-weight="700" fill="#E9EEF2">List every claim</text><text class="s" x="104" y="202.4" font-size="16" fill="#94A6B5">keeps the shop’s items and words</text>
+<circle cx="64" cy="292.8" r="18" fill="#121C25" stroke="#2D3B47" stroke-width="2"/><circle class="st2" cx="64" cy="292.8" r="18" fill="#0A141C"/><text class="s" x="64" y="297.8" font-size="15" font-weight="700" text-anchor="middle" fill="#F0A33A">3</text><text class="s" x="104" y="290.8" font-size="20" font-weight="700" fill="#E9EEF2">Know the software</text><text class="s" x="104" y="316.8" font-size="16" fill="#94A6B5">Tekmetric, Mitchell 1, Xtime quirks</text>
+<circle cx="64" cy="407.2" r="18" fill="#121C25" stroke="#2D3B47" stroke-width="2"/><circle class="st3" cx="64" cy="407.2" r="18" fill="#0A141C"/><text class="s" x="64" y="412.2" font-size="15" font-weight="700" text-anchor="middle" fill="#F0A33A">4</text><text class="s" x="104" y="405.2" font-size="20" font-weight="700" fill="#E9EEF2">Check the evidence</text><text class="s" x="104" y="431.2" font-size="16" fill="#94A6B5">measurements, photos, OEM schedule</text>
+<circle cx="64" cy="521.6" r="18" fill="#121C25" stroke="#2D3B47" stroke-width="2"/><circle class="st4" cx="64" cy="521.6" r="18" fill="#0A141C"/><text class="s" x="64" y="526.6" font-size="15" font-weight="700" text-anchor="middle" fill="#F0A33A">5</text><text class="s" x="104" y="519.6" font-size="20" font-weight="700" fill="#E9EEF2">Find contradictions</text><text class="s" x="104" y="545.6" font-size="16" fill="#94A6B5">statement against statement</text>
+<circle cx="64" cy="636.0" r="18" fill="#121C25" stroke="#2D3B47" stroke-width="2"/><circle class="st5" cx="64" cy="636.0" r="18" fill="#0A141C"/><text class="s" x="64" y="641.0" font-size="15" font-weight="700" text-anchor="middle" fill="#F0A33A">6</text><text class="s" x="104" y="634.0" font-size="20" font-weight="700" fill="#E9EEF2">Decide and draft</text><text class="s" x="104" y="660.0" font-size="16" fill="#94A6B5">buckets plus messages to send</text>
+<g class="mk"><circle cx="64" cy="64" r="7" fill="#F0A33A"/></g>
+</svg>

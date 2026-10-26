@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="700" viewBox="0 0 640 700" role="img" aria-labelledby="t d">
+<title id="t">Step 3: what you send</title>
+<desc id="d">The output: an approve-today list (leak repair with bleed and pedal check; taillight lens), a to-do to call the shop that installed the calipers about warranty, and a ready-to-send text to the shop.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.ap0 { animation: ap0 14s linear infinite both; }
+@keyframes ap0 { 0%,4.0% { opacity: 0; } 6.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ap1 { animation: ap1 14s linear infinite both; }
+@keyframes ap1 { 0%,8.0% { opacity: 0; } 10.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.td { animation: td 14s linear infinite both; }
+@keyframes td { 0%,12.0% { opacity: 0; } 14.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml0 { animation: ml0 14s linear infinite both; }
+@keyframes ml0 { 0%,18.0% { opacity: 0; } 19.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml1 { animation: ml1 14s linear infinite both; }
+@keyframes ml1 { 0%,23.0% { opacity: 0; } 24.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml2 { animation: ml2 14s linear infinite both; }
+@keyframes ml2 { 0%,28.0% { opacity: 0; } 29.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml3 { animation: ml3 14s linear infinite both; }
+@keyframes ml3 { 0%,33.0% { opacity: 0; } 34.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml4 { animation: ml4 14s linear infinite both; }
+@keyframes ml4 { 0%,38.0% { opacity: 0; } 39.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml5 { animation: ml5 14s linear infinite both; }
+@keyframes ml5 { 0%,43.0% { opacity: 0; } 44.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml6 { animation: ml6 14s linear infinite both; }
+@keyframes ml6 { 0%,48.0% { opacity: 0; } 49.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ml7 { animation: ml7 14s linear infinite both; }
+@keyframes ml7 { 0%,53.0% { opacity: 0; } 54.5%,95% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="640" height="700" rx="18" fill="#0B1218"/>
+<text class="s" x="40" y="56" font-size="22" font-weight="800" fill="#E9EEF2">Approve today</text>
+<g class="ap0"><rect x="40" y="80" width="20" height="20" rx="5" fill="none" stroke="#4FD29A" stroke-width="2"/><path d="M45 90 l4 4 l7 -8" fill="none" stroke="#4FD29A" stroke-width="2.4" stroke-linecap="round"/><text class="s" x="72" y="96" font-size="16" fill="#E9EEF2">Leak repair, refill and bleed, pedal check</text></g>
+<g class="ap1"><rect x="40" y="114" width="20" height="20" rx="5" fill="none" stroke="#4FD29A" stroke-width="2"/><path d="M45 124 l4 4 l7 -8" fill="none" stroke="#4FD29A" stroke-width="2.4" stroke-linecap="round"/><text class="s" x="72" y="130" font-size="16" fill="#E9EEF2">Right taillight lens</text></g>
+<text class="s" x="40" y="198" font-size="22" font-weight="800" fill="#E9EEF2">Your own to-do</text>
+<g class="td"><rect x="40" y="222" width="20" height="20" rx="5" fill="none" stroke="#94A6B5" stroke-width="2"/><text class="s" x="72" y="238" font-size="16" fill="#E9EEF2">Call the shop that installed the calipers</text><text class="s" x="72" y="260" font-size="16" fill="#E9EEF2">about warranty</text></g>
+<rect x="24" y="330" width="592" height="306" rx="18" fill="#121C25" stroke="#2D3B47"/><text class="s" x="44" y="358" font-size="14" font-weight="600" fill="#94A6B5">Text to the shop · ready to send</text><line x1="24" y1="372" x2="616" y2="372" stroke="#2D3B47"/>
+<rect x="48" y="390" width="544" height="210" rx="16" fill="#0A141C"/>
+<text class="s ml0" x="66" y="420" font-size="15" fill="#F1F5F8" xml:space="preserve">Please go ahead with:</text>
+<text class="s ml1" x="66" y="443" font-size="15" fill="#F1F5F8" xml:space="preserve">1. Repair the leak at the right-front brake line</text>
+<text class="s ml2" x="66" y="466" font-size="15" fill="#F1F5F8" xml:space="preserve">   fitting, refill and bleed, then check the pedal.</text>
+<text class="s ml3" x="66" y="489" font-size="15" fill="#F1F5F8" xml:space="preserve">2. Replace the right taillight lens.</text>
+<text class="s ml4" x="66" y="512" font-size="15" fill="#F1F5F8" xml:space="preserve">The calipers were installed at another shop and I’m</text>
+<text class="s ml5" x="66" y="535" font-size="15" fill="#F1F5F8" xml:space="preserve">checking the warranty. Please document the fitting</text>
+<text class="s ml6" x="66" y="558" font-size="15" fill="#F1F5F8" xml:space="preserve">with photos and hold off on new calipers.</text>
+<text class="s ml7" x="66" y="581" font-size="15" fill="#F1F5F8" xml:space="preserve">Which warning-light codes came up on the scan?</text>
+</svg>

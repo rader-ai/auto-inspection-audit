@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="t d">
+<title id="t">One real inspection, audited</title>
+<desc id="d">From one real Tekmetric inspection of a 2001 Ram 2500: 16 shop items sorted into 2 Fix now, 4 Approve, 5 Ask first and 5 Skip or defer; 7 statements that contradict each other; 1 of 16 findings with a measurement.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.all { animation: all 12s linear infinite both; }
+@keyframes all { 0% { opacity: 0; } 2% { opacity: 1; } 90% { opacity: 1; } 97%,100% { opacity: 0; } }
+.m0 { animation: m0 12s linear infinite both; }
+@keyframes m0 { 0%,6.0% { opacity: 0; } 7.5%,100% { opacity: 1; } }
+.m1 { animation: m1 12s linear infinite both; }
+@keyframes m1 { 0%,7.4% { opacity: 0; } 8.9%,100% { opacity: 1; } }
+.m2 { animation: m2 12s linear infinite both; }
+@keyframes m2 { 0%,8.8% { opacity: 0; } 10.2%,100% { opacity: 1; } }
+.m3 { animation: m3 12s linear infinite both; }
+@keyframes m3 { 0%,10.1% { opacity: 0; } 11.6%,100% { opacity: 1; } }
+.m4 { animation: m4 12s linear infinite both; }
+@keyframes m4 { 0%,11.5% { opacity: 0; } 13.0%,100% { opacity: 1; } }
+.m5 { animation: m5 12s linear infinite both; }
+@keyframes m5 { 0%,12.9% { opacity: 0; } 14.4%,100% { opacity: 1; } }
+.m6 { animation: m6 12s linear infinite both; }
+@keyframes m6 { 0%,14.2% { opacity: 0; } 15.8%,100% { opacity: 1; } }
+.m7 { animation: m7 12s linear infinite both; }
+@keyframes m7 { 0%,15.6% { opacity: 0; } 17.1%,100% { opacity: 1; } }
+.m8 { animation: m8 12s linear infinite both; }
+@keyframes m8 { 0%,17.0% { opacity: 0; } 18.5%,100% { opacity: 1; } }
+.m9 { animation: m9 12s linear infinite both; }
+@keyframes m9 { 0%,18.4% { opacity: 0; } 19.9%,100% { opacity: 1; } }
+.m10 { animation: m10 12s linear infinite both; }
+@keyframes m10 { 0%,19.8% { opacity: 0; } 21.2%,100% { opacity: 1; } }
+.m11 { animation: m11 12s linear infinite both; }
+@keyframes m11 { 0%,21.1% { opacity: 0; } 22.6%,100% { opacity: 1; } }
+.m12 { animation: m12 12s linear infinite both; }
+@keyframes m12 { 0%,22.5% { opacity: 0; } 24.0%,100% { opacity: 1; } }
+.m13 { animation: m13 12s linear infinite both; }
+@keyframes m13 { 0%,23.9% { opacity: 0; } 25.4%,100% { opacity: 1; } }
+.m14 { animation: m14 12s linear infinite both; }
+@keyframes m14 { 0%,25.2% { opacity: 0; } 26.8%,100% { opacity: 1; } }
+.m15 { animation: m15 12s linear infinite both; }
+@keyframes m15 { 0%,26.6% { opacity: 0; } 28.1%,100% { opacity: 1; } }
+.c0 { animation: c0 12s linear infinite both; }
+@keyframes c0 { 0%,10.0% { opacity: 0; } 10.1%,15.0% { opacity: 1; } 15.1%,100% { opacity: 0; } }
+.c1 { animation: c1 12s linear infinite both; }
+@keyframes c1 { 0%,15.0% { opacity: 0; } 15.1%,20.0% { opacity: 1; } 20.1%,100% { opacity: 0; } }
+.c2 { animation: c2 12s linear infinite both; }
+@keyframes c2 { 0%,20.0% { opacity: 0; } 20.1%,25.0% { opacity: 1; } 25.1%,100% { opacity: 0; } }
+.c3 { animation: c3 12s linear infinite both; }
+@keyframes c3 { 0%,25.0% { opacity: 0; } 25.1%,100% { opacity: 1; } }
+.q0 { animation: q0 12s linear infinite both; }
+@keyframes q0 { 0%,8.0% { opacity: 0; } 9.0%,100% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1280" height="380" rx="18" fill="#EEF1F4"/>
+<g class="all">
+<text class="s" x="48" y="62" font-size="28" font-weight="800" fill="#101A23">One real inspection, audited</text>
+<text class="s" x="48" y="92" font-size="16" fill="#566573">2001 Ram 2500 · Tekmetric report · Oct 2026 · one case, not a benchmark</text>
+<rect x="48" y="128" width="560" height="212" rx="10" fill="#FFFFFF" stroke="#C3CCD4"/>
+<rect x="632" y="128" width="290" height="212" rx="10" fill="#FFFFFF" stroke="#C3CCD4"/>
+<rect x="946" y="128" width="286" height="212" rx="10" fill="#FFFFFF" stroke="#C3CCD4"/>
+<text class="s" x="72" y="164" font-size="16" font-weight="700" fill="#101A23">16 shop items, sorted by what to do</text>
+<rect x="72.0" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m0" x="72.0" y="188" width="28.2" height="22" rx="3" fill="#C8263A"/>
+<rect x="104.2" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m1" x="104.2" y="188" width="28.2" height="22" rx="3" fill="#C8263A"/>
+<rect x="136.5" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m2" x="136.5" y="188" width="28.2" height="22" rx="3" fill="#11815A"/>
+<rect x="168.8" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m3" x="168.8" y="188" width="28.2" height="22" rx="3" fill="#11815A"/>
+<rect x="201.0" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m4" x="201.0" y="188" width="28.2" height="22" rx="3" fill="#11815A"/>
+<rect x="233.2" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m5" x="233.2" y="188" width="28.2" height="22" rx="3" fill="#11815A"/>
+<rect x="265.5" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m6" x="265.5" y="188" width="28.2" height="22" rx="3" fill="#B97700"/>
+<rect x="297.8" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m7" x="297.8" y="188" width="28.2" height="22" rx="3" fill="#B97700"/>
+<rect x="330.0" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m8" x="330.0" y="188" width="28.2" height="22" rx="3" fill="#B97700"/>
+<rect x="362.2" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m9" x="362.2" y="188" width="28.2" height="22" rx="3" fill="#B97700"/>
+<rect x="394.5" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m10" x="394.5" y="188" width="28.2" height="22" rx="3" fill="#B97700"/>
+<rect x="426.8" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m11" x="426.8" y="188" width="28.2" height="22" rx="3" fill="#6F7E8B"/>
+<rect x="459.0" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m12" x="459.0" y="188" width="28.2" height="22" rx="3" fill="#6F7E8B"/>
+<rect x="491.2" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m13" x="491.2" y="188" width="28.2" height="22" rx="3" fill="#6F7E8B"/>
+<rect x="523.5" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m14" x="523.5" y="188" width="28.2" height="22" rx="3" fill="#6F7E8B"/>
+<rect x="555.8" y="188" width="28.2" height="22" rx="3" fill="#D3DAE0"/><rect class="m15" x="555.8" y="188" width="28.2" height="22" rx="3" fill="#6F7E8B"/>
+<text class="s" x="72" y="256" font-size="34" font-weight="800" fill="#C8263A">2</text><text class="s" x="102" y="254" font-size="15" font-weight="600" fill="#101A23">Fix now</text>
+<text class="s" x="202" y="256" font-size="34" font-weight="800" fill="#11815A">4</text><text class="s" x="232" y="254" font-size="15" font-weight="600" fill="#101A23">Approve</text>
+<text class="s" x="332" y="256" font-size="34" font-weight="800" fill="#B97700">5</text><text class="s" x="362" y="254" font-size="15" font-weight="600" fill="#101A23">Ask first</text>
+<text class="s" x="462" y="256" font-size="34" font-weight="800" fill="#6F7E8B">5</text><text class="s" x="492" y="254" font-size="15" font-weight="600" fill="#101A23">Skip / defer</text>
+<text class="s" x="72" y="316" font-size="14" fill="#566573">Every item keeps the shop’s own name and wording.</text>
+<g class="s"><text class="c0" x="656.0" y="232.0" font-size="64" font-weight="800" fill="#C8263A" opacity="0">1</text><text class="c1" x="656.0" y="232.0" font-size="64" font-weight="800" fill="#C8263A" opacity="0">3</text><text class="c2" x="656.0" y="232.0" font-size="64" font-weight="800" fill="#C8263A" opacity="0">5</text><text class="c3" x="656.0" y="232.0" font-size="64" font-weight="800" fill="#C8263A" opacity="1">7</text></g>
+<text class="s" x="656" y="164" font-size="16" font-weight="700" fill="#101A23">Contradictions</text>
+<text class="s" x="656" y="268" font-size="15" fill="#566573">statements in the report that</text>
+<text class="s" x="656" y="289" font-size="15" fill="#566573">conflict with each other</text>
+<text class="s" x="970" y="164" font-size="16" font-weight="700" fill="#101A23">Measurements</text>
+<text class="s" x="970" y="232" font-size="64" font-weight="800" fill="#B97700">1</text><text class="s" x="1012" y="232" font-size="22" font-weight="700" fill="#566573">of 16</text>
+<rect class="q0" x="970.0" y="252" width="12.1" height="10" rx="2" fill="#B97700"/>
+<rect x="985.1" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1000.1" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1015.2" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1030.2" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1045.3" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1060.4" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1075.4" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1090.5" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1105.6" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1120.6" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1135.7" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1150.8" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1165.8" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1180.9" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<rect x="1195.9" y="252" width="12.1" height="10" rx="2" fill="#D3DAE0"/>
+<text class="s" x="970" y="290" font-size="15" fill="#566573">findings with a number</text>
+<text class="s" x="970" y="311" font-size="15" fill="#566573">behind them (pads, 7+ mm)</text>
+</g>
+</svg>

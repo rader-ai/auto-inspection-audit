@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250" role="img" aria-labelledby="t d">
+<title id="t">How the audit works</title>
+<desc id="d">Six steps: read the documents then ask what only you know; list every claim keeping the shop's items; apply the inspection software's known quirks; check evidence and the OEM schedule; find contradictions; decide each item and draft the messages.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.mk { animation: mk 11s cubic-bezier(.45,0,.55,1) infinite both; }
+@keyframes mk { 0%,4% { transform: translateX(0); opacity: 0; } 6% { opacity: 1; } 84% { transform: translateX(1088px); opacity: 1; } 92%,100% { transform: translateX(1088px); opacity: 0; } }
+.st0 { animation: st0 11s linear infinite both; }
+@keyframes st0 { 0%,6.0% { opacity: 0; } 8.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st1 { animation: st1 11s linear infinite both; }
+@keyframes st1 { 0%,21.6% { opacity: 0; } 23.6%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st2 { animation: st2 11s linear infinite both; }
+@keyframes st2 { 0%,37.2% { opacity: 0; } 39.2%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st3 { animation: st3 11s linear infinite both; }
+@keyframes st3 { 0%,52.8% { opacity: 0; } 54.8%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st4 { animation: st4 11s linear infinite both; }
+@keyframes st4 { 0%,68.4% { opacity: 0; } 70.4%,95% { opacity: 1; } 100% { opacity: 0; } }
+.st5 { animation: st5 11s linear infinite both; }
+@keyframes st5 { 0%,84.0% { opacity: 0; } 86.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1280" height="250" rx="18" fill="#EEF1F4"/>
+<line x1="96" y1="92" x2="1184" y2="92" stroke="#C3CCD4" stroke-width="3"/>
+<circle cx="96.0" cy="92" r="17" fill="#FFFFFF" stroke="#C3CCD4" stroke-width="2"/><circle class="st0" cx="96.0" cy="92" r="17" fill="#0F1C27"/><text class="s" x="96.0" y="97" font-size="14" font-weight="700" text-anchor="middle" fill="#E39A2B">1</text><text class="s" x="96.0" y="140" font-size="16" font-weight="700" text-anchor="middle" fill="#101A23">Read, then ask</text>
+<text class="s" x="96.0" y="164" font-size="13.5" text-anchor="middle" fill="#566573">confirms vehicle,</text>
+<text class="s" x="96.0" y="183" font-size="13.5" text-anchor="middle" fill="#566573">timeline, why it came</text>
+<text class="s" x="96.0" y="202" font-size="13.5" text-anchor="middle" fill="#566573">in</text>
+<circle cx="313.6" cy="92" r="17" fill="#FFFFFF" stroke="#C3CCD4" stroke-width="2"/><circle class="st1" cx="313.6" cy="92" r="17" fill="#0F1C27"/><text class="s" x="313.6" y="97" font-size="14" font-weight="700" text-anchor="middle" fill="#E39A2B">2</text><text class="s" x="313.6" y="140" font-size="16" font-weight="700" text-anchor="middle" fill="#101A23">List every claim</text>
+<text class="s" x="313.6" y="164" font-size="13.5" text-anchor="middle" fill="#566573">keeps the shop’s items</text>
+<text class="s" x="313.6" y="183" font-size="13.5" text-anchor="middle" fill="#566573">and words</text>
+<circle cx="531.2" cy="92" r="17" fill="#FFFFFF" stroke="#C3CCD4" stroke-width="2"/><circle class="st2" cx="531.2" cy="92" r="17" fill="#0F1C27"/><text class="s" x="531.2" y="97" font-size="14" font-weight="700" text-anchor="middle" fill="#E39A2B">3</text><text class="s" x="531.2" y="140" font-size="16" font-weight="700" text-anchor="middle" fill="#101A23">Know the software</text>
+<text class="s" x="531.2" y="164" font-size="13.5" text-anchor="middle" fill="#566573">Tekmetric, Mitchell 1,</text>
+<text class="s" x="531.2" y="183" font-size="13.5" text-anchor="middle" fill="#566573">Xtime quirks</text>
+<circle cx="748.8" cy="92" r="17" fill="#FFFFFF" stroke="#C3CCD4" stroke-width="2"/><circle class="st3" cx="748.8" cy="92" r="17" fill="#0F1C27"/><text class="s" x="748.8" y="97" font-size="14" font-weight="700" text-anchor="middle" fill="#E39A2B">4</text><text class="s" x="748.8" y="140" font-size="16" font-weight="700" text-anchor="middle" fill="#101A23">Check the evidence</text>
+<text class="s" x="748.8" y="164" font-size="13.5" text-anchor="middle" fill="#566573">measurements, photos,</text>
+<text class="s" x="748.8" y="183" font-size="13.5" text-anchor="middle" fill="#566573">OEM schedule</text>
+<circle cx="966.4" cy="92" r="17" fill="#FFFFFF" stroke="#C3CCD4" stroke-width="2"/><circle class="st4" cx="966.4" cy="92" r="17" fill="#0F1C27"/><text class="s" x="966.4" y="97" font-size="14" font-weight="700" text-anchor="middle" fill="#E39A2B">5</text><text class="s" x="966.4" y="140" font-size="16" font-weight="700" text-anchor="middle" fill="#101A23">Find contradictions</text>
+<text class="s" x="966.4" y="164" font-size="13.5" text-anchor="middle" fill="#566573">statement against</text>
+<text class="s" x="966.4" y="183" font-size="13.5" text-anchor="middle" fill="#566573">statement</text>
+<circle cx="1184.0" cy="92" r="17" fill="#FFFFFF" stroke="#C3CCD4" stroke-width="2"/><circle class="st5" cx="1184.0" cy="92" r="17" fill="#0F1C27"/><text class="s" x="1184.0" y="97" font-size="14" font-weight="700" text-anchor="middle" fill="#E39A2B">6</text><text class="s" x="1184.0" y="140" font-size="16" font-weight="700" text-anchor="middle" fill="#101A23">Decide and draft</text>
+<text class="s" x="1184.0" y="164" font-size="13.5" text-anchor="middle" fill="#566573">buckets plus messages</text>
+<text class="s" x="1184.0" y="183" font-size="13.5" text-anchor="middle" fill="#566573">to send</text>
+<g class="mk"><circle cx="96" cy="92" r="6" fill="#E39A2B"/></g>
+</svg>

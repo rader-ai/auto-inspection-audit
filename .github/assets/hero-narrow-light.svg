@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="920" viewBox="0 0 640 920" role="img" aria-labelledby="t d">
+<title id="t">vehicle-inspection-audit</title>
+<desc id="d">A shop's inspection list with red and yellow grades. A scan line moves down it and each item gets an evidence-based call: Fix now, Approve, Ask first, or Skip, while a decision meter fills.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.scan { animation: scan 13s linear infinite both; }
+@keyframes scan { 0% { transform: translateY(0); opacity: 0; } 3% { opacity: 1; }
+  58% { transform: translateY(320px); opacity: 1; } 62%,100% { transform: translateY(320px); opacity: 0; } }
+
+.v0 { animation: v0 13s linear infinite both; }
+@keyframes v0 { 0%,6.4% { opacity: 0; } 8.9%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g0 { animation: g0 13s linear infinite both; }
+@keyframes g0 { 0%,6.4% { opacity: 0; } 8.9%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v1 { animation: v1 13s linear infinite both; }
+@keyframes v1 { 0%,13.3% { opacity: 0; } 15.8%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g1 { animation: g1 13s linear infinite both; }
+@keyframes g1 { 0%,13.3% { opacity: 0; } 15.8%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v2 { animation: v2 13s linear infinite both; }
+@keyframes v2 { 0%,20.2% { opacity: 0; } 22.7%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g2 { animation: g2 13s linear infinite both; }
+@keyframes g2 { 0%,20.2% { opacity: 0; } 22.7%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v3 { animation: v3 13s linear infinite both; }
+@keyframes v3 { 0%,27.1% { opacity: 0; } 29.6%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g3 { animation: g3 13s linear infinite both; }
+@keyframes g3 { 0%,27.1% { opacity: 0; } 29.6%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v4 { animation: v4 13s linear infinite both; }
+@keyframes v4 { 0%,33.9% { opacity: 0; } 36.4%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g4 { animation: g4 13s linear infinite both; }
+@keyframes g4 { 0%,33.9% { opacity: 0; } 36.4%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v5 { animation: v5 13s linear infinite both; }
+@keyframes v5 { 0%,40.8% { opacity: 0; } 43.3%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g5 { animation: g5 13s linear infinite both; }
+@keyframes g5 { 0%,40.8% { opacity: 0; } 43.3%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v6 { animation: v6 13s linear infinite both; }
+@keyframes v6 { 0%,47.7% { opacity: 0; } 50.2%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g6 { animation: g6 13s linear infinite both; }
+@keyframes g6 { 0%,47.7% { opacity: 0; } 50.2%,95% { opacity: 1; } 100% { opacity: 0; } }
+.v7 { animation: v7 13s linear infinite both; }
+@keyframes v7 { 0%,54.6% { opacity: 0; } 57.1%,95% { opacity: 1; } 100% { opacity: 0; } }
+.g7 { animation: g7 13s linear infinite both; }
+@keyframes g7 { 0%,54.6% { opacity: 0; } 57.1%,95% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="640" height="920" rx="18" fill="#0F1C27"/>
+<rect x="28" y="440" width="584" height="446" rx="12" fill="#172937"/>
+<text class="s" x="48" y="468" font-size="14" font-weight="600" fill="#94A7B7">Shop’s inspection</text>
+<text class="s" x="592" y="468" font-size="14" font-weight="600" text-anchor="end" fill="#94A7B7">Our call</text>
+<line x1="28" y1="484" x2="612" y2="484" stroke="#2A3C4B"/>
+<circle cx="56" cy="513.0" r="5.5" fill="#FF5A69"/><circle cx="56" cy="513.0" r="9" fill="none" stroke="#FF5A69" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="518.0" font-size="15" fill="#F1F5F8">Front brake system: line leaking</text><g class="v0"><rect x="488" y="501" width="104" height="24" rx="12.0" fill="#FF5A69" fill-opacity=".16"/><text class="s" x="540.0" y="518.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#FF5A69">Fix now</text></g>
+<rect x="48.0" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g0" x="48.0" y="834" width="64.5" height="12" rx="2" fill="#FF5A69"/>
+<circle cx="56" cy="553.0" r="5.5" fill="#FF5A69"/><circle cx="56" cy="553.0" r="9" fill="none" stroke="#FF5A69" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="558.0" font-size="15" fill="#F1F5F8">Replace calipers + master cylinder</text><g class="v1"><rect x="488" y="541" width="104" height="24" rx="12.0" fill="#F5B53D" fill-opacity=".16"/><text class="s" x="540.0" y="558.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#F5B53D">Ask first</text></g>
+<rect x="116.5" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g1" x="116.5" y="834" width="64.5" height="12" rx="2" fill="#F5B53D"/>
+<circle cx="56" cy="593.0" r="5.5" fill="#FF5A69"/><circle cx="56" cy="593.0" r="9" fill="none" stroke="#FF5A69" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="598.0" font-size="15" fill="#F1F5F8">Brake fluid reservoir empty</text><g class="v2"><rect x="488" y="581" width="104" height="24" rx="12.0" fill="#FF5A69" fill-opacity=".16"/><text class="s" x="540.0" y="598.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#FF5A69">Fix now</text></g>
+<rect x="185.0" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g2" x="185.0" y="834" width="64.5" height="12" rx="2" fill="#FF5A69"/>
+<circle cx="56" cy="633.0" r="5.5" fill="#F5B53D"/><circle cx="56" cy="633.0" r="9" fill="none" stroke="#F5B53D" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="638.0" font-size="15" fill="#F1F5F8">Trac bar + tie rod end play</text><g class="v3"><rect x="488" y="621" width="104" height="24" rx="12.0" fill="#3FCF8E" fill-opacity=".16"/><text class="s" x="540.0" y="638.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#3FCF8E">Approve</text></g>
+<rect x="253.5" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g3" x="253.5" y="834" width="64.5" height="12" rx="2" fill="#3FCF8E"/>
+<circle cx="56" cy="673.0" r="5.5" fill="#F5B53D"/><circle cx="56" cy="673.0" r="9" fill="none" stroke="#F5B53D" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="678.0" font-size="15" fill="#F1F5F8">Diff &amp; transfer case service</text><g class="v4"><rect x="488" y="661" width="104" height="24" rx="12.0" fill="#F5B53D" fill-opacity=".16"/><text class="s" x="540.0" y="678.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#F5B53D">Ask first</text></g>
+<rect x="322.0" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g4" x="322.0" y="834" width="64.5" height="12" rx="2" fill="#F5B53D"/>
+<circle cx="56" cy="713.0" r="5.5" fill="#FF5A69"/><circle cx="56" cy="713.0" r="9" fill="none" stroke="#FF5A69" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="718.0" font-size="15" fill="#F1F5F8">Engine air filter</text><g class="v5"><rect x="488" y="701" width="104" height="24" rx="12.0" fill="#F5B53D" fill-opacity=".16"/><text class="s" x="540.0" y="718.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#F5B53D">Ask first</text></g>
+<rect x="390.5" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g5" x="390.5" y="834" width="64.5" height="12" rx="2" fill="#F5B53D"/>
+<circle cx="56" cy="753.0" r="5.5" fill="#F5B53D"/><circle cx="56" cy="753.0" r="9" fill="none" stroke="#F5B53D" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="758.0" font-size="15" fill="#F1F5F8">Coolant: “3 years or 30k”</text><g class="v6"><rect x="488" y="741" width="104" height="24" rx="12.0" fill="#8FA1B0" fill-opacity=".16"/><text class="s" x="540.0" y="758.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#8FA1B0">Skip / defer</text></g>
+<rect x="459.0" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g6" x="459.0" y="834" width="64.5" height="12" rx="2" fill="#8FA1B0"/>
+<circle cx="56" cy="793.0" r="5.5" fill="#F5B53D"/><circle cx="56" cy="793.0" r="9" fill="none" stroke="#F5B53D" stroke-opacity=".3" stroke-width="3"/><text class="s" x="76" y="798.0" font-size="15" fill="#F1F5F8">Right taillight lens</text><g class="v7"><rect x="488" y="781" width="104" height="24" rx="12.0" fill="#3FCF8E" fill-opacity=".16"/><text class="s" x="540.0" y="798.0" font-size="13.5" font-weight="700" text-anchor="middle" fill="#3FCF8E">Approve</text></g>
+<rect x="527.5" y="834" width="64.5" height="12" rx="2" fill="#2A3C4B"/><rect class="g7" x="527.5" y="834" width="64.5" height="12" rx="2" fill="#3FCF8E"/>
+<text class="s" x="48" y="870" font-size="13" fill="#94A7B7">Decision meter: one segment per item</text>
+<g class="scan"><rect x="36" y="490" width="568" height="2" fill="#E39A2B"/><rect x="36" y="482" width="568" height="10" fill="#E39A2B" fill-opacity=".14"/></g>
+<rect x="0" y="0" width="640" height="5" fill="#E39A2B"/>
+<text class="s" x="36" y="64" font-size="15" font-weight="600" fill="#94A7B7">vehicle-inspection-audit · an Agent Skill for Claude</text>
+<text class="s" x="34" y="120" font-size="40" font-weight="800" fill="#F1F5F8">Every red and yellow,</text>
+<text class="s" x="34" y="170" font-size="40" font-weight="800" fill="#E39A2B">checked against</text>
+<text class="s" x="34" y="220" font-size="40" font-weight="800" fill="#E39A2B">the evidence.</text>
+<text class="s" x="36" y="262" font-size="17" fill="#94A7B7">For drivers checking what a shop recommends,</text>
+<text class="s" x="36" y="288" font-size="17" fill="#94A7B7">and shop owners checking their technicians.</text>
+<rect x="36" y="318" width="99" height="32" rx="16" fill="none" stroke="#2A3C4B" stroke-width="1.5"/><text class="s" x="86" y="339" font-size="14" text-anchor="middle" fill="#F1F5F8">Claude.ai</text>
+<rect x="145.3" y="318" width="115" height="32" rx="16" fill="none" stroke="#2A3C4B" stroke-width="1.5"/><text class="s" x="203" y="339" font-size="14" text-anchor="middle" fill="#F1F5F8">Claude Code</text>
+<rect x="270.0" y="318" width="138" height="32" rx="16" fill="none" stroke="#2A3C4B" stroke-width="1.5"/><text class="s" x="339" y="339" font-size="14" text-anchor="middle" fill="#F1F5F8">50 states + DC</text>
+<rect x="36" y="360" width="253" height="32" rx="16" fill="none" stroke="#2A3C4B" stroke-width="1.5"/><text class="s" x="163" y="381" font-size="14" text-anchor="middle" fill="#F1F5F8">Tekmetric · Mitchell 1 · more</text>
+</svg>

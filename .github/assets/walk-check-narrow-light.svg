@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="684" viewBox="0 0 640 684" role="img" aria-labelledby="t d">
+<title id="t">Step 2: the contradictions</title>
+<desc id="d">Three conflicts from the real report: calipers recently replaced vs replace both calipers; the leak named as the cause vs a plan that never repairs it; towed in for loss of brakes vs a test drive reporting brake feel.</desc>
+<style>
+.mono { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.serif { font-family: 'Iowan Old Style','Charter','Palatino Linotype',Georgia,serif; }
+.sans { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; }
+.s { font-family: system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; } .m { font-family: ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+.ca0 { animation: ca0 13s linear infinite both; }
+@keyframes ca0 { 0%,6.0% { opacity: 0; } 8.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.cb0 { animation: cb0 13s linear infinite both; }
+@keyframes cb0 { 0%,10.0% { opacity: 0; } 12.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.cw0 { animation: cw0 13s linear infinite both; }
+@keyframes cw0 { 0%,15.0% { opacity: 0; } 17.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ca1 { animation: ca1 13s linear infinite both; }
+@keyframes ca1 { 0%,22.0% { opacity: 0; } 24.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.cb1 { animation: cb1 13s linear infinite both; }
+@keyframes cb1 { 0%,26.0% { opacity: 0; } 28.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.cw1 { animation: cw1 13s linear infinite both; }
+@keyframes cw1 { 0%,31.0% { opacity: 0; } 33.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.ca2 { animation: ca2 13s linear infinite both; }
+@keyframes ca2 { 0%,38.0% { opacity: 0; } 40.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.cb2 { animation: cb2 13s linear infinite both; }
+@keyframes cb2 { 0%,42.0% { opacity: 0; } 44.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+.cw2 { animation: cw2 13s linear infinite both; }
+@keyframes cw2 { 0%,47.0% { opacity: 0; } 49.0%,95% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="640" height="684" rx="18" fill="#EEF1F4"/>
+<rect x="24" y="24" width="592" height="644" rx="10" fill="#FFFFFF" stroke="#C3CCD4"/><line x1="24" y1="64" x2="616" y2="64" stroke="#C3CCD4"/><text class="s" x="42" y="50" font-size="14" font-weight="600" fill="#566573">Conflicting statements found</text>
+<text class="s ca0" x="48" y="94" font-size="16" fill="#101A23">“Front brake calipers recently have been replaced”</text>
+<text class="s cb0" x="48" y="144" font-size="14" font-weight="700" fill="#C8263A">but also says</text>
+<text class="s cb0" x="48" y="170" font-size="16" fill="#101A23">“Recommend replacing both front calipers”</text>
+<g class="cw0"><rect x="48" y="198" width="3" height="40" fill="#C8263A"/>
+<text class="s" x="62" y="214" font-size="15" font-weight="600" fill="#101A23">No reason given for why nearly new calipers failed.</text>
+</g>
+<line x1="44" y1="272" x2="596" y2="272" stroke="#C3CCD4" stroke-dasharray="4 4"/>
+<text class="s ca1" x="48" y="290" font-size="16" fill="#101A23">“Banjo bolt leaking caused the master cylinder to run dry”</text>
+<text class="s cb1" x="48" y="340" font-size="14" font-weight="700" fill="#C8263A">but also says</text>
+<text class="s cb1" x="48" y="366" font-size="16" fill="#101A23">“Replace calipers and master cylinder”</text>
+<g class="cw1"><rect x="48" y="394" width="3" height="40" fill="#C8263A"/>
+<text class="s" x="62" y="410" font-size="15" font-weight="600" fill="#101A23">The plan never repairs the leak the shop named as the cause.</text>
+</g>
+<line x1="44" y1="468" x2="596" y2="468" stroke="#C3CCD4" stroke-dasharray="4 4"/>
+<text class="s ca2" x="48" y="486" font-size="16" fill="#101A23">“Towed in due to possible loss of brakes”</text>
+<text class="s cb2" x="48" y="536" font-size="14" font-weight="700" fill="#C8263A">but also says</text>
+<text class="s cb2" x="48" y="562" font-size="16" fill="#101A23">“Test drive: pedal almost goes to the floor”</text>
+<g class="cw2"><rect x="48" y="590" width="3" height="40" fill="#C8263A"/>
+<text class="s" x="62" y="606" font-size="15" font-weight="600" fill="#101A23">Driven without working brakes, or template text.</text>
+</g>
+</svg>

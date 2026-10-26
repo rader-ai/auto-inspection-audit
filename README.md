@@ -1,86 +1,130 @@
-# Vehicle Inspection Audit
+<p align="center">
+<picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset=".github/assets/hero-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset=".github/assets/hero-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.svg">
+  <img src=".github/assets/hero-light.svg" alt="vehicle-inspection-audit: every red and yellow, checked against the evidence. A shop's inspection list (front brake system leaking, calipers and master cylinder, diff and transfer case service, air filter, coolant, taillight) gets an evidence-based call for each item: Fix now, Approve, Ask first, or Skip, while a decision meter fills." width="100%">
+</picture>
+</p>
 
-An open Agent Skill for Claude that audits auto repair inspections, the multi-point or digital vehicle inspection (DVI) report a shop sends you, plus the estimate or invoice that comes with it.
+An Agent Skill for Claude that audits auto repair inspections: the multi-point or digital inspection a shop sends you, plus the estimate or invoice that comes with it. **Drivers** use it to see which recommendations are backed by evidence, which to ask about, and which can wait. **Shop owners** use it to check that their technicians' inspections are accurate, consistent and defensible, including work that was missed.
 
-- **Consumers** use it to check what the shop is recommending. Which items are backed by evidence, which are optional, which look out of scope, and which are safety items you shouldn't put off.
-- **Shop owners and service managers** use it to quality-check their technicians' inspections. Are they accurate, consistent and documented well enough to defend to customers and regulators? It also flags work that was missed, not only work that was oversold.
+<p align="center"><a href="#one-real-inspection">What it found</a> · <a href="#install">Install</a> · <a href="#how-it-works">How it works</a> · <a href="#what-you-get">What you get</a> · <a href="#limits">Limits</a></p>
 
-## Why not just paste the PDF into a chatbot?
+## One real inspection
 
-A general-purpose AI will read your inspection and give you a plausible opinion. This skill gives Claude a structured audit method and a sourced knowledge base:
+<picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset=".github/assets/proof-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset=".github/assets/proof-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/proof-dark.svg">
+  <img src=".github/assets/proof-light.svg" alt="One real inspection audited: a 2001 Ram 2500 Tekmetric report, October 2026. 16 shop items sorted into 2 Fix now, 4 Approve, 5 Ask first, 5 Skip or defer. 7 statements that contradict each other. 1 of 16 findings had a measurement." width="100%">
+</picture>
 
-1. **It asks about your situation first.** It reads what's already on the report (vehicle, mileage, date, stated concern), confirms it with you, and asks only what the documents can't tell it:
-   - why you actually brought the car in
-   - whether the work is still waiting on your approval or already done
-   - what state the shop is in
-   - whether you're the customer or the shop
-2. **It checks every line item the same way.** For each one: what evidence is there, what does the spec or manufacturer schedule say, and is it Required or only Suggested? It uses the Motorist Assurance Program's classification for that last question.
-3. **It knows the inspection software.** Tekmetric, Shopmonkey, AutoVitals, Shop-Ware, Mitchell 1, ALLDATA, CDK, Xtime, myKaarma and others each have quirks that show up in reports. Some examples:
-   - a yellow "watch this" item automatically becomes a priced job on the estimate
-   - mileage-based menu services get shown as if they were condition findings
-   - items nobody checked default to green
-   - customer notes get rewritten by AI
-4. **It's careful with photos.** It reads a measurement only when a gauge is visible and legible. It never estimates wear by eye, and it checks that the photo matches your vehicle (tire size, wheels, paint, left vs. right).
-5. **It checks the paperwork for your state.** Estimate, authorization, overage and invoice rules for all 50 states plus DC, with California's Bureau of Automotive Repair rules in depth. It also covers federal rules (catalytic converters, safety systems, odometer, warranty) and commercial and fleet requirements.
-6. **It's fair to both sides.** Findings carry evidence labels (Supported, Evidence missing, Inconsistent, Beyond OEM schedule, Not applicable to this vehicle, Needs OEM spec, Verify in person – safety), never accusations. Safety items always come first, even when the documentation is weak.
-
-## What you can give it
-
-Anything you have: a PDF, screenshots of the inspection link, phone photos of a paper form, text pasted from the shop's message, or a typed list of what they told you. Add any photos or videos the shop sent.
-
-Remove your name, phone number, address and license plate before sharing. Keep the year, make, model, engine, mileage and, if you're comfortable, the VIN. The audit needs those.
-
-## What you get
-
-A structured audit report:
-- the bottom line
-- a scorecard
-- safety items to verify promptly
-- a line-by-line review with the reasoning for each item
-- photo and documentation findings
-- a paperwork and compliance check for your state
-
-It ends with either specific questions to ask the shop (consumer) or coaching notes and configuration fixes (shop owner).
+The first real test: a 2001 Ram 2500 towed in with a soft brake pedal, inspected by a California shop on Tekmetric. The shop found the cause, a leaking brake line fitting, then recommended new calipers (which it said were just replaced) and a master cylinder, and never proposed fixing the leak. The audit put the leak repair first, sent the caliper warranty question to the shop that installed them, and flagged seven places where the report contradicts itself. This is one case, not a benchmark; regression tests built from it are in [`evals/`](evals/).
 
 ## Install
 
-**Claude.ai / Claude desktop:** download or zip the `skill/vehicle-inspection-audit/` folder. Then add it in Settings → Capabilities → Skills (upload a skill).
-
-**Claude Code:** copy the folder into your skills directory:
+**Claude Code**
 
 ```bash
 cp -r skill/vehicle-inspection-audit ~/.claude/skills/
 ```
 
-Then start a conversation by sharing your inspection, for example: "Can you check this inspection my shop sent? They say I need $1,800 of work."
+<details>
+<summary>Claude.ai and Claude desktop</summary>
 
-## What's in this repo
+Zip the `skill/vehicle-inspection-audit/` folder and add it under Settings → Capabilities → Skills (upload a skill).
+
+</details>
+
+Then share your inspection and ask, for example: "Can you check this inspection my shop sent? They say I need $1,800 of work."
+
+Give it whatever you have: a PDF, screenshots of the inspection link, phone photos of a paper form, text pasted from the shop's message, or a typed list. Remove your name, phone, address and plate first; keep the year, make, model, engine and mileage.
+
+## How it works
+
+<picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset=".github/assets/flow-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset=".github/assets/flow-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/flow-dark.svg">
+  <img src=".github/assets/flow-light.svg" alt="Six steps: 1 read the documents, then ask only what they can't tell; 2 list every claim, keeping the shop's items and words; 3 apply the inspection software's known quirks; 4 check measurements, photos and the OEM schedule; 5 find statements that contradict each other; 6 decide each item and draft the messages." width="100%">
+</picture>
+
+1. **It asks about your situation first.** It reads what's on the report, confirms it with you, and asks only what the documents can't tell it: why you brought the car in, whether the work is waiting on your approval or already done, what state the shop is in, and whether you're the customer or the shop.
+2. **It keeps the shop's own items and words**, so you can find every line of the audit on your report.
+3. **It knows the inspection software.** Tekmetric, Shopmonkey, AutoVitals, Shop-Ware, Mitchell 1, ALLDATA, CDK, Xtime, myKaarma and others each have quirks, like a yellow "watch this" item that becomes a priced job, or mileage-based menu services shown as condition findings.
+4. **It checks every item the same way**: what evidence is there, what the spec or manufacturer schedule says, and whether it's Required or only Suggested (Motorist Assurance Program classification). It reads a gauge only when it's legible in a photo and never estimates wear by eye.
+5. **It compares statements against each other.** A report that contradicts itself is weak evidence for what it recommends, and you can point to its own words.
+6. **It turns findings into action**: every item goes into Fix now, Approve, Ask first, or Skip or defer, with a concrete next step and the messages to send.
+
+### The walkthrough, from the real report
+
+<picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset=".github/assets/walk-input-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset=".github/assets/walk-input-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/walk-input-dark.svg">
+  <img src=".github/assets/walk-input-light.svg" alt="Step 1, the shop's report as written: Front Brake System graded red, right front banjo bolt leaking, pads 7+ mm in good condition; reason for visit says the front calipers were recently replaced, then recommends replacing both calipers and the master cylinder; a yellow item bundles front diff, rear diff and transfer case service as due by interval." width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset=".github/assets/walk-check-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset=".github/assets/walk-check-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/walk-check-dark.svg">
+  <img src=".github/assets/walk-check-light.svg" alt="Step 2, contradictions found: 'calipers recently replaced' versus 'replace both front calipers'; the leaking banjo bolt named as the cause versus a plan that never repairs it; 'towed in for loss of brakes' versus a test drive reporting how the brakes felt." width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset=".github/assets/walk-output-narrow-dark.svg">
+  <source media="(max-width: 1011px)" srcset=".github/assets/walk-output-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/walk-output-dark.svg">
+  <img src=".github/assets/walk-output-light.svg" alt="Step 3, what you get: approve today the leak repair with refill, bleed and pedal check, plus the taillight lens; your own to-do, call the shop that installed the calipers about warranty; and a ready-to-send text to the shop." width="100%">
+</picture>
+
+## What you get
+
+| | Drivers | Shop owners |
+|---|---|---|
+| **Decision** | What to approve today, what to ask first, what can wait | Which findings hold up, by technician |
+| **Evidence** | Contradictions, missing measurements, out-of-schedule services | Inspection-quality scorecard: measurements, photos, canned text, scope |
+| **Rules** | Estimate, authorization and invoice rules for your state, California BAR in depth | Compliance gaps that create regulatory exposure |
+| **Action** | A ready-to-send text to the shop, phone talking points, your own to-dos | A coaching note for the tech, a note for the advisor, setup fixes for your software, a message to the customer |
+
+The report comes back in the chat, and as a visual report when HTML is available: the [report template](skill/vehicle-inspection-audit/assets/report-template.html) has a decision meter, shop-grade versus our-call lamps on every item, the contradictions side by side, and copy buttons on every message. Shops can add their brand color.
+
+<details>
+<summary>What's in this repo</summary>
 
 ```
 skill/vehicle-inspection-audit/
-  SKILL.md                    # the audit workflow Claude follows
-  references/                 # condensed, cited reference material the skill looks up
-    technical-criteria.md     # per-system tests, thresholds, red flags, upsell patterns
-    image-evidence.md         # how to review inspection photos and video
-    dvi-platforms.md          # how each inspection platform works and where it goes wrong
-    industry-standards.md     # MAP Required/Suggested codes, certifications, shop QA programs
-    consumer-protection.md    # enforcement history, red flags, dispute playbook, digital-approval law
-    state-repair-laws.md      # 50-state + DC estimate/authorization/invoice rules
-    california-bar.md         # California Bureau of Automotive Repair in depth
-    state-inspection-programs.md  # state safety/emissions inspections and official fail criteria
-    federal.md                # EPA, NHTSA, FTC and other federal rules
-    commercial-fleet.md       # FMCSA, CVSA, rideshare, school bus, fleet
-knowledge/                    # the full research notes behind the references, with sources
-VERIFICATION.md               # what is confirmed vs. still open
+  SKILL.md                      the audit workflow Claude follows
+  assets/report-template.html   the visual report (the skill fills in only its data)
+  references/                   condensed, cited reference material
+    technical-criteria.md       per-system tests, thresholds, red flags, upsell patterns
+    image-evidence.md           how to review inspection photos and video
+    dvi-platforms.md            how each inspection platform works and where it goes wrong
+    communication.md            messages to the shop, technician, advisor and customer
+    industry-standards.md       MAP Required/Suggested codes, certifications, shop QA programs
+    consumer-protection.md      enforcement history, red flags, dispute playbook
+    state-repair-laws.md        50-state + DC estimate, authorization and invoice rules
+    california-bar.md           California Bureau of Automotive Repair in depth
+    state-inspection-programs.md  state safety and emissions inspections, official fail criteria
+    federal.md                  EPA, NHTSA, FTC and other federal rules
+    commercial-fleet.md         FMCSA, CVSA, rideshare, school bus, fleet
+knowledge/                      the full research behind the references, with sources
+evals/                          regression tests from real inspections
+VERIFICATION.md                 what is confirmed and what is still open
+.github/readme/build.py         builds the images on this page
 ```
 
-## Limits — please read
+</details>
+
+## Limits
 
 - **It audits documents, not cars.** It can tell you a recommendation is poorly supported. It can't tell you a part is fine. When safety is involved, get the car checked in person.
 - **It's not legal advice.** It explains what regulations generally require and where the paperwork falls short. For a dispute, contact your state's regulator or an attorney.
-- **The research is current as of October 2026 and some items are unverified.** See [VERIFICATION.md](VERIFICATION.md). Laws, inspection programs and software change. Corrections are welcome.
-- **Vehicle-specific specs come first.** Generic thresholds are fallbacks. Where the answer depends on your exact vehicle, the skill will say so and tell you where to find the spec.
+- **The research is current as of October 2026.** Of the 41 claims the first research pass could not confirm, 21 are now confirmed against primary sources and 20 are still open; see [VERIFICATION.md](VERIFICATION.md). Laws, inspection programs and software change.
+- **Vehicle-specific specs come first.** Generic thresholds are fallbacks. Where the answer depends on your exact vehicle, the skill says so and tells you where to find the spec.
 
 ## Contributing
 
-Corrections and confirmations with primary-source citations are the most valuable contribution. Start with the open items in [VERIFICATION.md](VERIFICATION.md). Redacted sample inspections from different platforms, with no personal information, would also help with platform recognition and testing.
+Corrections and confirmations with primary-source citations are the most valuable contribution; start with the open items in [VERIFICATION.md](VERIFICATION.md). Redacted sample inspections from different platforms, with no personal information, help with platform recognition and testing.
